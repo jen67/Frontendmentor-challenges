@@ -115,6 +115,27 @@ p {
     color: var(--Orange);
 }
 
+/********************************
+ * thank you page design
+ *******************************/
+
+ .thanks-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .thanks-text button{
+    background-color: var(--Dark-Blue);
+    border: transparent;
+    color: var(--Orange);
+    padding: 0.7rem;
+    margin: 1rem 0;
+    border-radius: 26px;
+    cursor: pointer;
+ }
 .attribution {
     margin-top: 2rem;
     font-size: 11px;
