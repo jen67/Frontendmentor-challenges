@@ -68,7 +68,7 @@ p {
     margin: 2rem 0 1rem;
 }
 
-.rating-numbers div {
+.rating-numbers a{
     height: 3rem;
     width: 3rem;
     background-color: var(--Dark-Blue);
@@ -82,15 +82,16 @@ p {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.rating-numbers div:hover{
+.rating-numbers a:hover{
     color: var(--White);
     font-weight: 700;
     background-color:var(--Medium-Grey) ;
 }
 
-.rating-numbers div:active{
+.rating-numbers a:active{
     background-color: var(--Orange);
     font-weight: 400;
 }
