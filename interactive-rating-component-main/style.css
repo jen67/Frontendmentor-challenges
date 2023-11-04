@@ -74,15 +74,26 @@ p {
     background-color: var(--Dark-Blue);
     border-radius: 50%;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--Medium-Grey);
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
+.rating-numbers div:hover{
+    color: var(--White);
+    font-weight: 700;
+    background-color:var(--Medium-Grey) ;
+}
+
+.rating-numbers div:active{
+    background-color: var(--Orange);
+    font-weight: 400;
+}
 .submit-btn button {
     margin-top: 0.5rem;
     font-size: 1rem;
