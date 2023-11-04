@@ -83,17 +83,19 @@ p {
     justify-content: center;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 
-.rating-numbers a:hover{
+.rating-numbers a:focus{
     color: var(--White);
     font-weight: 700;
     background-color:var(--Medium-Grey) ;
 }
 
-.rating-numbers a:active{
+.rating-numbers a:hover{
     background-color: var(--Orange);
     font-weight: 400;
+    color:var(--button-text);
 }
 .submit-btn button {
     margin-top: 0.5rem;
