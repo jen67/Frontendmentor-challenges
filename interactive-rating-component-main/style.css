@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 
-:root{
+:root {
     /* Primary */
     --Orange: hsl(25, 97%, 53%);
     /* Neutral */
@@ -11,35 +11,94 @@
     --Dark-Blue: hsl(213, 19%, 18%);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
     --card: hsl(215, 20%, 16%);
+    --button-text: hsl(40, 100%, 89%);
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Overpass', sans-serif;
-    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--Very-Dark-Blue);
-    padding: 1rem;
+    min-height: 100vh;
+    padding: 0 1rem;
+
 }
 
-section{
+section {
     background-color: var(--card);
-    padding: 1rem;
+    padding: 1.5rem;
+    max-width: 430px;
+    border-radius: 10px;
 }
 
-h1{
-    color:var(--White);
+.rating-img {
+    background-color: var(--Dark-Blue);
+    display: inline-flex;
+    padding: 1rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
+
+h1 {
+    color: var(--White);
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+p {
+    color: var(--Light-Grey);
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.rating-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0 1rem;
+}
+
+.rating-numbers div {
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--Dark-Blue);
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--Medium-Grey);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn button {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 26px;
+    padding: 1rem;
+    border: none;
+    background-color: var(--Orange);
+    color: var(--button-text);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
 .attribution {
+    margin-top: 2rem;
     font-size: 11px;
     text-align: center;
 }
