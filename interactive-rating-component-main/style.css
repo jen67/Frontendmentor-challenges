@@ -36,7 +36,7 @@ body {
 section {
     background-color: var(--card);
     padding: 1.5rem;
-    max-width: 500px;
+    max-width: 430px;
     border-radius: 10px;
 }
 
