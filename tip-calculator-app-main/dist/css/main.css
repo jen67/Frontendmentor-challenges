@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+/* primary color */
+/* neutral colors */
 body {
   font-family: "Space Mono", monospace;
   display: flex;
@@ -12,6 +14,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: hsl(185, 41%, 84%);
+}
+
+section {
+  background-color: hsl(0, 0%, 100%);
 }
 
 .attribution {
