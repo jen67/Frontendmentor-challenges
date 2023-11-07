@@ -1,4 +1,5 @@
-@use 'base/reset';
+@import './base/reset';
+@import './utils/variables';
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
@@ -15,6 +16,11 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: $Light-grayish-cyan;
+}
+
+section{
+    background-color:$white;
 }
 
 .attribution {
