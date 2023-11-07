@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gift Amachree">
+  <meta name="description" content="frontend-mentor.io Tip calculator app">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dist/css/main.css">
   <title>Frontend Mentor | Tip calculator app</title>
-
-
-  
 </head>
+
 <body>
-<main>
-  
-    Bill
-  
-    Select Tip %
-    5%
-    10%
-    15%
-    25%
-    50%
-    Custom
-  
-    Number of People
-  
-    Tip Amount
-    / person
-  
-    Total
-    / person
-  
-    Reset
-  
-</main>
+  <main>
+    <header>
+      <h1>SPILITTER</h1>
+    </header>
+
+    <section class="bill-section">
+      <div class="white-background">
+        <h2>Bill</h2>
+        <div class="screen">
+          <img src="./images/icon-dollar.svg" alt="dollar Icon">
+          <p>145.55</p>
+        </div>
+
+        <div class="amounts">
+          <h3>Select Tip %</h3>
+          <div class="discounts">
+            <div>5%</div>
+            <div>10%</div>
+            <div>15%</div>
+            <div>25%</div>
+            <div>50%</div>
+            <div>Custom</div>
+          </div>
+        </div>
+
+        <div class="No-of-people">
+          <h4>Number of People</h4>
+          <div>
+            <img src="./images/icon-person.svg" alt="person icon">
+            <p>5</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="green-background">
+        <div>
+          <div>
+            <h5>Tip Amount</h5>
+            <span>/ person</span>
+          </div>
+          <div>$0.00</div>
+        </div>
+
+        <div>
+          <div>
+            <h5>Total</h5>
+            <span>/ person</span>
+          </div>
+          <div>$0.00</div>
+        </div>
+
+        <button>RESET</button>
+      </div>
+    </section>
+  </main>
 
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.linkedin.com/in/gift-amachree-8a523623b/">Gift Amachree</a>.
     </div>
   </footer>
 </body>
+
 </html>
