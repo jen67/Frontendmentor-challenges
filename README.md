@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
+- [This repository contains some of the tasks I have completed on Frontendmentor.io platform](#this-repository-contains-some-of-the-tasks-i-have-completed-on-frontendmentorio-platform)
   - [Table of Contents](#table-of-contents)
   - [Interactive-rating-component](#interactive-rating-component)
-  - [Tip-calculator](#Tip-calculator)
-  - [Tip-calculator](#Tip-calculator)
-    
+  - [Tip-calculator](#tip-calculator)
+      
 ## Interactive-rating-component
 
 <img src="./interactive-rating-component-main/design/desktop-design.jpg" alt="Tasks" width="300">
