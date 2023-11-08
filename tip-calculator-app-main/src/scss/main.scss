@@ -7,14 +7,99 @@ body {
     font-family: 'Space Mono', monospace;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     min-height: 100vh;
     background-color: $Light-grayish-cyan;
 }
 
-section{
-    background-color:$white;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 0.7rem;
+        color: $Very-dark-cyan;
+        font-weight: 400;
+        letter-spacing: 0.5rem;
+    }
+}
+
+section {
+    background-color: $white;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    .bill-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .white-background {
+        h2 {
+            color: $Dark-grayish-cyan;
+            font-size: 0.7rem;
+            font-weight: 400;
+            letter-spacing: 0.04rem;
+        }
+
+        .screen {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            background-color: $Very-light-grayish-cyan;
+            padding: 0.5rem 1rem;
+            margin: 0.4rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .screen p {
+            color: $Very-dark-cyan;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.04rem;
+        }
+
+        .screen img {
+            width: 8px;
+        }
+
+        .amounts {
+            h3 {
+                color: $Dark-grayish-cyan;
+                font-size: 0.6rem;
+                font-weight: 400;
+            }
+
+            .discounts {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin: 0.5rem 0;
+
+                div {
+                    flex: 0 0 calc(50% - 0.5rem);
+                
+                    background-color: $Very-dark-cyan;
+                    color: $white;
+                    padding: 0.5rem 1rem;
+                    border-radius: 0.2rem;
+                    text-align: center;
+                    font-size: 0.8rem;
+                }
+
+                .custom{
+                        background-color:$Very-light-grayish-cyan;
+                        color:$Very-dark-cyan;
+                    }
+            }
+        }
+    }
 }
 
 .attribution {
