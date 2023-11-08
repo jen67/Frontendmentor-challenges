@@ -31,7 +31,7 @@ header h1 {
 section {
   background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1rem 1.5rem 1.5rem;
 }
 section .bill-section {
   display: flex;
@@ -42,7 +42,7 @@ section .bill-section {
 }
 section .white-background h2 {
   color: hsl(186, 14%, 43%);
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.04rem;
 }
@@ -54,20 +54,20 @@ section .white-background .screen {
   background-color: hsl(189, 41%, 97%);
   padding: 0.5rem 1rem;
   margin: 0.4rem 0;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 section .white-background .screen p {
   color: hsl(183, 100%, 15%);
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.04rem;
 }
 section .white-background .screen img {
-  width: 8px;
+  width: 10px;
 }
 section .white-background .amounts h3 {
   color: hsl(186, 14%, 43%);
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 section .white-background .amounts .discounts {
@@ -83,11 +83,61 @@ section .white-background .amounts .discounts div {
   padding: 0.5rem 1rem;
   border-radius: 0.2rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 section .white-background .amounts .discounts .custom {
   background-color: hsl(189, 41%, 97%);
   color: hsl(186, 14%, 43%);
+}
+section .white-background .No-of-people {
+  margin: 1rem 0;
+}
+section .white-background .No-of-people h4 {
+  font-size: 1rem;
+  color: hsl(186, 14%, 43%);
+}
+section .green-background {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(183, 100%, 15%);
+  padding: 0 1rem;
+  border-radius: 0.3rem;
+}
+section .green-background .Tip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+section .green-background .Tip .Tip-total, section .green-background .Tip .Tip-amount {
+  margin-top: 1rem;
+}
+section .green-background .Tip .Tip-total .flex-items, section .green-background .Tip .Tip-amount .flex-items {
+  display: flex;
+  flex-direction: column;
+}
+section .green-background .Tip .Tip-total .flex-items h5, section .green-background .Tip .Tip-amount .flex-items h5 {
+  color: hsl(185, 41%, 84%);
+}
+section .green-background .Tip .Tip-total span, section .green-background .Tip .Tip-amount span {
+  font-size: 0.7rem;
+  color: hsl(184, 14%, 56%);
+  margin-top: -0.1rem;
+}
+section .green-background .Tip .price {
+  color: hsl(172, 67%, 45%);
+}
+section .green-background button {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
 }
 
 .attribution {

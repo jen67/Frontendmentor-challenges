@@ -30,7 +30,7 @@ header {
 section {
     background-color: $white;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1.5rem;
 
     .bill-section {
         display: flex;
@@ -43,7 +43,7 @@ section {
     .white-background {
         h2 {
             color: $Dark-grayish-cyan;
-            font-size: 0.7rem;
+            font-size: 1rem;
             font-weight: 400;
             letter-spacing: 0.04rem;
         }
@@ -56,24 +56,24 @@ section {
             background-color: $Very-light-grayish-cyan;
             padding: 0.5rem 1rem;
             margin: 0.4rem 0;
-            border-radius: 0.5rem;
+            border-radius: 0.3rem;
         }
 
         .screen p {
             color: $Very-dark-cyan;
-            font-size: 0.7rem;
+            font-size: 1rem;
             font-weight: 700;
             letter-spacing: 0.04rem;
         }
 
         .screen img {
-            width: 8px;
+            width: 10px;
         }
 
         .amounts {
             h3 {
                 color: $Dark-grayish-cyan;
-                font-size: 0.6rem;
+                font-size: 1rem;
                 font-weight: 400;
             }
 
@@ -91,7 +91,7 @@ section {
                     padding: 0.5rem 1rem;
                     border-radius: 0.2rem;
                     text-align: center;
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                 }
 
                 .custom{
@@ -100,6 +100,71 @@ section {
                     }
             }
         }
+
+       
+        .No-of-people{
+            margin: 1rem 0;
+
+            h4{
+                font-size: 1rem;
+                color:$Dark-grayish-cyan;
+            }
+        }
+    }
+
+    .green-background{
+        display: flex;
+        flex-direction: column;
+        background-color: $Very-dark-cyan;
+        padding: 0 1rem;
+        border-radius: 0.3rem;
+
+        .Tip{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+           
+
+            .Tip-total, .Tip-amount{
+
+                margin-top: 1rem;
+                .flex-items{
+                    display: flex;
+                    flex-direction: column;
+
+                    h5{
+                        color:$Light-grayish-cyan;
+                    }
+                }
+            }
+            .Tip-total span, .Tip-amount span{
+                font-size: 0.7rem;
+                color: $Grayish-cyan;
+                margin-top: -0.1rem;
+            }
+
+            .price{
+                color: $Strong-cyan;
+            }
+
+
+        }
+
+        button{
+            background-color: $Strong-cyan;
+            color: $Very-dark-cyan;
+            border: none;
+            border-radius: 0.3rem;
+            padding: 0.5rem 0;
+            margin: 1rem 0;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.04rem;
+            cursor: pointer;
+        
+        }
+
     }
 }
 
