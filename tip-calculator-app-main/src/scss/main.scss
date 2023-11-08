@@ -112,12 +112,17 @@ section {
                     text-align: center;
                     font-size: 1.2rem;
                 }
-                div:hover{
+                div:hover{ 
                     background-color: $button-hover; 
                     color: $Very-dark-cyan; 
                 }
-
                 
+                .checked{
+                    background-color: $Strong-cyan;
+                    color:$Very-dark-cyan;
+                    
+                }
+                                
 
                 .custom{
                         background-color:$Very-light-grayish-cyan;
@@ -153,12 +158,23 @@ section {
 
        
         .No-of-people{
-            margin: 1rem 0;
+            margin: 3rem 0 1rem; 
 
             h4{
-                margin-top: 2rem;
                 font-size: 1rem;
                 color:$Dark-grayish-cyan;
+            }
+
+            .hidden-p{
+                display:flex;
+                flex-direction: row; 
+                align-items: center;
+                justify-content: space-between; 
+                gap: 0.6rem;
+
+                p{
+                    font-size: 0.8rem; 
+                }
             }
 
 
@@ -215,12 +231,14 @@ section {
             font-weight: 700;
             letter-spacing: 0.04rem;
             cursor: pointer;
-            opacity: 0.1;     
+            opacity: 0.1;       
         
         }
+
         button:hover{
             background-color: $button-hover; 
         } 
+
     }
 }
 
@@ -296,7 +314,7 @@ footer{
             padding: 2.5rem 2rem 0 2rem;
 
             button{
-                margin: 8rem 0 0 0;
+                margin: 8.7rem 0 0 0;
                 padding: 1rem 0;
             }
 

@@ -41,8 +41,10 @@
         </div>
 
         <div class="No-of-people">
-          <h4>Number of People</h4>
-          <p id="checker"></p>
+          <div class="hidden-p">
+            <h4>Number of People</h4>
+            <p id="checker"></p>
+          </div>
           <div class="screen">
             <img src="./images/icon-person.svg" alt="person icon">
             <input type="text" id="people" placeholder="0" pattern="\d*" inputmode="numeric">
@@ -68,7 +70,7 @@
               <span>/ person</span>
             </div>
           </div>
-          <div class="price" id="price">$0.00</div>
+          <div class="price" id="total">$0.00</div>
         </div>
 
         <button type="button" id="btn">RESET</button>
