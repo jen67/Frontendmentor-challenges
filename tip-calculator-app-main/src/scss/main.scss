@@ -13,7 +13,7 @@ body {
     padding: 0 0.4rem;
 }
 
-header {
+header { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,20 +55,18 @@ section {
             align-items: center;
             justify-content: space-between;
             background-color: $Very-light-grayish-cyan;
-            padding: 0.5rem 1rem;
+            padding: 1rem;
             margin: 0.4rem 0;
             border-radius: 0.3rem;
         }
 
-        .screen p {
-            color: $Very-dark-cyan;
-            font-size: 1rem;
-            font-weight: 700;
-            letter-spacing: 0.04rem;
-        }
 
         .screen img {
             width: 10px;
+        }
+
+        .screen:hover{
+            border: 1.5px solid $button-hover;  
         }
 
         .amounts {
@@ -92,17 +90,28 @@ section {
                 
                     background-color: $Very-dark-cyan;
                     color: $white;
-                    padding: 0.5rem 1rem;
+                    padding:0.5rem 1rem; 
                     border-radius: 0.2rem;
                     text-align: center;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                 }
+                div:hover{
+                    background-color: $button-hover; 
+                    color: $Very-dark-cyan; 
+                }
+
+                
 
                 .custom{
                         background-color:$Very-light-grayish-cyan;
                         color:$Dark-grayish-cyan;
                     }
+
+                .custom:hover{
+                    background-color:transparent ; 
+                    border: 2px solid $button-hover;
             }
+        }
         }
 
        
@@ -114,6 +123,8 @@ section {
                 font-size: 1rem;
                 color:$Dark-grayish-cyan;
             }
+
+
         }
     }
 
@@ -169,12 +180,14 @@ section {
             cursor: pointer;
         
         }
-
+        button:hover{
+            background-color: $button-hover; 
+        } 
     }
 }
 
 footer{
-    margin-top: 1rem;
+    margin: 1rem 1rem 1.2rem; 
     text-align: center;
     color: $Very-dark-cyan;  
     letter-spacing: 0.04rem;

@@ -53,18 +53,15 @@ section .white-background .screen {
   align-items: center;
   justify-content: space-between;
   background-color: hsl(189, 41%, 97%);
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   margin: 0.4rem 0;
   border-radius: 0.3rem;
 }
-section .white-background .screen p {
-  color: hsl(183, 100%, 15%);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.04rem;
-}
 section .white-background .screen img {
   width: 10px;
+}
+section .white-background .screen:hover {
+  border: 1.5px solid hsl(173, 61%, 77%);
 }
 section .white-background .amounts {
   margin-top: 2rem;
@@ -88,11 +85,19 @@ section .white-background .amounts .discounts div {
   padding: 0.5rem 1rem;
   border-radius: 0.2rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+section .white-background .amounts .discounts div:hover {
+  background-color: hsl(173, 61%, 77%);
+  color: hsl(183, 100%, 15%);
 }
 section .white-background .amounts .discounts .custom {
   background-color: hsl(189, 41%, 97%);
   color: hsl(186, 14%, 43%);
+}
+section .white-background .amounts .discounts .custom:hover {
+  background-color: transparent;
+  border: 2px solid hsl(173, 61%, 77%);
 }
 section .white-background .No-of-people {
   margin: 1rem 0;
@@ -145,9 +150,12 @@ section .green-background button {
   letter-spacing: 0.04rem;
   cursor: pointer;
 }
+section .green-background button:hover {
+  background-color: hsl(173, 61%, 77%);
+}
 
 footer {
-  margin-top: 1rem;
+  margin: 1rem 1rem 1.2rem;
   text-align: center;
   color: hsl(183, 100%, 15%);
   letter-spacing: 0.04rem;
