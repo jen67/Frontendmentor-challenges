@@ -10,6 +10,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-color: $Light-grayish-cyan;
+    padding: 0 0.4rem;
 }
 
 header {
@@ -95,7 +96,7 @@ section {
 
                 .custom{
                         background-color:$Very-light-grayish-cyan;
-                        color:$Very-dark-cyan;
+                        color:$Dark-grayish-cyan;
                     }
             }
         }

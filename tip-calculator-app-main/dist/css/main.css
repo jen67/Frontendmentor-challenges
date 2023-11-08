@@ -12,6 +12,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: hsl(185, 41%, 84%);
+  padding: 0 0.4rem;
 }
 
 header {
@@ -86,7 +87,7 @@ section .white-background .amounts .discounts div {
 }
 section .white-background .amounts .discounts .custom {
   background-color: hsl(189, 41%, 97%);
-  color: hsl(183, 100%, 15%);
+  color: hsl(186, 14%, 43%);
 }
 
 .attribution {
