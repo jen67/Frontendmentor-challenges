@@ -104,6 +104,10 @@ section .white-background .amounts .discounts div:hover {
   background-color: hsl(173, 61%, 77%);
   color: hsl(183, 100%, 15%);
 }
+section .white-background .amounts .discounts .checked {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
 section .white-background .amounts .discounts .custom {
   background-color: hsl(189, 41%, 97%);
   color: hsl(186, 14%, 43%);
@@ -130,12 +134,21 @@ section .white-background .amounts .discounts .custom:hover {
   border: 2px solid hsl(173, 61%, 77%);
 }
 section .white-background .No-of-people {
-  margin: 1rem 0;
+  margin: 3rem 0 1rem;
 }
 section .white-background .No-of-people h4 {
-  margin-top: 2rem;
   font-size: 1rem;
   color: hsl(186, 14%, 43%);
+}
+section .white-background .No-of-people .hidden-p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+section .white-background .No-of-people .hidden-p p {
+  font-size: 0.8rem;
 }
 section .green-background {
   display: flex;
