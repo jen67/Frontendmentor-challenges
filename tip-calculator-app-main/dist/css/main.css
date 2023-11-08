@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Space Mono", monospace;
 }
 
 body {
-  font-family: "Space Mono", monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +57,18 @@ section .white-background .screen {
   margin: 0.4rem 0;
   border-radius: 0.3rem;
 }
+section .white-background .screen input {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: right;
+  outline: none;
+}
+section .white-background .screen ::placeholder {
+  color: hsl(183, 100%, 15%);
+}
 section .white-background .screen img {
   width: 10px;
 }
@@ -94,6 +106,22 @@ section .white-background .amounts .discounts div:hover {
 section .white-background .amounts .discounts .custom {
   background-color: hsl(189, 41%, 97%);
   color: hsl(186, 14%, 43%);
+}
+section .white-background .amounts .discounts .custom input {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
+  width: 100%;
+  text-align: right;
+  outline: none;
+}
+section .white-background .amounts .discounts .custom ::placeholder {
+  color: hsl(186, 14%, 43%);
+}
+section .white-background .amounts .discounts .custom input:hover {
+  border: transparent;
 }
 section .white-background .amounts .discounts .custom:hover {
   background-color: transparent;

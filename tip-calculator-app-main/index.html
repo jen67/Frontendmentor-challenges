@@ -22,7 +22,7 @@
         <h2>Bill</h2>
         <div class="screen">
           <img src="./images/icon-dollar.svg" alt="dollar Icon">
-          <p>145.55</p>
+          <input type="text" id="billAmount" placeholder="142.55" pattern="\d*" inputmode="numeric">
         </div>
 
         <div class="amounts">
@@ -33,7 +33,9 @@
             <div>15%</div>
             <div>25%</div>
             <div>50%</div>
-            <div class="custom">Custom</div>
+            <div class="custom">
+            <input type="text" id="custom" placeholder="Custom" pattern="\d*" inputmode="numeric">
+            </div>
           </div>
         </div>
 
@@ -41,7 +43,7 @@
           <h4>Number of People</h4>
           <div class="screen">
             <img src="./images/icon-person.svg" alt="person icon">
-            <p>5</p>
+            <input type="text" id="people" placeholder="5" pattern="\d*" inputmode="numeric">
           </div>
         </div>
       </div>

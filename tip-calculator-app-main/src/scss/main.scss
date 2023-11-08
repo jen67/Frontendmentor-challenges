@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
 body {
-    font-family: 'Space Mono', monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +57,23 @@ section {
             padding: 1rem;
             margin: 0.4rem 0;
             border-radius: 0.3rem;
+
+            input{
+                border: none;
+                background-color: transparent;
+                font-size: 1rem;
+                font-weight: 700; 
+                width: 100%;
+                text-align: right;
+                outline: none;
+            } 
+
+            ::placeholder{
+                color: $Very-dark-cyan; 
+            }
         }
+
+
 
 
         .screen img {
@@ -105,9 +120,28 @@ section {
                 .custom{
                         background-color:$Very-light-grayish-cyan;
                         color:$Dark-grayish-cyan;
+
+                        input {
+                                border: none;
+                                background-color: transparent;
+                                font-size: 1rem;
+                                font-weight: 700;
+                                color: $Very-dark-cyan; 
+                                width: 100%; 
+                                text-align: right;
+                                outline: none;
+                            }
+                            
+                            ::placeholder {
+                                color: $Dark-grayish-cyan; 
+                            }
+
+                            input:hover{
+                                border:transparent;
+                            }
                     }
 
-                .custom:hover{
+                .custom:hover {
                     background-color:transparent ; 
                     border: 2px solid $button-hover;
             }
