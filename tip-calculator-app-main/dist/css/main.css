@@ -65,6 +65,7 @@ section .white-background .screen input {
   width: 100%;
   text-align: right;
   outline: none;
+  caret-color: hsl(172, 67%, 45%);
 }
 section .white-background .screen ::placeholder {
   color: hsl(183, 100%, 15%);
@@ -116,6 +117,7 @@ section .white-background .amounts .discounts .custom input {
   width: 100%;
   text-align: right;
   outline: none;
+  caret-color: hsl(173, 61%, 77%);
 }
 section .white-background .amounts .discounts .custom ::placeholder {
   color: hsl(186, 14%, 43%);
@@ -177,6 +179,7 @@ section .green-background button {
   font-weight: 700;
   letter-spacing: 0.04rem;
   cursor: pointer;
+  opacity: 0.1;
 }
 section .green-background button:hover {
   background-color: hsl(173, 61%, 77%);
@@ -194,6 +197,58 @@ footer .attribution {
 }
 footer .attribution a {
   color: hsl(186, 14%, 43%);
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 0 2rem;
+  }
+  header h1 {
+    margin: 2rem 0;
+    font-size: 1.3rem;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    max-width: 1000px;
+    margin: auto;
+    gap: 3rem;
+  }
+  section .white-background {
+    width: 100%;
+  }
+  section .white-background .screen input {
+    font-size: 1.5rem;
+  }
+  section .white-background .screen img {
+    width: 16px;
+  }
+  section .white-background .amounts .discounts .custom input {
+    font-size: 1.5rem;
+  }
+  section .green-background {
+    width: 100%;
+    padding: 2.5rem 2rem 0 2rem;
+  }
+  section .green-background button {
+    margin: 8rem 0 0 0;
+    padding: 1rem 0;
+  }
+  section .green-background .Tip:nth-of-type(2) {
+    margin-top: 3.3rem;
+  }
+  section .green-background .Tip .Tip-total h5, section .green-background .Tip .Tip-amount h5 {
+    font-size: 1.2rem;
+  }
+  section .green-background .Tip .price {
+    font-size: 2rem;
+  }
+  footer .attribution {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

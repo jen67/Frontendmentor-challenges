@@ -7,6 +7,7 @@
   <meta name="author" content="Gift Amachree">
   <meta name="description" content="frontend-mentor.io Tip calculator app">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
   <link rel="stylesheet" href="dist/css/main.css">
   <title>Frontend Mentor | Tip calculator app</title>
 </head>
@@ -22,7 +23,7 @@
         <h2>Bill</h2>
         <div class="screen">
           <img src="./images/icon-dollar.svg" alt="dollar Icon">
-          <input type="text" id="billAmount" placeholder="142.55" pattern="\d*" inputmode="numeric">
+          <input type="text" id="billAmount" placeholder="0" pattern="\d*" inputmode="numeric">
         </div>
 
         <div class="amounts">
@@ -41,9 +42,10 @@
 
         <div class="No-of-people">
           <h4>Number of People</h4>
+          <p id="checker"></p>
           <div class="screen">
             <img src="./images/icon-person.svg" alt="person icon">
-            <input type="text" id="people" placeholder="5" pattern="\d*" inputmode="numeric">
+            <input type="text" id="people" placeholder="0" pattern="\d*" inputmode="numeric">
           </div>
         </div>
       </div>
@@ -69,7 +71,7 @@
           <div class="price" id="price">$0.00</div>
         </div>
 
-        <button>RESET</button>
+        <button type="button" id="btn">RESET</button>
       </div>
     </section>
   </main>
@@ -80,6 +82,8 @@
       Coded by <a href="https://www.linkedin.com/in/gift-amachree-8a523623b/">Gift Amachree</a>.
     </div>
   </footer>
+
+  <script src="./src/js/main.js"></script>
 </body>
 
 </html>
