@@ -13,7 +13,7 @@ body {
     padding: 0 0.4rem;
 }
 
-header {
+header { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,19 +59,19 @@ section {
             margin: 0.4rem 0;
             border-radius: 0.3rem;
 
-            input {
+            input{
                 border: none;
                 background-color: transparent;
-                font-size: 1rem;
-                font-weight: 700;
+                font-size: 1.5rem; 
+                font-weight: 700; 
                 width: 100%;
                 text-align: right;
                 outline: none;
-                caret-color: $Strong-cyan;
-            }
+                caret-color: $Strong-cyan;  
+            } 
 
-            ::placeholder {
-                color: $Very-dark-cyan;
+            ::placeholder{
+                color: $Very-dark-cyan; 
             }
         }
 
@@ -82,8 +82,8 @@ section {
             width: 10px;
         }
 
-        .screen:hover {
-            border: 1.5px solid $button-hover;
+        .screen:hover{
+            border: 1.5px solid $button-hover;  
         }
 
         .amounts {
@@ -104,77 +104,75 @@ section {
 
                 div {
                     flex: 0 0 calc(50% - 0.5rem);
-
                     background-color: $Very-dark-cyan;
                     color: $white;
-                    padding: 0.5rem 1rem;
+                    padding:0.5rem 1rem; 
                     border-radius: 0.2rem;
                     text-align: center;
-                    font-size: 1.2rem;
+                    font-size: 1.5rem; 
                 }
-
-                div:hover {
-                    background-color: $button-hover;
-                    color: $Very-dark-cyan;
+                div:hover{ 
+                    background-color: $button-hover; 
+                    color: $Very-dark-cyan; 
                 }
-
-                .checked {
+                
+                .checked{
                     background-color: $Strong-cyan;
-                    color: $Very-dark-cyan;
-
+                    color:$Very-dark-cyan;
+                    
                 }
+                                
 
+                .custom{
+                        background-color:$Very-light-grayish-cyan;
+                        color:$Dark-grayish-cyan;
 
-                .custom {
-                    background-color: $Very-light-grayish-cyan;
-                    color: $Dark-grayish-cyan;
+                        input {
+                                border: none;
+                                background-color: transparent;
+                                font-size: 1.5rem;
+                                font-weight: 700;
+                                color: $Very-dark-cyan; 
+                                width: 100%; 
+                                text-align: right;
+                                outline: none;
+                                caret-color: $button-hover;   
+                            }
+                            
+                            ::placeholder {
+                                color: $Dark-grayish-cyan; 
+                            }
 
-                    input {
-                        border: none;
-                        background-color: transparent;
-                        font-size: 1rem;
-                        font-weight: 700;
-                        color: $Very-dark-cyan;
-                        width: 100%;
-                        text-align: right;
-                        outline: none;
-                        caret-color: $button-hover;
+                            input:hover{
+                                border:transparent;
+                            }
                     }
-
-                    ::placeholder {
-                        color: $Dark-grayish-cyan;
-                    }
-
-                    input:hover {
-                        border: transparent;
-                    }
-                }
 
                 .custom:hover {
-                    background-color: transparent;
+                    background-color:transparent ; 
                     border: 2px solid $button-hover;
-                }
             }
         }
+        }
 
+       
+        .No-of-people{
+            margin: 3rem 0 1rem; 
 
-        .No-of-people {
-            margin: 3rem 0 1rem;
-
-            h4 {
+            h4{
                 font-size: 1rem;
-                color: $Dark-grayish-cyan;
+                color:$Dark-grayish-cyan;
             }
 
-            .hidden-p {
-                display: flex;
-                flex-direction: row;
+            .hidden-p{
+                display:flex;
+                flex-direction: row; 
                 align-items: center;
-                justify-content: space-between;
+                justify-content: space-between; 
                 gap: 0.6rem;
 
-                p {
-                    font-size: 1rem;
+                p{
+                    font-size: 1rem; 
                 }
             }
 
@@ -182,52 +180,48 @@ section {
         }
     }
 
-    .green-background {
+    .green-background{
         display: flex;
         flex-direction: column;
         background-color: $Very-dark-cyan;
         padding: 0 1rem;
         border-radius: 0.5rem;
 
-        .Tip {
+        .Tip{
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+           
 
-
-            .Tip-total,
-            .Tip-amount {
+            .Tip-total, .Tip-amount{
 
                 margin-top: 1rem;
-
-                .flex-items {
+                .flex-items{
                     display: flex;
                     flex-direction: column;
 
-                    h5 {
-                        color: $Light-grayish-cyan;
-                        font-size: 1rem;
+                    h5{
+                        color:$Light-grayish-cyan;
+                        font-size: 1.3rem;   
                     }
                 }
             }
-
-            .Tip-total span,
-            .Tip-amount span {
+            .Tip-total span, .Tip-amount span{
                 font-size: 0.9rem;
                 color: $Grayish-cyan;
                 margin-top: -0.1rem;
             }
 
-            .price {
+            .price{
                 color: $Strong-cyan;
-                font-size: 1.1rem;
+                font-size: 1.5rem;  
             }
 
 
         }
 
-        button {
+        button{
             background-color: $Strong-cyan;
             color: $Very-dark-cyan;
             border: none;
@@ -238,31 +232,30 @@ section {
             font-weight: 700;
             letter-spacing: 0.04rem;
             cursor: pointer;
-            opacity: 0.1;
-
+            opacity: 0.1;       
+        
         }
 
-        button:hover {
-            background-color: $button-hover;
-        }
+        button:hover{
+            background-color: $button-hover; 
+        } 
 
     }
 }
 
-footer {
-    margin: 1rem 1rem 1.2rem;
+footer{
+    margin: 1rem 1rem 1.2rem; 
     text-align: center;
-    color: $Very-dark-cyan;
+    color: $Very-dark-cyan;  
     letter-spacing: 0.04rem;
 
-    .attribution {
-        text-align: center;
-        font-size: 0.9rem;
-    }
-
-    .attribution a {
-        color: $Dark-grayish-cyan;
-    }
+.attribution {
+    text-align: center;
+    font-size: 0.9rem;   
+}
+.attribution a {
+      color:$Dark-grayish-cyan; 
+} 
 }
 
 @media (min-width: 768px) {
@@ -271,9 +264,9 @@ footer {
     }
 
     header {
-        h1 {
-            margin: 2rem 0;
-            font-size: 1.3rem;
+        h1{
+        margin: 2rem 0;
+        font-size: 1.3rem;
         }
     }
 
@@ -284,64 +277,40 @@ footer {
         padding: 3rem;
         max-width: 1000px;
         margin: auto;
-        gap: 3rem;
+        gap: 3rem; 
 
-
+        
         .white-background {
             width: 100%;
 
             .screen {
-                input {
-                    font-size: 1.5rem;
-                }
-
-                img {
+                
+                img{
                     width: 16px;
                 }
 
             }
-
-
-            .amounts {
-
-                .discounts {
-                    .custom {
-                        input {
-                            font-size: 1.5rem;
-                        }
-
-                    }
-                }
-
-            }
+            
         }
 
         .green-background {
             width: 100%;
             padding: 2.5rem 2rem 0 2rem;
 
-            button {
+            button{
                 margin: 8.7rem 0 0 0;
                 padding: 1rem 0;
             }
 
-            .Tip:nth-of-type(2) {
+            .Tip:nth-of-type(2){
                 margin-top: 3.3rem;
             }
 
-            .Tip {
-
-                .Tip-total,
-                .Tip-amount {
-
-                    h5 {
-                        font-size: 1.2rem;
-                    }
-                }
-
-                .price {
+            .Tip{
+                
+                .price{
                     font-size: 2rem;
-
+                
                 }
             }
         }
