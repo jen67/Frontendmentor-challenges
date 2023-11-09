@@ -4,10 +4,10 @@
   "description": "![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)",
   "main": "main.js",
   "scripts": {
-  "compile:sass": "sass src/scss:dist/css",
-  "watch:sass": "sass --watch src/scss:dist/css",
-  "sass:compile": "node-sass src/scss/main.scss dist/css/main.css",
-  "start:sass": "npm run watch:sass"
+    "compile:sass": "sass src/scss:dist/css",
+    "watch:sass": "sass --watch src/scss:dist/css",
+    "sass:compile": "node-sass src/scss/main.scss dist/css/main.css",
+    "start:sass": "npm run watch:sass"
   },
   "keywords": [],
   "author": "",
