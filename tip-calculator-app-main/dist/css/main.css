@@ -148,7 +148,7 @@ section .white-background .No-of-people .hidden-p {
   gap: 0.6rem;
 }
 section .white-background .No-of-people .hidden-p p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 section .green-background {
   display: flex;
@@ -174,7 +174,7 @@ section .green-background .Tip .Tip-total .flex-items h5, section .green-backgro
   color: hsl(185, 41%, 84%);
 }
 section .green-background .Tip .Tip-total span, section .green-background .Tip .Tip-amount span {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: hsl(184, 14%, 56%);
   margin-top: -0.1rem;
 }
@@ -206,7 +206,7 @@ footer {
 }
 footer .attribution {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 footer .attribution a {
   color: hsl(186, 14%, 43%);
