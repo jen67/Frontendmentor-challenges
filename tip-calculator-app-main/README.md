@@ -87,6 +87,7 @@ I recently learnt Sass and this project gave me the opportunity to test my new a
 ### Continued development 🌱
 
 As an upcoming frontend web developer I look forward to continously learning to improve my skills and taking on challenges while also looking out for internship positions
+I look forward to learning more frameworks.
 
 ## Author 👩‍💻
 
