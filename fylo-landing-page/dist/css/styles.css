@@ -20,6 +20,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6, button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -37,7 +41,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  gap: 0.7rem;
+  gap: 1rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -86,6 +90,8 @@ main section:first-of-type form input {
   border: 1.2px groove hsl(243, 87%, 12%);
   margin-bottom: 1rem;
   outline: none;
+  font-size: 1.2rem;
+  color: hsl(243, 87%, 12%);
 }
 main section:first-of-type form input::placeholder {
   font-size: 1rem;
@@ -100,6 +106,17 @@ main section:first-of-type button {
   border-radius: 5px;
   font-size: 1rem;
   box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out, transform 0.2s ease-in-out;
+}
+main section:first-of-type button:hover {
+  background-color: hsl(221, 100%, 71%);
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 10px -1px rgba(0, 0, 0, 0.2);
+}
+main section:first-of-type button:active {
+  transform: translateY(1px);
+  box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.1);
 }
 
 main picture {
@@ -216,6 +233,8 @@ main section:nth-child(4) form input {
   border-radius: 5px;
   border: none;
   outline: none;
+  font-size: 1.2rem;
+  color: hsl(243, 87%, 12%);
 }
 main section:nth-child(4) form input::placeholder {
   font-size: 1rem;
@@ -230,6 +249,17 @@ main section:nth-child(4) button {
   border-radius: 5px;
   font-size: 1rem;
   box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out, transform 0.2s ease-in-out;
+}
+main section:nth-child(4) button:hover {
+  background-color: hsl(221, 100%, 71%);
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 10px -1px rgba(0, 0, 0, 0.2);
+}
+main section:nth-child(4) button:active {
+  transform: translateY(1px);
+  box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -279,6 +309,16 @@ footer .footer-links p {
   line-height: 1.6rem;
   font-size: 0.9rem;
 }
+footer .attribution {
+  margin: 2rem 1rem 1rem 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: hsl(249, 8%, 53%);
+}
+footer .attribution a {
+  color: hsl(249, 8%, 53%);
+}
+
 footer .footer-images {
   display: flex;
   flex-direction: row;
@@ -299,15 +339,6 @@ footer .footer-images div svg {
   width: 20px;
   height: 20px;
   fill: white;
-}
-footer .attribution {
-  margin: 2rem 1rem 1rem 1rem;
-  font-size: 0.9rem;
-  text-align: center;
-  color: hsl(249, 8%, 53%);
-}
-footer .attribution a {
-  color: hsl(249, 8%, 53%);
 }
 
 /*# sourceMappingURL=styles.css.map */
