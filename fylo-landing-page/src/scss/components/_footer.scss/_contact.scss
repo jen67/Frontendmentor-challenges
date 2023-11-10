@@ -63,29 +63,6 @@ padding: 3rem 2rem;
 
         }
 
-.footer-images{ 
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    gap: 1rem;
-    margin-top: 3rem;  
-
-    div{
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    border-radius: 50%; 
-    border: 1.5px solid white;  
-    padding: 0.6rem;    
-    svg{
-        width: 20px;  
-        height: 20px;  
-        fill: white; 
-    } 
-  }
-}
-
 
         .attribution {
             margin: 2rem   1rem 1rem 1rem;     
