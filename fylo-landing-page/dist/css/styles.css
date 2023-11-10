@@ -156,11 +156,18 @@ main section:nth-child(3) .arrow-link {
   gap: 0.6rem;
   color: hsl(170, 45%, 43%);
   border-bottom: 2px solid hsl(170, 45%, 43%);
-  width: 188px;
+  width: 187px;
   margin: 2rem auto 3.5rem;
 }
 main section:nth-child(3) .arrow-link img {
   width: 30px;
+}
+main section:nth-child(3) .arrow-link:hover {
+  color: hsl(171, 60%, 83%);
+  border-bottom: 2px solid hsl(171, 60%, 83%);
+}
+main section:nth-child(3) .arrow-link:hover img:hover {
+  content: url(/images/arrow1.svg);
 }
 main section:nth-child(3) .card {
   margin: 3rem auto;
@@ -304,10 +311,15 @@ footer .footer-links {
   gap: 1rem;
   margin-top: 3rem;
   color: white;
+  cursor: pointer;
+  transition: color 0.4s ease-in-out;
 }
 footer .footer-links p {
   line-height: 1.6rem;
   font-size: 0.9rem;
+}
+footer .footer-links p:hover {
+  color: hsl(224, 93%, 58%);
 }
 footer .attribution {
   margin: 2rem 1rem 1rem 1rem;
@@ -334,11 +346,16 @@ footer .footer-images div {
   border-radius: 50%;
   border: 1.5px solid white;
   padding: 0.6rem;
+  transition: border-color 0.4s ease-in-out, fill 0.2s ease-in-out;
 }
 footer .footer-images div svg {
   width: 20px;
   height: 20px;
   fill: white;
+}
+footer .footer-images div:hover, footer .footer-images div svg:hover {
+  fill: hsl(224, 93%, 58%);
+  border-color: hsl(224, 93%, 58%);
 }
 
 /*# sourceMappingURL=styles.css.map */

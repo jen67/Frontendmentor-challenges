@@ -34,24 +34,33 @@ main{
             color: $paragraph;     
         }
 
-        .arrow-link {  
-            display: flex;  
-            align-items: center; 
-            justify-content: center; 
-            gap: 0.6rem;  
-            color: $Moderate-Cyan;
-            border-bottom: 2px solid $Moderate-Cyan;  
-            width: 188px; 
-            margin: 2rem auto 3.5rem;                 
-            img{
-                width: 30px;  
-            }
-
-        }
+                .arrow-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.6rem;
+                    color: $Moderate-Cyan;
+                    border-bottom: 2px solid $Moderate-Cyan;
+                    width: 187px;
+                    margin: 2rem auto 3.5rem;
+        
+                    img {
+                        width: 30px;
+                    }
+        
+                    &:hover {
+                        color: $arrow-link-hover;
+                        border-bottom: 2px solid $arrow-link-hover;
+        
+                        img:hover {
+                            content: url(/images/arrow1.svg);
+                        }
+                    }
+                } 
 
 
         .card{
-            margin: 3rem auto;       
+            margin: 3rem auto;        
             background-color: white;    
             padding: 2rem 1rem;  
             display: flex;
