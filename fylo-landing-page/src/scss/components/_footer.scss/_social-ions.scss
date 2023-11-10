@@ -18,8 +18,22 @@ footer{
                 svg {
                     width: 20px;
                     height: 20px;
-                    fill: white;
+                    fill: white;   
+                    
                 }
+
+                
+
+            &:hover, svg:hover{
+                fill: $Bright-Blue;  
+                border-color:$Bright-Blue;   
+
+            }       
+                        transition: border-color 0.4s ease-in-out,
+                        fill 0.2s ease-in-out;
+                
             }
+
+                    
         }
-} 
+}  
