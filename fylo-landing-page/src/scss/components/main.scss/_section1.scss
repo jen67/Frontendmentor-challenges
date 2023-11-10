@@ -17,9 +17,16 @@ main{
         
         form{
             display: flex;
-            gap: 0.5rem;  
+            gap: 0.5rem;   
             flex-direction: column;
             margin-top: 2rem; 
+
+            div{
+                padding: 0;
+                margin: 0;
+                width: 100%;
+
+            }
 
             input{  
                 padding: 1rem;   
@@ -29,6 +36,7 @@ main{
                 outline: none; 
                 font-size: 1.2rem;  
                 color: $Very-Dark-Blue; 
+                width: 100%;
 
 
                 &::placeholder{
@@ -42,7 +50,7 @@ main{
             width: 100%;
             background-color: $Bright-Blue;  
             border: none; 
-            color: $Light-Grayish-Blue; 
+            color: white;
             padding: 1rem; 
             border-radius: 5px; 
             font-size: 1rem; 
