@@ -1,0 +1,10 @@
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/base';
+@import 'ultilities/typography';
+@import 'components/header';   
+@import './components/main.scss/section1';
+@import './components/main.scss/section2';
+@import './components/main.scss/section3';
+@import './components/_footer.scss/contact';
+@import './components/_footer.scss/social-ions';

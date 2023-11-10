@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 0.7rem;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+   
+     
+    
+    img{
+        width: 100px; 
+    }
+
+    ul{
+        list-style: none; 
+        li{
+            display: inline-flex;  
+            margin-right: 0.5rem; 
+            align-items: center;  
+            a{
+                text-decoration: none; 
+                color: $Very-Dark-Blue; 
+            }
+        }
+    }
+}
+

@@ -1,0 +1,49 @@
+main{
+    section:nth-child(4){
+        background-color: $Desaturated-Blue; 
+        padding: 4rem 2rem;  
+        text-align: center; 
+        color: $Light-Grayish-Blue; 
+
+        .early-access{
+            
+            h1{ 
+            color: $Light-Grayish-Blue; 
+            }
+            p{
+                padding: 1.5rem 0; 
+            }
+        }
+
+        form{ 
+            margin-top: 1rem;  
+            display: flex; 
+            flex-direction: column; 
+            gap: 0.5rem;       
+            
+            input {
+                    padding: 1rem;
+                    border-radius: 5px;
+                    border: none;  
+                    outline: none;
+            
+            
+                    &::placeholder {
+                        font-size: 1rem;
+                        color: $Light-Gray;
+                    }
+                } 
+        }
+
+                button {
+                    width: 100%;
+                    background-color: $Bright-Blue;
+                    border: none;
+                    color: $Light-Grayish-Blue;
+                    padding: 1rem;
+                    border-radius: 5px;
+                    font-size: 1rem;
+                    box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.15);
+                }  
+    }
+}
