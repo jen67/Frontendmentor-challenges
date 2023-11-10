@@ -1,0 +1,16 @@
+{
+  "name": "fylo-landing-page",
+  "version": "1.0.0",
+  "description": "Fylo landing page with two column layout",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss/styles.scss dist/css/styles.css",
+  "sass:watch": "sass --watch src/scss:dist/css"
+  },
+  "keywords": [],
+  "author": "Gift Amachree",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}

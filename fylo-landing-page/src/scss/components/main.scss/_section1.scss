@@ -1,0 +1,50 @@
+
+main{
+    section:first-of-type{     
+        display: flex;
+        flex-direction: column-reverse;  
+        margin: 9rem 0 5rem 0;            
+        text-align: center;  
+        
+        div{
+            padding: 1rem 1.2rem;  
+            h1{
+                font-size: 1.5rem;  
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+        }
+        
+        form{
+            display: flex;
+            gap: 0.5rem;  
+            flex-direction: column;
+            margin-top: 2rem; 
+
+            input{  
+                padding: 1rem;   
+                border-radius: 5px;  
+                border: 1.2px groove $Very-Dark-Blue;    
+                margin-bottom: 1rem; 
+                outline: none; 
+
+
+                &::placeholder{
+                    font-size: 1rem; 
+                    color: $Light-Gray; 
+                } 
+            }
+        } 
+
+        button{
+            width: 100%;
+            background-color: $Bright-Blue;  
+            border: none; 
+            color: $Light-Grayish-Blue; 
+            padding: 1rem; 
+            border-radius: 5px; 
+            font-size: 1rem; 
+            box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.15); 
+        }         
+    } 
+} 

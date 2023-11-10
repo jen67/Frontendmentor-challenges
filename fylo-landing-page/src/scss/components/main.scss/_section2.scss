@@ -1,0 +1,114 @@
+main{  
+    
+    picture {
+        background-color: $bg-color; 
+            img { 
+                margin-top: 3rem; 
+                width: 100%;
+                z-index: 1; 
+            }
+        }
+
+    section:nth-child(3){  
+        margin-top: -0.2rem;         
+        padding:1.2rem;   
+        z-index: -1;
+        background-color: $bg-color;       
+            
+        .second-illustration{ 
+            padding-top: 2rem;   
+            img{ 
+                margin: 0 auto;
+                width: 100%;  
+            }
+        } 
+
+        h1{ 
+            margin-top: 3rem;
+            font-size: 1.2rem;  
+            text-align: center; 
+        }
+
+        p{
+            margin-top: 1rem;
+            color: $paragraph;     
+        }
+
+        .arrow-link {  
+            display: flex;  
+            align-items: center; 
+            justify-content: center; 
+            gap: 0.6rem;  
+            color: $Moderate-Cyan;
+            border-bottom: 2px solid $Moderate-Cyan;  
+            width: 188px; 
+            margin: 2rem auto 3.5rem;                 
+            img{
+                width: 30px;  
+            }
+
+        }
+
+
+        .card{
+            margin: 3rem auto;       
+            background-color: white;    
+            padding: 2rem 1rem;  
+            display: flex;
+            flex-direction: column;
+            justify-content: center;   
+            border-radius: 8px; 
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+             
+            .quotes{
+                width: 20px;   
+            }
+
+            p{
+                font-size: 0.9rem; 
+                color: $Very-Dark-Blue; 
+                font-weight: 600;          
+                line-height: 1.5rem; 
+                letter-spacing: 0.05rem;
+            }
+
+            .ceo-info{
+                display: flex; 
+                flex-direction: row;  
+                align-items: center;   
+                margin-top: 1rem; 
+                gap: 0.9rem;  
+                img{
+                    width: 40px;   
+                    border-radius: 50%;  
+                } 
+
+
+                .ceo-names{ 
+                    display: flex;
+                    flex-direction: column;         
+                   
+                    h1{
+                        margin: 0;
+                        font-size: 0.9rem;  
+                        font-weight: 700; 
+                        text-align: left;
+                        letter-spacing: 0.05rem; 
+                    }
+
+                   span{
+                        font-size: 0.7rem;   
+                        color:$Very-Dark-Blue;
+                        text-align: left; 
+                    }
+                }
+
+            }
+
+            
+        }
+
+        
+    }
+      
+} 
