@@ -372,11 +372,12 @@ footer .footer-images div:hover, footer .footer-images div svg:hover {
 
 @media screen and (min-width: 768px) {
   header {
-    padding: 1.2rem 3rem;
+    padding: 1.3rem 3rem;
     gap: 2rem;
   }
   header img {
-    width: 100px;
+    margin-top: 0.5rem;
+    width: 110px;
   }
   header ul li {
     margin-left: 1rem;
@@ -487,7 +488,7 @@ footer .footer-images div:hover, footer .footer-images div svg:hover {
 }
 @media screen and (min-width: 1280px) {
   header {
-    padding: 1.2rem 5rem;
+    padding: 1.3rem 5rem;
   }
   main section:first-of-type {
     padding: 4rem 5rem 3rem;
@@ -563,7 +564,7 @@ footer .footer-images div:hover, footer .footer-images div svg:hover {
     font-size: 2.8rem;
   }
   main section:first-of-type div p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   main section:nth-child(3) {
     gap: 3rem;
