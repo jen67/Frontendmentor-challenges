@@ -43,6 +43,7 @@ main{
                     border-bottom: 2px solid $Moderate-Cyan;
                     width: 187px;
                     margin: 2rem auto 3.5rem;
+                    cursor: pointer; 
         
                     img {
                         width: 30px;
@@ -54,6 +55,7 @@ main{
         
                         img:hover {
                             content: url(/images/arrow1.svg);
+                            transform: translateX(5px); 
                         }
                     }
                 } 
