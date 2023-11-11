@@ -1,18 +1,18 @@
 
 @media screen and (min-width: 768px) {
  header{
-    padding: 2rem 3rem;
+    padding: 1.2rem 3rem;
     gap: 2rem;
     
     img{
-        width: 150px; 
+        width: 100px; 
     }
 
     ul{
         li{
             margin-left: 1rem;   
             a{
-                font-size: 1.6rem;  
+                font-size: 1.2rem;  
             }
         }
     }
@@ -177,7 +177,7 @@
 
 @media screen and (min-width: 1280px){
     header{
-        padding: 2rem 5rem;
+        padding: 1.2rem 5rem;
     }
     main{
         section:first-of-type{
