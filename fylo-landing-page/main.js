@@ -4,10 +4,10 @@ const getForms = document.querySelectorAll('form');
 
 window.addEventListener('scroll', function () {
     if (window.scrollY > 0) {
-        header.style.backgroundColor = "/* Your color or variable here */";
+        header.style.backgroundColor = "$bg-color"; 
         header.style.backdropFilter = "blur(50px)";
         header.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
-        header.style.transition = "all 0.5s ease";
+        // header.style.transition = "all 0.5s ease";
         header.style.zIndex = "1000";
     } else {
         header.style.backgroundColor = "transparent";
@@ -37,7 +37,7 @@ getForms.forEach((form, index) => {
 
             event.preventDefault();
         } else if (inputTag.value !== '') {
-            textError.textContent = "Please check your email"; 
+            textError.textContent = "Submitted, please check your email"; 
             textError.style.textAlign = "left";
             textError.style.color = "pink";
             textBox.style.border = "2px solid pink";

@@ -63,6 +63,10 @@ header ul li a {
   text-decoration: none;
   color: hsl(243, 87%, 12%);
 }
+header ul li a:hover {
+  color: hsl(224, 93%, 58%);
+  font-weight: 700;
+}
 
 main section:first-of-type {
   display: flex;
@@ -259,7 +263,7 @@ main section:nth-child(4) button {
   width: 100%;
   background-color: hsl(224, 93%, 58%);
   border: none;
-  color: hsl(240, 75%, 98%);
+  color: white;
   padding: 1rem;
   border-radius: 5px;
   font-size: 1rem;
@@ -385,29 +389,21 @@ footer .footer-images div:hover, footer .footer-images div svg:hover {
     text-align: left;
     padding: 4rem 2rem 3rem;
   }
-  main section:first-of-type div {
-    flex: 1;
-  }
   main section:first-of-type div h1 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     line-height: 1.4;
+  }
+  main section:first-of-type div p {
+    font-size: 1rem;
   }
   main section:first-of-type div form {
     flex-direction: row;
   }
   main section:first-of-type div form div button {
-    width: 150px;
     font-size: 1.2rem;
-    padding: 1.1rem;
   }
   main section:first-of-type div form div input {
-    width: 250px;
-  }
-  main section:first-of-type div {
-    width: 100%;
-  }
-  main section:first-of-type div img {
-    width: 100%;
+    font-size: 1.2rem;
   }
   main section:nth-child(3) {
     padding: 4rem 2rem;
@@ -425,7 +421,7 @@ footer .footer-images div:hover, footer .footer-images div svg:hover {
   }
   main section:nth-child(3) div p {
     font-size: 0.9rem;
-    line-height: 1.5rem;
+    color: hsl(243, 87%, 12%);
   }
   main section:nth-child(3) div .arrow-link {
     margin: 1rem 0;
@@ -439,23 +435,28 @@ footer .footer-images div:hover, footer .footer-images div svg:hover {
     align-items: center;
     text-align: left;
   }
+  main section:nth-child(4) div {
+    flex: 1;
+  }
   main section:nth-child(4) div h1 {
     font-size: 1.5rem;
     line-height: 1.4;
     text-align: left;
   }
   main section:nth-child(4) div p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.5rem;
   }
   main section:nth-child(4) div .arrow-link {
     margin: 1rem 0;
   }
+  main section:nth-child(4) form {
+    flex: 1;
+  }
   main section:nth-child(4) form button {
     width: 190px;
   }
-  footer {
-    padding: 4rem 2rem;
+  footer .footer-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -463,23 +464,126 @@ footer .footer-images div:hover, footer .footer-images div svg:hover {
     gap: 2rem;
     text-align: left;
   }
-  footer .footer-images {
+  footer .footer-flex .footer-images {
     margin: 0;
   }
-  footer .footer-images div svg {
+  footer .footer-flex .footer-images div svg {
     width: 30px;
     height: 30px;
   }
-  footer .footer-links {
+  footer .footer-flex .footer-links {
     flex-direction: row;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 0;
   }
-  footer .footer-links p {
+  footer .footer-flex .footer-links p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main section:first-of-type div h1 {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header {
+    padding: 2rem 5rem;
+  }
+  main section:first-of-type {
+    padding: 4rem 5rem 3rem;
+  }
+  main section:first-of-type div h1 {
+    font-size: 2.3rem;
+  }
+  main section:first-of-type div p {
+    font-size: 1.1rem;
+  }
+  main section:first-of-type form div button {
+    width: 200px;
+  }
+  main section:first-of-type form div {
+    width: 100%;
+  }
+  main section:first-of-type form div input {
+    width: 100%;
+  }
+  main section:nth-child(3) {
+    padding: 4rem 5rem;
+  }
+  main section:nth-child(3) div {
+    flex: 1;
+  }
+  main section:nth-child(3) div h1 {
+    font-size: 2rem;
+  }
+  main section:nth-child(3) div p {
+    font-size: 1.2rem;
+  }
+  main section:nth-child(3) div .arrow-link {
+    width: 215px;
+  }
+  main section:nth-child(3) div .card {
+    padding: 2rem;
+    margin-right: 5rem;
+  }
+  main section:nth-child(3) div .card p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: normal;
+  }
+  main section:nth-child(3) div .card .ceo-info img {
+    width: 50px;
+  }
+  main section:nth-child(3) div .card .ceo-info .ceo-names h1 {
+    font-size: 1.2rem;
+  }
+  main section:nth-child(3) div .card .ceo-info .ceo-names span {
     font-size: 0.9rem;
   }
-  footer .attribution {
-    margin: 0;
+  main section:nth-child(4) {
+    padding: 4rem 5rem;
+    gap: 8rem;
+  }
+  main section:nth-child(4) div h1 {
+    font-size: 2rem;
+  }
+  main section:nth-child(4) form button {
+    width: 300px;
+  }
+  footer {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  footer .footer-flex .footer-links {
+    gap: 8rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main section:first-of-type div h1 {
+    font-size: 2.8rem;
+  }
+  main section:first-of-type div p {
+    font-size: 1.3rem;
+  }
+  main section:nth-child(3) {
+    gap: 3rem;
+  }
+  main section:nth-child(3) .second-illustration {
+    padding-top: 0;
+  }
+  main section:nth-child(3) .second-illustration img {
+    width: 100%;
+    padding-top: 0;
+    margin-top: -6rem;
+  }
+  main section:nth-child(3) div .card {
+    margin-right: 9rem;
+  }
+  main section:nth-child(4) div h1 {
+    font-size: 2.5rem;
+  }
+  main section:nth-child(4) div p {
+    font-size: 1.25rem;
   }
 }
 

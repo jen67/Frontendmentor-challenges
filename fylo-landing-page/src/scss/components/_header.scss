@@ -25,7 +25,11 @@ header{
             align-items: center;  
             a{
                 text-decoration: none; 
-                color: $Very-Dark-Blue; 
+                color: $Very-Dark-Blue;
+                &:hover{
+                    color: $Bright-Blue;
+                    font-weight: 700;   
+                } 
             }
         }
     }
