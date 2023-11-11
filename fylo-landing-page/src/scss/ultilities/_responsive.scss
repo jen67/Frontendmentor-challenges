@@ -1,11 +1,12 @@
 
 @media screen and (min-width: 768px) {
  header{
-    padding: 1.2rem 3rem;
+    padding: 1.3rem 3rem;
     gap: 2rem;
     
     img{
-        width: 100px; 
+        margin-top: 0.5rem;
+        width: 110px; 
     }
 
     ul{
@@ -177,7 +178,7 @@
 
 @media screen and (min-width: 1280px){
     header{
-        padding: 1.2rem 5rem;
+        padding: 1.3rem 5rem;
     }
     main{
         section:first-of-type{
@@ -303,7 +304,7 @@
                     font-size: 2.8rem;
                 }
                 p{
-                    font-size: 1.3rem;
+                    font-size: 1.4rem;
                 }
             }
         }
