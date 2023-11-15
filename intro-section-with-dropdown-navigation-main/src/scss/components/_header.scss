@@ -1,0 +1,19 @@
+body{
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: $almost-White;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        .logo{
+            width: 50px;  
+        }
+
+        ul{
+            display: none; 
+        }
+        
+    }
+}
