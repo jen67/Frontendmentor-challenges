@@ -17,7 +17,6 @@ body {
   font-weight: 500;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-height: 100vh;
   background-color: hsl(0, 0%, 98%);
 }
@@ -34,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-body header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,28 +42,31 @@ body header {
   color: hsl(0, 0%, 41%);
   position: relative;
 }
-body header .logo {
+header .logo {
   width: 50px;
 }
-body header nav {
+header #hide {
+  display: none;
+}
+header nav {
   position: absolute;
   top: 0;
   right: 0;
   background-color: hsl(0, 0%, 98%);
   width: 60%;
   padding: 4rem 2rem 2rem 2rem;
-  z-index: 2;
+  transition: transform 0.3s ease;
 }
-body header nav .overlay {
+header nav .overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 40%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  transition: transform 0.8s ease;
 }
-body header nav .auth {
+header nav .auth {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -73,10 +75,10 @@ body header nav .auth {
   justify-content: center;
   padding-block: 2rem;
 }
-body header nav .auth a {
+header nav .auth a {
   color: hsl(0, 0%, 41%);
 }
-body header nav .auth button {
+header nav .auth button {
   background-color: hsl(0, 0%, 98%);
   border-radius: 8px;
   width: 100%;
@@ -90,48 +92,49 @@ body header nav .auth button {
   align-items: center;
   justify-content: center;
 }
-body header nav ul {
+header nav ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   font-size: 1rem;
 }
-body header nav ul li img {
+header nav ul li img {
   margin-left: 0.5rem;
 }
-body header nav ul li a {
+header nav ul li a {
   text-decoration: none;
   color: hsl(0, 0%, 41%);
 }
-body header nav ul li ul {
+header nav ul li ul {
   background-color: hsl(0, 0%, 98%);
   padding-block: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  display: none;
 }
-body header nav ul li ul li {
+header nav ul li ul li {
   font-size: 1rem;
 }
-body header nav ul li ul li img {
+header nav ul li ul li img {
   margin-right: 0.5rem;
 }
-body header .menu-icons {
+header .menu-icons {
   cursor: pointer;
   position: relative;
   z-index: 2;
+  transition: all 0.3s ease-out;
 }
-body header .menu-icons img {
+header .menu-icons img {
   width: 20px;
 }
-body header .menu-icons .menu-close-icon {
-  display: block;
-}
-body header .menu-icons .menu-open-icon {
-  position: absolute;
+header .menu-icons .menu-close-icon {
   top: 0;
   left: 0;
-  display: none;
+}
+header .menu-icons .menu-open-icon {
+  top: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
