@@ -1,0 +1,8 @@
+@import '../../node_modules/normalize-scss/sass/normalize';
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/base';
+@import 'components/header';
+@import 'components/main';
+@import 'components/footer';
+@import 'utils/responsive';
