@@ -20,6 +20,6 @@
 
 ## fylo-landing-page
 
-<img src="./fylo-landing-page/design/desktop-design.jpg" alt="Tasks" width="500">
+<img src="./fylo-landing-page/design/desktop-design.jpg" alt="Tasks" width="300">
 
 - Live Site URL: [live view](https://fylo-landing-page-lime-theta.vercel.app/)
