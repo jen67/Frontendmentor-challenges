@@ -20,6 +20,6 @@
 
 ## fylo-landing-page
 
-<img src="./fylo-landing-page/design/desktop-design.jpg" alt="Tasks" width="300">
+<img src="./fylo-landing-page/design/desktop-design.jpg" alt="Tasks" width="500">
 
-- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/interactive-rating-component-main/index.html)
+- Live Site URL: [live view](https://fylo-landing-page-lime-theta.vercel.app/)
