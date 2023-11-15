@@ -1,4 +1,4 @@
-body{
+
     header{
         display: flex;
         justify-content: space-between;
@@ -6,11 +6,15 @@ body{
         padding: 1rem 2rem;
         background-color: $almost-White;
         color: $mediumGray;
-        position: relative;   
+        position: relative;       
 
         .logo{
             width: 50px;  
         }
+
+        #hide { 
+            display: none;    
+        } 
 
         nav{ 
             position: absolute;
@@ -19,8 +23,7 @@ body{
             background-color: $almost-White;
             width: 60%;  
             padding: 4rem 2rem 2rem 2rem;     
-            z-index:2 ;            
-            
+            transition: transform 0.3s ease;
             
             .overlay{
                 position: fixed; 
@@ -29,8 +32,8 @@ body{
                 width: 40%;
                 height: 100vh; 
                 background-color: rgba(0, 0, 0, 0.5);
-                z-index: 1;
-                        
+                transition: transform 0.8s ease;
+                                    
                 
             }
 
@@ -82,7 +85,11 @@ body{
                         display: flex;
                         flex-direction: column; 
                         gap: 1rem; 
+                        display: none;
+                        
+                        
 
+                        
                         li{
                              font-size: 1rem; 
 
@@ -93,32 +100,37 @@ body{
                         }
                         
                     }
+
+                    
                 }
                 
                 
              } 
+
+            
         }
 
         .menu-icons{
             cursor: pointer;
             position: relative; 
             z-index: 2;
+            transition: all 0.3s ease-out;
 
             img{
                 width: 20px;     
             }
 
             .menu-close-icon {
-            
-            display: block;   
-            }
-
-            .menu-open-icon{
-                position: absolute;
                 top: 0;
                 left: 0;
-                display: none;            }
+                     
+            }
+
+            .menu-open-icon{ 
+                top: 0;
+                left: 0;
+            }
         }
         
-    }
-}
+    } 
+

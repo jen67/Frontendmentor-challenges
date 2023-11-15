@@ -8,6 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="dist/css/styles.css">
+  <script src="./script.js" defer ></script>
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
@@ -16,19 +17,19 @@
     <div class="logo">
       <img src="./images/logo.svg" alt="logo">
     </div>
-    <nav>
+    <nav id="hide">
       <div class="overlay"></div>
       <ul>
-        <li><a href="#">Features</a><span><img src="./images/icon-arrow-down.svg" alt="icon-arrow-up"></span>
-          <ul>
+        <li  class="dropdown-container"><a href="#">Features</a><span><img src="./images/icon-arrow-down.svg" alt="icon-arrow-up"></span>
+          <ul id="dropdown">
             <li><img src="./images/icon-todo.svg" alt="Todo icon"> Todo list </li>
             <li><img src="./images/icon-calendar.svg" alt="calender icon"> Calender </li>
             <li><img src="./images/icon-reminders.svg" alt="Reminder icon"> Reminders </li>
             <li><img src="./images/icon-planning.svg" alt="planning icon"> Planning </li>
           </ul>
         </li>
-        <li><a href="#">Company</a><span><img src="./images/icon-arrow-down.svg" alt=""></span>
-          <ul>
+        <li class="dropdown-container"><a href="#">Company</a><span><img src="./images/icon-arrow-down.svg" alt="dropdown icon"></span>
+          <ul id="dropdown">
             <li>History</li>
             <li>Our Team</li>
             <li>Blog</li>
@@ -46,7 +47,7 @@
 
     <div class="menu-icons">
       <img src="./images/icon-menu.svg" alt="open menu icon" class="menu-open-icon">
-      <img src="./images/icon-close-menu.svg" alt="close menu icon" class="menu-close-icon"> 
+      <img src="./images/icon-close-menu.svg" alt="close menu icon" class="menu-close-icon" id="hide"> 
     </div>
   </header>
   <main>
