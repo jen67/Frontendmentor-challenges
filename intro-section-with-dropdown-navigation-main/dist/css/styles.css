@@ -40,12 +40,97 @@ body header {
   align-items: center;
   padding: 1rem 2rem;
   background-color: hsl(0, 0%, 98%);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: hsl(0, 0%, 41%);
+  position: relative;
 }
 body header .logo {
   width: 50px;
 }
-body header ul {
+body header nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: hsl(0, 0%, 98%);
+  width: 60%;
+  padding: 4rem 2rem 2rem 2rem;
+  z-index: 2;
+}
+body header nav .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+body header nav .auth {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding-block: 2rem;
+}
+body header nav .auth a {
+  color: hsl(0, 0%, 41%);
+}
+body header nav .auth button {
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+  border: 2px ridge hsl(0, 0%, 71%);
+  padding: 0.5rem;
+  color: currentColor;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+body header nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1rem;
+}
+body header nav ul li img {
+  margin-left: 0.5rem;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+body header nav ul li ul {
+  background-color: hsl(0, 0%, 98%);
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+body header nav ul li ul li {
+  font-size: 1rem;
+}
+body header nav ul li ul li img {
+  margin-right: 0.5rem;
+}
+body header .menu-icons {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+body header .menu-icons img {
+  width: 20px;
+}
+body header .menu-icons .menu-close-icon {
+  display: block;
+}
+body header .menu-icons .menu-open-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: none;
 }
 
