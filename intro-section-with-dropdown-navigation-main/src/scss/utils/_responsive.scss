@@ -30,7 +30,7 @@
             display: flex;
             flex-direction: row;
             font-size: 1rem;
-            gap: 1rem;
+            gap: 1rem; 
             align-items: center;
             justify-content: center;
             padding-block: 0;
@@ -38,7 +38,8 @@
             right: 0;
 
             button {
-            margin-right: 2rem;
+            width: 100px; 
+            margin:0 2rem 0 2rem; 
             }
         }
 
@@ -95,13 +96,32 @@
         padding-right: 3rem;    
 
         .main-section-texts{
-            text-align:left; 
-            h1{
-                font-size: 3.6rem;          
+            text-align:left;
+            justify-content: flex-start;
+            text-align: left; 
+            flex: 1;  
+            h1{   
+                padding-right: 4rem;       
+                margin-top: 0; 
+                font-size: 4.5rem;          
             }
-            p{
-                font-size: 1.5rem;
+            p{  
+                font-size: 1.3rem; 
+                padding: 2rem 0 2rem 0; 
             }
+
+            button{
+                justify-content: left; 
+                align-items: left; 
+                text-align: left; 
+
+            }
+
+             
+        }
+
+        picture{
+            flex: 1; 
         }
         
     }
