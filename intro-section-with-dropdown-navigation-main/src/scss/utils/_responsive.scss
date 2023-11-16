@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1289px) {
     header {
         padding: 2rem;
         position: relative; 
@@ -48,7 +48,7 @@
             flex-direction: row;
             gap: 3rem;   
             font-size: 1rem;
-            margin-right: 30rem;       
+            margin-right: 48rem;                  
 
             .menu-icon {
             display: none;
@@ -60,7 +60,7 @@
             
 
             .leftShift {
-             right: 38%;       
+             right: 30%;             
             }
 
             ul {
@@ -92,8 +92,8 @@
         display: flex;
         gap: 5rem; 
         flex-direction: row-reverse;
-        padding-left: 3rem;
-        padding-right: 3rem;    
+        padding-left: 7rem; 
+        padding-right: 7rem;       
 
         .main-section-texts{
             text-align:left;
@@ -101,20 +101,26 @@
             text-align: left; 
             flex: 1;  
             h1{   
-                padding-right: 4rem;       
-                margin-top: 0; 
+                margin-right: 7rem;          
+                margin-top: 7.5rem;     
                 font-size: 4.5rem;          
             }
             p{  
-                font-size: 1.3rem; 
-                padding: 2rem 0 2rem 0; 
+                font-size: 1.5rem; 
+                padding: 3rem 0 3rem 0; 
             }
 
             button{
-                justify-content: left; 
-                align-items: left; 
-                text-align: left; 
+                margin-right: 26rem;
+                width: 180px;
+                padding: 1rem; 
+                font-size: 1.3rem;    
+            }
 
+            .social-links{
+                img{
+                    width: 80px; 
+                }
             }
 
              
