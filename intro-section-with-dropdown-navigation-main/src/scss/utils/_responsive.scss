@@ -101,7 +101,7 @@
             text-align: left; 
             flex: 1;  
             h1{   
-                margin-right: 7rem;          
+                margin-right: 7.5rem;            
                 margin-top: 7.5rem;     
                 font-size: 4.5rem;          
             }
@@ -117,9 +117,10 @@
                 font-size: 1.3rem;    
             }
 
-            .social-links{
+            .social-links{ 
+                margin-top: 3rem;  
                 img{
-                    width: 80px; 
+                    width: 100px;  
                 }
             }
 
@@ -130,5 +131,12 @@
             flex: 1; 
         }
         
+    }
+
+    footer{
+        .attribution{
+            margin: 2rem;  
+            font-size:1.4rem;  
+        }
     }
 }

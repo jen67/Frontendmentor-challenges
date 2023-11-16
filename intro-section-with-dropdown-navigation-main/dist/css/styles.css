@@ -24,6 +24,7 @@ body {
 
 h1 {
   color: hsl(0, 0%, 8%);
+  font-weight: 700;
 }
 
 ul {
@@ -181,7 +182,7 @@ main .main-section-texts h1 {
 main .main-section-texts p {
   font-size: 0.97rem;
   color: hsl(0, 0%, 41%);
-  line-height: 1.5rem;
+  line-height: 1.5;
   padding: 1rem;
 }
 main .main-section-texts button {
@@ -196,6 +197,12 @@ main .main-section-texts button {
   align-items: center;
   justify-content: center;
   font-weight: 700;
+  transition: background-color 0.3s ease-in-out, color 0.4s ease-in, border 0.5s ease-out;
+}
+main .main-section-texts button:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  border: 1px groove hsl(0, 0%, 8%);
 }
 main .main-section-texts .social-links {
   display: flex;
@@ -226,9 +233,10 @@ footer .attribution a:hover {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1289px) {
   header {
     padding: 2rem;
+    position: relative;
   }
   header .logo {
     width: auto;
@@ -263,104 +271,16 @@ footer .attribution a:hover {
     right: 0;
   }
   header nav .auth button {
-    margin-right: 2rem;
+    width: 100px;
+    margin: 0 2rem 0 2rem;
   }
   header nav ul {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 3rem;
     font-size: 1rem;
-    position: relative;
+    margin-right: 48rem;
   }
-}
-@media (min-width: 768px) and (min-width: 768px) {
-  header nav ul header {
-    padding: 2rem;
-  }
-  header nav ul header .logo {
-    width: auto;
-  }
-  header nav ul header nav {
-    position: static;
-    top: auto;
-    right: auto;
-    background-color: transparent;
-    width: auto;
-    padding: 0;
-    min-height: auto;
-    transition: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    animation: none;
-  }
-  header nav ul header nav .overlay {
-    display: none;
-  }
-  header nav ul header nav .auth {
-    display: flex;
-    flex-direction: row;
-    font-size: 1rem;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    padding-block: 0;
-    position: absolute;
-    right: 0;
-  }
-  header nav ul header nav .auth button {
-    margin-right: 2rem;
-  }
-  header nav ul header nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    font-size: 1rem;
-    margin-right: 16rem;
-    position: relative;
-  }
-  header nav ul header nav ul .menu-icon {
-    display: none;
-  }
-  header nav ul header nav ul li {
-    font-size: 1rem;
-    padding: 0;
-  }
-  header nav ul header nav ul li .leftShift {
-    right: 1%;
-  }
-  header nav ul header nav ul li ul {
-    top: 160%;
-    width: auto;
-    background-color: hsl(0, 0%, 98%);
-    flex-direction: column;
-    border-radius: 9px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  header nav ul header nav ul li .drop {
-    display: none;
-  }
-  header nav ul header .menu-icons img {
-    display: none;
-  }
-  header nav ul main {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  header nav ul main .main-section-texts {
-    text-align: left;
-  }
-  header nav ul main .main-section-texts h1 {
-    font-size: 3.8rem;
-  }
-  header nav ul main .main-section-texts p {
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 768px) {
   header nav ul .menu-icon {
     display: none;
   }
@@ -369,33 +289,64 @@ footer .attribution a:hover {
     padding: 0;
   }
   header nav ul li .leftShift {
-    right: 1%;
+    right: 30%;
   }
   header nav ul li ul {
-    top: 160%;
+    top: 80%;
     width: auto;
     background-color: hsl(0, 0%, 98%);
+    position: absolute;
     flex-direction: column;
+    gap: 1rem;
     border-radius: 9px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  }
+  header nav ul li .drop {
+    display: none;
   }
   header .menu-icons img {
     display: none;
   }
   main {
     display: flex;
+    gap: 5rem;
     flex-direction: row-reverse;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
   main .main-section-texts {
     text-align: left;
+    justify-content: flex-start;
+    text-align: left;
+    flex: 1;
   }
   main .main-section-texts h1 {
-    font-size: 3.8rem;
+    margin-right: 7.5rem;
+    margin-top: 7.5rem;
+    font-size: 4.5rem;
   }
   main .main-section-texts p {
     font-size: 1.5rem;
+    padding: 3rem 0 3rem 0;
+  }
+  main .main-section-texts button {
+    margin-right: 26rem;
+    width: 180px;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  main .main-section-texts .social-links {
+    margin-top: 3rem;
+  }
+  main .main-section-texts .social-links img {
+    width: 100px;
+  }
+  main picture {
+    flex: 1;
+  }
+  footer .attribution {
+    margin: 2rem;
+    font-size: 1.4rem;
   }
 }
 
