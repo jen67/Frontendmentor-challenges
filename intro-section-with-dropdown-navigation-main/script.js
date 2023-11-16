@@ -1,25 +1,33 @@
-const openMenu = document.querySelector(".menu-open-icon");  
-const closeMenu = document.querySelector(".menu-close-icon");
-const navBar = document.querySelector("nav");
-// const dropDownContainer = document.querySelectorAll(".dropdown-container");
-// const dropDown = document.querySelectorAll(".dropdown");
+(function () {
+  "use strict";
 
-// dropDownContainer.forEach((item) => {
-//     item.addEventListener("mouseover", () => {
-//         item.style.display = "block";  
-//      });
-// });
+  const openMenu = document.querySelector(".menu-open-icon");
+  const closeMenu = document.querySelector(".menu-close-icon");
+  const navBar = document.querySelector("nav");
+  const dropDownContainers = document.querySelectorAll("header nav ul li a");
+  const dropDowns = document.querySelectorAll("header nav ul li ul");
+  const dropdownArrows = document.querySelectorAll(".rotate");
 
-openMenu.addEventListener("click", () => { 
-    navBar.style.display = "block"; 
-    closeMenu.style.display = "block";
-    openMenu.style.display = "none"; 
-    
-});
+  // Handles the dropdowns
+  dropDownContainers.forEach((dropDownContainer, index) => {
+    dropDownContainer.addEventListener("click", () => {
+      dropDowns[index].classList.toggle("drop");
 
-closeMenu.addEventListener("click", () => {
+      // handles the dropdown arrows
+      if (dropDowns[index].classList.contains("drop")) {
+        dropdownArrows[index].src = "/images/icon-arrow-down.svg";
+      } else {
+        dropdownArrows[index].src = "/images/icon-arrow-up.svg";
+      }
+    });
+  });
+
+  // Handles the handburger menus and the navbar
+  openMenu.addEventListener("click", () => {
+    navBar.style.display = "block";
+  });
+
+  closeMenu.addEventListener("click", () => {
     navBar.style.display = "none";
-    openMenu.style.display = "block"; 
-    closeMenu.style.display = "none";  
-   
-});
+  });
+})(); 

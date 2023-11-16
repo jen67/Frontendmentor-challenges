@@ -1,137 +1,159 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $almost-White;
+  color: $mediumGray;
+  align-items: center;
+  padding: 1rem;
 
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem 2rem;
-        background-color: $almost-White;
+  .logo {
+    width: 50px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: $almost-White;
+    width: 60%;
+    padding: 4rem 2rem 2rem 2rem;
+    min-height: 100vh;
+    transition: opacity 0.3s ease-in-out;
+    display: none;
+    animation: fadeIn 0.4s ease;
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 40%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: opacity 0.5s ease;
+    }
+
+    .auth {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      font-size: 1rem;
+      align-items: center;
+      justify-content: center;
+      padding-block: 2rem;
+
+      a {
         color: $mediumGray;
-        position: relative;       
 
-        .logo{
-            width: 50px;  
+        &:hover,
+        &:active,
+        &:focus {
+          color: $almostBlack;
+        }
+      }
+
+      button {
+        background-color: $almost-White;
+        border-radius: 8px;
+        width: 100%;
+        outline: none;
+        border: 2px ridge $button-colr;
+        padding: 0.5rem;
+        color: currentColor;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: border-color 0.2s ease, color 0.5s ease;
+        cursor: pointer;
+
+        &:hover {
+          border-color: $almostBlack;
+          color: $almostBlack;
+          box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.7);
         }
 
-        #hide { 
-            display: none;    
-        } 
+        &:active {
+          transform: translateY(2px);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
 
-        nav{ 
-            position: absolute;
-            top: 0;  
-            right: 0;   
-            background-color: $almost-White;
-            width: 60%;  
-            padding: 4rem 2rem 2rem 2rem;     
-            transition: transform 0.3s ease;
-            height: 100vh;
-            
-            .overlay{
-                position: fixed; 
-                top: 0;
-                left: 0;
-                width: 40%;
-                height: 100vh; 
-                background-color: rgba(0, 0, 0, 0.5);
-                transition: transform 0.8s ease;
-                                    
-                
-            }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      font-size: 1rem;
 
-            .auth{
-                display: flex;
-                flex-direction: column;
-                gap: 1rem; 
-                font-size: 1rem;
-                align-items:center; 
-                justify-content: center;
-                padding-block: 2rem;   
-                a{
-                    color: $mediumGray; 
-                }
+      .menu-icon {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
 
-                button{ 
-                    background-color: $almost-White; 
-                    border-radius: 8px;  
-                    width: 100%;        
-                    outline: none; 
-                    border: 2px ridge $button-colr;  
-                    padding: 0.5rem;    
-                    color: currentColor; 
-                    font-weight: 600;  
-                    display: flex; 
-                    flex-direction: row;  
-                    align-items: center; 
-                    justify-content: center;   
-                }  
-            }
-             ul{
-                display: flex; 
-                flex-direction: column; 
-                gap: 1rem;  
-                font-size: 1rem;  
-                li{
-                    img{
-                        margin-left: 0.5rem; 
-                    }
-                    a{
-                        text-decoration: none; 
-                        color: $mediumGray;  
-                    }
+        .menu-close-icon {
+          width: 20px;
+          cursor: pointer;
+        }
+      }
 
-                
-                    ul{
-                        background-color: $almost-White; 
-                        padding-block: 1rem; 
-                        display: flex;
-                        flex-direction: column; 
-                        gap: 1rem; 
-                        display: none;
-                        
-                        
+      li {
+        font-size: 1rem;
 
-                        
-                        li{
-                             font-size: 1rem; 
-
-                             img{
-                                margin-right: 0.5rem; 
-                             }
-
-                        }
-                        
-                    }
-
-                    
-                }
-                
-                
-             } 
-
-            
+        img {
+          margin-left: 0.5rem;
         }
 
-        .menu-icons{
+        a {
+          color: $mediumGray;
+
+          &:hover,
+          &:active,
+          &:focus {
+            color: $almostBlack;
+          }
+        }
+
+        ul {
+          padding: 1rem;
+
+          li {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+            transition: color 0.5s ease;
             cursor: pointer;
-            position: relative; 
-            z-index: 2;
-            transition: all 0.3s ease-out;
 
-            img{
-                width: 20px;     
+            &:hover,
+            &:active,
+            &:focus {
+              color: $almostBlack;
             }
-
-            .menu-close-icon {
-                top: 0;
-                left: 0;
-                     
-            }
-
-            .menu-open-icon{ 
-                top: 0;
-                left: 0;
-            }
+          }
         }
-        
-    } 
 
+        .drop {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .menu-icons {
+    img {
+      width: 20px;
+      cursor: pointer;
+    }
+  }
+}
+ 
