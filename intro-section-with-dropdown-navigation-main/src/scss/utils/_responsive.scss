@@ -1,0 +1,212 @@
+@media (min-width: 768px) {
+    header {
+        padding: 2rem;
+
+        .logo {
+        width: auto;
+        }
+
+        nav {
+        position: static;
+        top: auto;
+        right: auto;
+        background-color: transparent;
+        width: auto;
+        padding: 0;
+        min-height: auto;
+        transition: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        animation: none;
+
+        .overlay {
+            display: none;
+        }
+
+        .auth {
+            display: flex;
+            flex-direction: row;
+            font-size: 1rem;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            padding-block: 0;
+            position: absolute;
+            right: 0;
+
+            button {
+            margin-right: 2rem;
+            }
+        }
+
+        ul {
+            @media (min-width: 768px) {
+    header {
+        padding: 2rem;
+
+        .logo {
+        width: auto;
+        }
+
+        nav {
+        position: static;
+        top: auto;
+        right: auto;
+        background-color: transparent;
+        width: auto;
+        padding: 0;
+        min-height: auto;
+        transition: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        animation: none;
+
+        .overlay {
+            display: none;
+        }
+
+        .auth {
+            display: flex;
+            flex-direction: row;
+            font-size: 1rem;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            padding-block: 0;
+            position: absolute;
+            right: 0;
+
+            button {
+            margin-right: 2rem;
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;  
+            font-size: 1rem;
+            margin-right: 16rem;   
+            position: relative;
+
+            .menu-icon {
+            display: none;
+            }
+
+            li {
+            font-size: 1rem;  
+            padding:0;
+            
+
+            .leftShift {
+             right: 1%;    
+            }
+
+            ul {
+                top: 160%;
+                width: auto;
+                background-color: $almost-White;
+                // position: absolute; 
+                flex-direction: column;
+                border-radius: 9px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .drop {
+                display: none;
+            }
+            }
+        }
+        }
+
+        .menu-icons {
+        img {
+            display: none;
+        }
+        }
+    }
+
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 3rem;
+        padding-right: 3rem;    
+
+        .main-section-texts{
+            text-align:left; 
+            h1{
+                font-size: 3.8rem;        
+            }
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        
+    }
+}
+ 
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;  
+            font-size: 1rem;
+            // margin-right: 16rem;   
+            position: relative;
+
+            .menu-icon {
+            display: none;
+            }
+
+            li {
+            font-size: 1rem;  
+            padding:0;
+            
+
+            .leftShift {
+             right: 1%;    
+            }
+
+            ul {
+                top: 160%;
+                width: auto;
+                background-color: $almost-White;
+                flex-direction: column;
+                border-radius: 9px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            // .drop {
+            //     display: none;
+            // } 
+            }
+        }
+        }
+
+        .menu-icons {
+        img {
+            display: none;
+        }
+        }
+    }
+
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 3rem;
+        padding-right: 3rem;    
+
+        .main-section-texts{
+            text-align:left; 
+            h1{
+                font-size: 3.8rem;        
+            }
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        
+    }
+}

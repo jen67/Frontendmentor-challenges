@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: hsl(0, 0%, 98%);
+  position: relative;
 }
 
 h1 {
@@ -35,27 +36,35 @@ a {
 
 header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
   background-color: hsl(0, 0%, 98%);
   color: hsl(0, 0%, 41%);
-  position: relative;
+  align-items: center;
+  padding: 1rem;
 }
 header .logo {
   width: 50px;
 }
-header #hide {
-  display: none;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 header nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   background-color: hsl(0, 0%, 98%);
   width: 60%;
   padding: 4rem 2rem 2rem 2rem;
-  transition: transform 0.3s ease;
+  min-height: 100vh;
+  transition: opacity 0.3s ease-in-out;
+  display: none;
+  animation: fadeIn 0.4s ease;
 }
 header nav .overlay {
   position: fixed;
@@ -64,7 +73,7 @@ header nav .overlay {
   width: 40%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
-  transition: transform 0.8s ease;
+  transition: opacity 0.5s ease;
 }
 header nav .auth {
   display: flex;
@@ -77,6 +86,9 @@ header nav .auth {
 }
 header nav .auth a {
   color: hsl(0, 0%, 41%);
+}
+header nav .auth a:hover, header nav .auth a:active, header nav .auth a:focus {
+  color: hsl(0, 0%, 8%);
 }
 header nav .auth button {
   background-color: hsl(0, 0%, 98%);
@@ -91,6 +103,17 @@ header nav .auth button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  transition: border-color 0.2s ease, color 0.5s ease;
+  cursor: pointer;
+}
+header nav .auth button:hover {
+  border-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.7);
+}
+header nav .auth button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 header nav ul {
   display: flex;
@@ -98,43 +121,282 @@ header nav ul {
   gap: 1rem;
   font-size: 1rem;
 }
+header nav ul .menu-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+header nav ul .menu-icon .menu-close-icon {
+  width: 20px;
+  cursor: pointer;
+}
+header nav ul li {
+  font-size: 1rem;
+}
 header nav ul li img {
   margin-left: 0.5rem;
 }
 header nav ul li a {
-  text-decoration: none;
   color: hsl(0, 0%, 41%);
 }
+header nav ul li a:hover, header nav ul li a:active, header nav ul li a:focus {
+  color: hsl(0, 0%, 8%);
+}
 header nav ul li ul {
-  background-color: hsl(0, 0%, 98%);
-  padding-block: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  display: none;
+  padding: 1rem;
 }
 header nav ul li ul li {
-  font-size: 1rem;
-}
-header nav ul li ul li img {
-  margin-right: 0.5rem;
-}
-header .menu-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  transition: color 0.5s ease;
   cursor: pointer;
-  position: relative;
-  z-index: 2;
-  transition: all 0.3s ease-out;
+}
+header nav ul li ul li:hover, header nav ul li ul li:active, header nav ul li ul li:focus {
+  color: hsl(0, 0%, 8%);
+}
+header nav ul li .drop {
+  display: none;
 }
 header .menu-icons img {
   width: 20px;
+  cursor: pointer;
 }
-header .menu-icons .menu-close-icon {
-  top: 0;
-  left: 0;
+
+main {
+  padding-block: 1rem;
 }
-header .menu-icons .menu-open-icon {
-  top: 0;
-  left: 0;
+main .main-section-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+main .main-section-texts h1 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+main .main-section-texts p {
+  font-size: 0.97rem;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+main .main-section-texts button {
+  width: 120px;
+  font-size: 1rem;
+  padding: 0.7rem;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+main .main-section-texts .social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2rem 1rem 0.5rem;
+}
+main .main-section-texts .social-links img {
+  width: 60px;
+  display: block;
+}
+
+footer .attribution {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+footer .attribution a {
+  color: hsl(0, 0%, 8%);
+  text-decoration: none;
+}
+footer .attribution a:hover {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 2rem;
+  }
+  header .logo {
+    width: auto;
+  }
+  header nav {
+    position: static;
+    top: auto;
+    right: auto;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+    min-height: auto;
+    transition: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: none;
+  }
+  header nav .overlay {
+    display: none;
+  }
+  header nav .auth {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-block: 0;
+    position: absolute;
+    right: 0;
+  }
+  header nav .auth button {
+    margin-right: 2rem;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1rem;
+    position: relative;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  header nav ul header {
+    padding: 2rem;
+  }
+  header nav ul header .logo {
+    width: auto;
+  }
+  header nav ul header nav {
+    position: static;
+    top: auto;
+    right: auto;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+    min-height: auto;
+    transition: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: none;
+  }
+  header nav ul header nav .overlay {
+    display: none;
+  }
+  header nav ul header nav .auth {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-block: 0;
+    position: absolute;
+    right: 0;
+  }
+  header nav ul header nav .auth button {
+    margin-right: 2rem;
+  }
+  header nav ul header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1rem;
+    margin-right: 16rem;
+    position: relative;
+  }
+  header nav ul header nav ul .menu-icon {
+    display: none;
+  }
+  header nav ul header nav ul li {
+    font-size: 1rem;
+    padding: 0;
+  }
+  header nav ul header nav ul li .leftShift {
+    right: 1%;
+  }
+  header nav ul header nav ul li ul {
+    top: 160%;
+    width: auto;
+    background-color: hsl(0, 0%, 98%);
+    flex-direction: column;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  header nav ul header nav ul li .drop {
+    display: none;
+  }
+  header nav ul header .menu-icons img {
+    display: none;
+  }
+  header nav ul main {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  header nav ul main .main-section-texts {
+    text-align: left;
+  }
+  header nav ul main .main-section-texts h1 {
+    font-size: 3.8rem;
+  }
+  header nav ul main .main-section-texts p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  header nav ul .menu-icon {
+    display: none;
+  }
+  header nav ul li {
+    font-size: 1rem;
+    padding: 0;
+  }
+  header nav ul li .leftShift {
+    right: 1%;
+  }
+  header nav ul li ul {
+    top: 160%;
+    width: auto;
+    background-color: hsl(0, 0%, 98%);
+    flex-direction: column;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  header .menu-icons img {
+    display: none;
+  }
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  main .main-section-texts {
+    text-align: left;
+  }
+  main .main-section-texts h1 {
+    font-size: 3.8rem;
+  }
+  main .main-section-texts p {
+    font-size: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
