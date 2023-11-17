@@ -257,13 +257,13 @@
       ul {
         gap: 3rem;
         font-size: 1rem;
-        margin-right: 48rem;
+        margin-right: 53rem;   
 
         li {
           font-size: 1rem;
 
           .leftShift {
-            right: 30%;
+            right: 27%;        
           }
 
           ul {
@@ -276,8 +276,8 @@
 
   main {
     gap: 5rem;
-    // padding-left: 7rem;
-    // padding-right: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;  
 
     .main-section-texts {
       h1 {
@@ -308,7 +308,7 @@
     picture {
       img {
         width: 100%;
-        height: 100%;
+        height: 690px;   
       }
     }
   }
@@ -320,3 +320,21 @@
     }
   }
 }
+
+@media screen and (width: 1440px) {
+  header{
+    nav{
+      ul{
+        margin-right: 47rem; 
+        
+        li{
+          .leftShift{
+            right: 28%;  
+          }
+        }
+      }
+    }
+  }
+  
+}
+
