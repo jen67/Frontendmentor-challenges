@@ -2,10 +2,12 @@
 
 ## Table of Contents
 
+- [This repository contains some of the tasks I have completed on Frontendmentor.io platform](#this-repository-contains-some-of-the-tasks-i-have-completed-on-frontendmentorio-platform)
+  - [Table of Contents](#table-of-contents)
   - [Interactive-rating-component](#interactive-rating-component)
   - [Tip-calculator](#tip-calculator)
   - [fylo-landing-page](#fylo-landing-page)
-  - [Drop-down-navigation](#drop-down-navigation 
+  - [Drop-down-navigation](#drop-down-navigation)
 
 ## Interactive-rating-component
 
