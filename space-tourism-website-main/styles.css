@@ -58,6 +58,8 @@ picture {
 
 /* Body set up */
 body {
+  font-family: var(--ff-sans-normal);
+  font-size: var(--fs-400);
   min-height: 100vh;
   line-height: 1.5;
 }
@@ -159,3 +161,10 @@ button {
 .fs-300 { font-size: var(--fs-300); }
 .fs-200 { font-size: var(--fs-200); }
 
+/* heading font line heights */
+.fs-900,
+.fs-800,
+.fs-700,
+.fs-600 {
+    line-height: 1.1;
+}
