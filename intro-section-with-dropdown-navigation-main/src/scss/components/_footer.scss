@@ -3,16 +3,18 @@ footer{
             font-size:0.8rem;  
             line-height: 1.2rem;    
             text-align: center;
-            padding: 1rem  2rem;          
+            padding: 1rem  2rem; 
+            color: $mediumGray;          
         }
 
 
         .attribution a {
-            color: $almostBlack;  
+            color: $mediumGray;   
             text-decoration: none;
         }
      
         .attribution a:hover {
-            color: $footer-links; 
+            color: $footer-links;
+            font-weight: 700;  
         }
 }
