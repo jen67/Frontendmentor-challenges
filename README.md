@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Interactive-rating-component](#interactive-rating-component)
   - [Tip-calculator](#tip-calculator)
+  - [Drop-down-navigation](#drop-down-navigation)
 
 ## Interactive-rating-component
 
@@ -18,3 +19,9 @@
 <img src="./tip-calculator-app-main/design/desktop-design-completed.jpg" alt="Tasks" width="300">
 
 - Live Site URL: [live view](https://tip-calculator-theta-drab.vercel.app/)
+
+## Drop-down-navigation
+
+<img src="./intro-section-with-dropdown-navigation-main/design/My-desktop-design.png" alt="Tasks" width="300">
+
+- Live Site URL: [live view](https://dropdown-nav-three.vercel.app/)
