@@ -57,3 +57,38 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+
+/* --------------------- */
+/* Ultility                 */
+/* --------------------- */
+
+.flex{
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+   gap: var(--gap, 1rem);
+}
+
+.container {
+    padding-inline: 2em; /* adds padding to the left and right only */
+    max-width: 80rem;
+    margin-inline: auto; /* center the container */ 
+}
+
+
+/* screen-reader only settings */
+.sr-only { 
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin: -1px;
+}
