@@ -346,6 +346,67 @@ footer .attribution a:hover {
     font-size: 0.8rem;
   }
 }
+@media screen and (min-width: 912px) {
+  header nav ul {
+    gap: 2rem;
+    margin-right: 20rem;
+  }
+  header nav ul li .leftShift {
+    right: 39%;
+  }
+  main {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header nav ul {
+    margin-right: 25rem;
+  }
+  header nav ul li .leftShift {
+    right: 35%;
+  }
+  main .main-section-texts h1 {
+    font-size: 2.78rem;
+  }
+  main .main-section-texts p {
+    font-size: 1rem;
+  }
+  main .main-section-texts button {
+    margin-right: 16rem;
+  }
+  main picture img {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header nav ul {
+    margin-right: 39rem;
+  }
+  header nav ul li .leftShift {
+    right: 30%;
+  }
+  main {
+    gap: 5rem;
+  }
+  main .main-section-texts h1 {
+    font-size: 4.2rem;
+  }
+  main .main-section-texts p {
+    font-size: 1.3rem;
+  }
+  main .main-section-texts button {
+    margin-right: 26rem;
+  }
+  main .main-section-texts .social-links img {
+    width: 100px;
+  }
+  main picture img {
+    width: 100%;
+    height: 500px;
+  }
+}
 @media (min-width: 1289px) {
   header nav .auth {
     font-size: 1rem;
@@ -370,8 +431,6 @@ footer .attribution a:hover {
   }
   main {
     gap: 5rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
   }
   main .main-section-texts h1 {
     margin-right: 7.5rem;
@@ -393,6 +452,10 @@ footer .attribution a:hover {
   }
   main .main-section-texts .social-links img {
     width: 100px;
+  }
+  main picture img {
+    width: 100%;
+    height: 100%;
   }
   footer .attribution {
     margin: 2rem;
