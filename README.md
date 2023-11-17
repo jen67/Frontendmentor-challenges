@@ -29,6 +29,6 @@
 
 ## Drop-down-navigation
 
-<img src="./intro-section-with-dropdown-navigation-main/design/My-desktop-design.png" alt="Tasks" width="300">
+<img src="./intro-section-with-dropdown-navigation-main/design/My-desktop-design.png" alt="Tasks" width="500"> 
 
 - Live Site URL: [live view](https://dropdown-nav-three.vercel.app/)
