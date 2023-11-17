@@ -43,6 +43,10 @@
         }
       }
 
+      .menu-icon {
+          display: none;
+        } 
+
       ul {
         display: flex;
         flex-direction: row;
@@ -50,9 +54,6 @@
         font-size: 0.9rem;
         margin-right: 13rem;
 
-        .menu-icon {
-          display: none;
-        }
 
         li {
           font-size: 0.9rem;
@@ -191,7 +192,8 @@
     picture {
       img {
         width: 100%;
-        height: 400px;
+        height: auto; 
+        max-height: 400px;
       }
     }
   }
@@ -236,7 +238,8 @@
     picture {
       img {
         width: 100%;
-        height: 500px;
+        height: auto; 
+        max-height: 500px;
       }
     }
   }
@@ -308,7 +311,8 @@
     picture {
       img {
         width: 100%;
-        height: 690px;   
+        height: auto;
+        max-height: 690px;   
       }
     }
   }
@@ -332,3 +336,4 @@
   
 }
 
+ 
