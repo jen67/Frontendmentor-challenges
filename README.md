@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Interactive-rating-component](#interactive-rating-component)
   - [Tip-calculator](#tip-calculator)
+  - [fylo-landing-page](#fylo-landing-page)
   - [Drop-down-navigation](#drop-down-navigation)
 
 ## Interactive-rating-component
@@ -19,6 +20,12 @@
 <img src="./tip-calculator-app-main/design/desktop-design-completed.jpg" alt="Tasks" width="300">
 
 - Live Site URL: [live view](https://tip-calculator-theta-drab.vercel.app/)
+
+## fylo-landing-page
+
+<img src="./fylo-landing-page/design/desktop-design.jpg" alt="Tasks" width="300">
+
+- Live Site URL: [live view](https://fylo-landing-page-lime-theta.vercel.app/)
 
 ## Drop-down-navigation
 
