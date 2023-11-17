@@ -14,3 +14,23 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+.vscode/
+# Node modules
+node_modules/
+# Ignore npm debug log
+npm-debug.log*
+
+coverage/
+*.cache
+
+# Ignore yarn integrity file
+.yarn-integrity
+
+# Local configuration
+config/local.json
+
+# Ignore Sass cache
+.sass-cache/
+
+# Ignore compiled JavaScript
+*.map
