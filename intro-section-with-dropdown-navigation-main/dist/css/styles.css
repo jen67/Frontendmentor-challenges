@@ -122,14 +122,12 @@ header nav ul {
   gap: 1rem;
   font-size: 1rem;
 }
-header nav ul .menu-icon {
+header nav ul .menu-close-icon {
+  width: 20px;
+  cursor: pointer;
   position: absolute;
   top: 1rem;
   right: 1rem;
-}
-header nav ul .menu-icon .menu-close-icon {
-  width: 20px;
-  cursor: pointer;
 }
 header nav ul li {
   font-size: 1rem;
