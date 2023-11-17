@@ -1,0 +1,59 @@
+/* --------------------- */
+/* Reset                 */
+/* --------------------- */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body set up */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* reset for images */
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+/* Reset for form elements */
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+/* animation preferences reset */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
