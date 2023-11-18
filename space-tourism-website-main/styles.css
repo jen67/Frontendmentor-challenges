@@ -233,6 +233,7 @@ button {
 
 .primary-navigation{
   --gap: 8rem;
+  --underline-gap: 2rem; 
   list-style: none;
   padding: 0;
   margin: 0;
@@ -248,6 +249,49 @@ button {
 }
 
 .underline-indicators > *{
-  padding: 1em 0;
- border-bottom: .2rem solid hsl( var(--clr-white));
+  padding: var(--underline-gap, 1rem) 0;
+  border: 0;
+  cursor: pointer;
+ border-bottom: .2rem solid hsl( var(--clr-white) / 0);
+}
+
+.underline-indicators > *:hover,
+.underline-indicators > *:focus{
+  border-color: hsl( var(--clr-white) / .5);
+
+}
+
+.underline-indicators > .active,
+.underline-indicators > [aria-selected="true"]{
+  color: hsl( var(--clr-white) / 1);
+  border-color: hsl( var(--clr-white) / 1);
+}
+
+.tab-list{
+  --gap: 2.5rem;
+}
+
+.dot-indicators > * {
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  padding: .5em;
+  background: hsl( var(--clr-white) / .25);
+}
+
+.dot-indicators > *:hover,
+.dot-indicators > *:focus{
+  background: hsl( var(--clr-white) / .5);
+}
+
+.dot-indicators > [aria-selected="true"]{
+  background-color: hsl( var(--clr-white) / 1);
+}
+
+.number-indicators > * { 
+  cursor: pointer;
+  aspect-ratio: 1;
+  padding: 0;    
+  border-radius: 50%;  
 }
