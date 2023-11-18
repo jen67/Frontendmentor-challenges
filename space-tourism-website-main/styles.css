@@ -121,9 +121,8 @@ button {
    gap: var(--gap, 1rem);
 }
 
-.flow > * + * {
-  margin-top:1rem;
-  outline: 1px solid red;
+.flow > *:where(:not(:first-child)) {
+  margin-top: var(--flow-space, 1rem); 
 }
 
 .container {
@@ -197,4 +196,58 @@ button {
   margin-right: .5em;
   font-weight: 700;
   color: hsl(var(--clr-white) / .25);
+}
+
+/* ------------------- */
+/* Components   */
+/* ------------------- */
+
+.large-button{
+  position: relative;
+  display: grid;
+  z-index: 1;
+  place-items: center;
+  padding: 0 2em;
+  border-radius: 50%;
+  text-decoration: none; 
+  aspect-ratio: 1;
+}
+
+.large-button::after{
+  content: "";
+  position:absolute;
+  z-index: -1; 
+  width: 100%;  
+  height: 100%;
+  background: hsl(var(--clr-white) / .15); 
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 500ms linear, transform 750ms ease-in-out;  
+}
+
+.large-button:hover::after,
+.large-button:focus::after{
+  transform: scale(1.5); 
+  opacity: 1;
+}
+
+.primary-navigation{
+  --gap: 8rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.primary-navigation a{
+  text-decoration: none;
+}
+
+.primary-navigation a > span {
+  font-weight: 700;
+  margin-right: .5em; 
+}
+
+.underline-indicators > *{
+  padding: 1em 0;
+ border-bottom: .2rem solid hsl( var(--clr-white));
 }
