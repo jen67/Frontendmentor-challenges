@@ -204,7 +204,7 @@ button {
 
 .large-button{
   position: relative;
-  display: grid;
+  display: inline-grid; 
   z-index: 1;
   place-items: center;
   padding: 0 2em;
