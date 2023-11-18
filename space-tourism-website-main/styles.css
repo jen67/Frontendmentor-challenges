@@ -56,8 +56,20 @@ picture {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p { 
+  font-weight: 400; 
+}
+
 /* Body set up */
 body {
+  color: hsl( var(--clr-white)); 
+  background: hsl( var(--clr-dark)); 
   font-family: var(--ff-sans-normal);
   font-size: var(--fs-400);
   min-height: 100vh;
@@ -107,6 +119,11 @@ button {
 .grid {
     display: grid;
    gap: var(--gap, 1rem);
+}
+
+.flow > * + * {
+  margin-top:1rem;
+  outline: 1px solid red;
 }
 
 .container {
@@ -167,4 +184,17 @@ button {
 .fs-700,
 .fs-600 {
     line-height: 1.1;
+}
+
+.numbered-title{
+  font-family: var(--ff-sans-cond);
+  font-size: var(--fs-500);
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+}
+
+.numbered-title span{
+  margin-right: .5em;
+  font-weight: 700;
+  color: hsl(var(--clr-white) / .25);
 }
