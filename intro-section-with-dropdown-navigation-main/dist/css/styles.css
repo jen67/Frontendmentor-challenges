@@ -157,6 +157,13 @@ header nav ul li ul li:hover, header nav ul li ul li:active, header nav ul li ul
 header nav ul li .drop {
   display: none;
 }
+header nav ul .dropdown-container:hover .drop {
+  display: flex;
+  pointer-events: auto;
+}
+header nav ul .dropdown-container:hover .changeImg {
+  content: url("/images/icon-arrow-up.svg");
+}
 header .menu-icons img {
   width: 20px;
   cursor: pointer;
@@ -233,10 +240,10 @@ footer .attribution a:hover {
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   header {
     padding: 2rem;
-    position: relative;
+    justify-content: flex-start;
   }
   header .logo {
     width: auto;
@@ -253,8 +260,8 @@ footer .attribution a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     animation: none;
+    margin-left: 2rem;
   }
   header nav .overlay {
     display: none;
@@ -280,19 +287,18 @@ footer .attribution a:hover {
   header nav ul {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
     font-size: 0.9rem;
-    margin-right: 13rem;
+    position: relative;
   }
   header nav ul li {
     font-size: 0.9rem;
     padding: 0;
   }
   header nav ul li .leftShift {
-    right: 40%;
+    left: -10%;
   }
   header nav ul li ul {
-    top: 80%;
+    top: 100%;
     width: auto;
     background-color: hsl(0, 0%, 98%);
     position: absolute;
@@ -300,9 +306,6 @@ footer .attribution a:hover {
     gap: 0.5rem;
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-  }
-  header nav ul li .drop {
-    display: none;
   }
   header .menu-icons img {
     display: none;
@@ -314,32 +317,30 @@ footer .attribution a:hover {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  main .picture-wrapper, main .main-section-texts {
+    width: 50%;
+  }
   main .main-section-texts {
     text-align: left;
     justify-content: flex-start;
     text-align: left;
-    flex: 1;
   }
   main .main-section-texts h1 {
-    margin-right: 5rem;
     margin-top: 6rem;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
   }
   main .main-section-texts p {
     font-size: 0.8rem;
     padding: 1.5rem 0;
   }
   main .main-section-texts button {
-    margin-right: 14rem;
-    width: 120px;
-    padding: 0.7rem;
-    font-size: 0.9rem;
+    align-self: flex-start;
+  }
+  main .main-section-texts .social-links {
+    padding: 4rem 0 0 0;
   }
   main .main-section-texts .social-links img {
     width: 60px;
-  }
-  main picture {
-    flex: 1;
   }
   footer .attribution {
     margin: 1rem;
@@ -349,10 +350,6 @@ footer .attribution a:hover {
 @media screen and (min-width: 912px) {
   header nav ul {
     gap: 2rem;
-    margin-right: 20rem;
-  }
-  header nav ul li .leftShift {
-    right: 39%;
   }
   main {
     margin-right: 4rem;
@@ -360,39 +357,24 @@ footer .attribution a:hover {
   }
 }
 @media screen and (min-width: 1024px) {
-  header nav ul {
-    margin-right: 25rem;
-  }
-  header nav ul li .leftShift {
-    right: 35%;
-  }
   main .main-section-texts h1 {
-    font-size: 2.78rem;
+    font-size: 3.5rem;
   }
   main .main-section-texts p {
     font-size: 1rem;
   }
-  main .main-section-texts button {
-    margin-right: 16rem;
-  }
-  main picture img {
+  main .picture-wrapper picture img {
     width: 100%;
     height: auto;
-    max-height: 400px;
+    max-height: 450px;
   }
 }
 @media screen and (min-width: 1280px) {
-  header nav ul {
-    margin-right: 39rem;
-  }
-  header nav ul li .leftShift {
-    right: 30%;
-  }
   main {
     gap: 5rem;
   }
   main .main-section-texts h1 {
-    font-size: 4.2rem;
+    font-size: 4.8rem;
   }
   main .main-section-texts p {
     font-size: 1.3rem;
@@ -403,10 +385,10 @@ footer .attribution a:hover {
   main .main-section-texts .social-links img {
     width: 100px;
   }
-  main picture img {
+  main .picture-wrapper picture img {
     width: 100%;
     height: auto;
-    max-height: 500px;
+    max-height: 550px;
   }
 }
 @media (min-width: 1289px) {
@@ -420,13 +402,9 @@ footer .attribution a:hover {
   header nav ul {
     gap: 3rem;
     font-size: 1rem;
-    margin-right: 53rem;
   }
   header nav ul li {
     font-size: 1rem;
-  }
-  header nav ul li .leftShift {
-    right: 27%;
   }
   header nav ul li ul {
     gap: 1rem;
@@ -437,38 +415,34 @@ footer .attribution a:hover {
     padding-right: 5rem;
   }
   main .main-section-texts h1 {
-    margin-right: 7.5rem;
     margin-top: 7.5rem;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
   }
   main .main-section-texts p {
     font-size: 1.5rem;
     padding: 3rem 0 3rem 0;
   }
   main .main-section-texts button {
-    margin-right: 26rem;
     width: 180px;
     padding: 1rem;
     font-size: 1.3rem;
   }
   main .main-section-texts .social-links {
-    margin-top: 6rem;
+    margin-top: 0;
+    padding-top: 5rem;
   }
   main .main-section-texts .social-links img {
     width: 100px;
   }
-  main picture img {
+  main .picture-wrapper picture img {
     width: 100%;
     height: auto;
-    max-height: 690px;
+    max-height: 700px;
   }
 }
 @media screen and (width: 1440px) {
-  header nav ul {
-    margin-right: 47rem;
-  }
-  header nav ul li .leftShift {
-    right: 28%;
+  main .main-section-texts h1 {
+    font-size: 5.2rem;
   }
 }
 

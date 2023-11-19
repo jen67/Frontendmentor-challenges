@@ -90,19 +90,18 @@ header {
       }
     }
 
-     .menu-close-icon {
-          width: 20px;  
-          cursor: pointer;
-          position: absolute;
-          top: 1rem;
-          right: 1rem;
-        } 
+    .menu-close-icon {
+      width: 20px;
+      cursor: pointer;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
     ul {
       display: flex;
       flex-direction: column;
       gap: 1rem;
       font-size: 1rem;
-    
 
       li {
         font-size: 1rem;
@@ -143,7 +142,19 @@ header {
           display: none;
         }
       }
+
+
+      .dropdown-container:hover .drop {
+      display: flex;
+      pointer-events: auto;
     }
+
+    .dropdown-container:hover .changeImg {
+      content: url("./images/icon-arrow-up.svg");
+    }   
+    }   
+
+    
   }
 
   .menu-icons {
@@ -153,4 +164,4 @@ header {
     }
   }
 }
- 
+   
