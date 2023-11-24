@@ -36,7 +36,7 @@ body{
     justify-self: center;  
     min-height:100vh ;
     background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue)); 
-    padding: 2rem 0.9rem;   
+    padding: 2rem 1rem;    
 }
 main{
     margin: 2rem auto;
@@ -76,7 +76,7 @@ img{
 }
 
 .card{
-    padding: 2rem 0.8rem; 
+    padding: 2rem 1rem;  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,7 @@ img{
 }
 
 h2{
-    font-size: 0.8rem; 
+    font-size: 0.9rem;  
     color: var(--Dark-grayish-blue); 
     padding-block: 1rem;  
     display: flex; 
@@ -105,18 +105,26 @@ p{
     display:none;     
 }
 
-.card-body-item h2:hover span img,
-.card-body-item h2:focus span img,
-.card-body-item h2:active span img {
+.card-body-item img.rotated {
   transform: rotate(180deg);
   transition: transform 0.3s ease-in-out;
-} 
+}
 
-.card-body-item h2:hover,
+.card-body-item p.visible {
+  display: block;
+  transition: display 0.3s ease-in-out;
+}
+
+/* .card-body-item h2:hover span img {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+ .card-body-item h2:hover,
 .card-body-item h2:focus {
-  color: var(--Very-dark-desaturated-blue);
+  color: var(--Soft-red);
   transition: color 0.3s ease-in-out;
-} 
+}   */
 
 
 
