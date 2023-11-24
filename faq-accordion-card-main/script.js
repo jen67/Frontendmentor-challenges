@@ -5,6 +5,15 @@
 
   hoverTexts.forEach((text, index) => {
     text.addEventListener("click", () => {
+
+      hiddenTexts.forEach((paragraph, i) => {
+        if (i !== index) {
+          paragraph.classList.remove("visible");
+          rotateImgs[i].classList.remove("rotated");
+          hoverTexts[i].classList.remove("clicked");
+        }
+      }); 
+
       rotateImgs[index].classList.toggle("rotated");
       hiddenTexts[index].classList.toggle("visible");
       hoverTexts[index].classList.toggle("clicked");
