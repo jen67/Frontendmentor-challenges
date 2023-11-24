@@ -58,11 +58,12 @@ img{
     border-radius: 10px; 
 }
 
-.shadow-img{
-    position: relative; 
-}
 .bg-paterns img{
     width: 200px;    
+}
+
+.shadow-img{
+    position: relative; 
 }
 
 .mock-up{
@@ -71,6 +72,22 @@ img{
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; 
+
+}
+
+.card{
+    padding: 2rem 1rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+    margin-bottom: 1rem; 
 
 }
 
