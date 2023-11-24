@@ -35,7 +35,7 @@ body{
     align-items: center;
     justify-self: center;  
     min-height:100vh ;
-    background-image: linear-gradient(to bottom, var(--Soft-violet) 50%, var(--Soft-blue) 100%);
+    background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue)); 
     padding: 2rem 0.9rem;   
 }
 main{
@@ -95,23 +95,29 @@ h2{
     align-items: center;
     justify-content: space-between;
     cursor: pointer; 
+    gap: 1rem; 
 }
 
 p{   
     font-size: var(--fs);   
     padding-bottom: 1rem;
-    color: var(--Dark-grayish-blue);    
+    color: var(--Dark-grayish-blue);  
+    display:none;     
 }
 
-.card-body-item h2:hover span img {
+.card-body-item h2:hover span img,
+.card-body-item h2:focus span img,
+.card-body-item h2:active span img {
   transform: rotate(180deg);
   transition: transform 0.3s ease-in-out;
 } 
 
-.card-body-item h2:hover {
-  color:var(--Very-dark-desaturated-blue);  
+.card-body-item h2:hover,
+.card-body-item h2:focus {
+  color: var(--Very-dark-desaturated-blue);
   transition: color 0.3s ease-in-out;
-}
+} 
+
 
 
 .attribution { 
