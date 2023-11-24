@@ -38,6 +38,17 @@ body{
     background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue)); 
 }
 
+img{
+    max-width: 100%;
+    display: block; 
+}
+
+.container{
+    background-color: var(--Light-grayish-blue);
+    max-width: 500px; 
+    width: 90%;  
+}
+
 
 .attribution { 
     font-size: 11px; 
