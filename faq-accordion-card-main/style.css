@@ -56,9 +56,11 @@ img{
     align-items: center;
     justify-content: center; 
     border-radius: 10px; 
+    max-width: 400px;           
 }
 
 .bg-paterns img{
+    max-width: 310px; 
     width: 210px;    
 }
 
@@ -102,7 +104,7 @@ p{
     font-size: var(--fs);   
     padding-bottom: 1rem;
     color: var(--Dark-grayish-blue); 
-    display: none;      
+    display: none;       
 }
 
 .card-body-item img.rotated {
