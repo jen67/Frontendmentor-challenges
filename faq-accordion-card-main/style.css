@@ -101,8 +101,8 @@ h2{
 p{   
     font-size: var(--fs);   
     padding-bottom: 1rem;
-    color: var(--Dark-grayish-blue);  
-    display:none;     
+    color: var(--Dark-grayish-blue); 
+    display: none;      
 }
 
 .card-body-item img.rotated {
@@ -111,20 +111,25 @@ p{
 }
 
 .card-body-item p.visible {
-  display: block;
+  display: block; 
   transition: display 0.3s ease-in-out;
+}
+
+.card-body-item h2.clicked{
+    color:var(--Very-dark-desaturated-blue);  
+
 }
 
 /* .card-body-item h2:hover span img {
   transform: rotate(180deg);
   transition: transform 0.3s ease-in-out;
-}
+}*/
 
  .card-body-item h2:hover,
 .card-body-item h2:focus {
   color: var(--Soft-red);
   transition: color 0.3s ease-in-out;
-}   */
+}   
 
 
 
