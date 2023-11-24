@@ -33,14 +33,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: center;
+    justify-self: center;  
     min-height:100vh ;
-    background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue)); 
-    padding: 2rem; 
+    background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue));
+    padding: 2rem 0.9rem;   
 }
 main{
-    margin: 2rem auto;  
-    max-width: 500px;
+    margin: 2rem auto;
+    width: 100%;   
 
 }
 
@@ -50,7 +50,7 @@ img{
 }
 
 .container{
-    background-color: var(--Light-grayish-blue); 
+    background-color: white;  
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -59,7 +59,7 @@ img{
 }
 
 .bg-paterns img{
-    width: 200px;    
+    width: 210px;    
 }
 
 .shadow-img{
@@ -68,7 +68,7 @@ img{
 
 .mock-up{
     position: absolute;
-    bottom: 160px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; 
@@ -76,7 +76,7 @@ img{
 }
 
 .card{
-    padding: 2rem 1rem; 
+    padding: 2rem 0.8rem; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,11 +84,20 @@ img{
 }
 
 h2{
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--Very-dark-desaturated-blue);
-    margin-bottom: 1rem; 
+    font-size: 0.8rem; 
+    color: var(--Dark-grayish-blue); 
+    padding-block: 1rem;  
+    border-bottom: 1.5px solid var(--Light-grayish-blue);
 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{   
+    font-size: var(--fs);   
+    padding-block: 1rem;
+    color: var(--Dark-grayish-blue);    
 }
 
 
