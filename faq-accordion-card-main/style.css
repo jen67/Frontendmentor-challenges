@@ -146,15 +146,6 @@ p{
 }
 
 @media screen and (min-width: 768px){
-
-    
-    .desktop-images{
-    display: block;  
-     }
-
-     
-
-
     .container{ 
         flex-direction: row; 
         width: 700px;   
@@ -162,8 +153,12 @@ p{
         padding: 2rem;   
     }
 
-    img.mock-up{
-         display:none; 
+    .shadow-img{
+        display: none; 
+    }
+
+    .mock-up{
+        display: none;  
     }
 
     .bg-paterns, .card{
