@@ -164,6 +164,10 @@ p{
     .bg-paterns, .card{
         width: 50%; 
     }
+
+    .card{
+        align-items: flex-start; 
+    }
     
 
 }
