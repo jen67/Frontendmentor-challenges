@@ -146,6 +146,9 @@ p{
 }
 
 @media screen and (min-width: 768px){
+    .desktop-images{
+    display: block;  
+}
 
     .container{ 
         flex-direction: row; 
