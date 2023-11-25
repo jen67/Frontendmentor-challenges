@@ -35,7 +35,8 @@ body{
     align-items: center;
     justify-self: center;  
     min-height:100vh ;
-    background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue)); 
+    background: var(--Soft-blue);  
+  background: linear-gradient(0deg, var(--Soft-blue) 0%, var(--Soft-violet) 100%) no-repeat center center fixed;
     padding: 2rem 1rem;    
 }
 main{
