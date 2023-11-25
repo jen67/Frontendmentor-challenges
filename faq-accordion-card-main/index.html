@@ -23,8 +23,16 @@
   <body>
     <div class="container">
       <div class="bg-paterns">
-        <img src="./images/bg-pattern-mobile.svg" alt="background-cover image" class="shadow-img">
-        <img src="./images/illustration-woman-online-mobile.svg" alt="background mock-up image" class="mock-up">
+        <picture>
+          <source srcset="./images/illustration-box-desktop.svg" media="(min-width: 768px)"> 
+          <img src="./images/bg-pattern-mobile.svg" alt="background-cover image" class="shadow-img">
+          <img src="./images/illustration-woman-online-mobile.svg" alt="background mock-up image" class="mock-up">
+        </picture>
+
+        <div class="desktop-images">
+          <img src="./images/bg-pattern-desktop.svg" alt="desktop pattern image">
+          <img src="./images/illustration-woman-online-desktop.svg" alt="illustration woman image"> 
+        </div>
       </div>
       <div class="card"> 
         <div class="card-header">
