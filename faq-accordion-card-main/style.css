@@ -49,6 +49,10 @@ img{
     display: block; 
 }
 
+.desktop-images{
+    display: none; 
+}
+
 .container{
     background-color: white;  
     display: flex; 
