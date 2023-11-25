@@ -153,6 +153,10 @@ p{
         padding: 2rem;   
     }
 
+    .bg-paterns{
+        background-image: url(/images/bg-pattern-desktop.svg), url(/images/illustration-box-desktop.svg), url(/images/illustration-woman-online-desktop.svg);  
+    }
+
     .shadow-img{
         display: none; 
     }
