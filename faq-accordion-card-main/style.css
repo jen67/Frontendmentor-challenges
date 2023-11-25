@@ -150,7 +150,12 @@ p{
     
     .desktop-images{
     display: block;  
-}
+     }
+
+     .img-pattern{
+        width: 400px; 
+     }
+
 
     .container{ 
         flex-direction: row; 
