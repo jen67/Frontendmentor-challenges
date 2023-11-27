@@ -172,6 +172,10 @@ p{
         width: 50%; 
     }
 
+    .bg-paterns{
+        background-image: url('../images/bg-pattern-desktop.svg'); 
+    }
+
     .card{
         align-items: flex-start; 
     }
@@ -185,5 +189,7 @@ p{
         margin: 6rem auto;   
         padding: 2rem;   
     }
+
+      
 }
     
