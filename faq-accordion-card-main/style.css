@@ -161,7 +161,7 @@ p{
     }
 
     .shadow-img{
-        display: none; 
+        display: none;  
     }
 
     .mock-up{
@@ -173,7 +173,7 @@ p{
     }
 
     .bg-paterns{
-        background-image: url('../images/bg-pattern-desktop.svg'); 
+        background-image: url('./images/illustration-woman-online-desktop.svg');   
     }
 
     .card{
