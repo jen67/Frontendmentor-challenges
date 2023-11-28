@@ -184,6 +184,70 @@ p {
     gap: 4rem; 
     background: url(images/bg-pattern-desktop.svg), white;
     background-repeat: no-repeat;
+  background-size: co ver;
+  background-position: -600px -310px; 
+  }
+
+  .mock-up{
+    display: none;
+  }
+  .shadow-img{
+    display: none; 
+  }
+  .bg-paterns, .card{
+    width: 50%; 
+  }
+
+  .mock-up-desktop{
+    display: block;
+    position: absolute;
+   top: 50%;
+    left: 50%;
+     transform: translate(-80%, -50%);
+    z-index: 1;
+  } 
+
+  .bg-paterns{
+    position: relative;
+  } 
+
+  .bg-paterns img{
+    max-width: 500px;
+    width: 300px;
+    
+  } 
+
+  .card{
+    padding:0;
+    align-items: flex-start;       
+  }
+
+  .card-body{
+    height: 280px; 
+    max-height: 300px;    
+  }
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 50rem; 
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    width: 45rem;
+    height: 30rem;
+    max-width: 70rem;
+    padding: 1rem 2rem;   
+    gap: 4rem; 
+    background: url(images/bg-pattern-desktop.svg), white;
+    background-repeat: no-repeat;
   background-size: 100%;
   background-position: -350px -200px;  
   }
