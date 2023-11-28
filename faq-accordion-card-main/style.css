@@ -186,6 +186,24 @@ p {
     width: 50%; 
   }
 
+  .mock-up-desktop{
+    display: block;
+    position: absolute;
+   top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .bg-paterns{
+    background-image:url("./images/illustration-woman-online-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10%; 
+     position: relative;
+
+  }
+
   .card{
     padding:0;
     align-items: flex-start;       
@@ -200,3 +218,4 @@ p {
   }
 
 }
+
