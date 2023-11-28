@@ -181,7 +181,11 @@ p {
     height: 30rem;
     max-width: 70rem;
     padding: 1rem 2rem;   
-    gap: 4rem;  
+    gap: 4rem; 
+    background: url(images/bg-pattern-desktop.svg), white;
+    background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: -350px -200px;  
   }
 
   .mock-up{
@@ -204,13 +208,14 @@ p {
   }
 
   .bg-paterns{
-    background-image: url("/images/bg-pattern-desktop.svg");  
+    background-image: url("./images/bg-pattern-desktop.svg"); 
+    display: block;  
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain; 
     position: relative;
 
-  }
+  } 
 
   .card{
     padding:0;
