@@ -99,11 +99,10 @@ img {
   display: none;
 }
 
-/* .card.padded {
-  padding-bottom: 3rem;
-  overflow: hidden; 
-  max-height: 1000px; 
-} */
+.card-header{ 
+  padding-bottom: 1rem; 
+}
+
 
 .card {
   padding: 2rem 1rem; 
@@ -216,6 +215,11 @@ p {
   .card{
     padding:0;
     align-items: flex-start;       
+  }
+
+  .card-body{
+    height: 280px; 
+    max-height: 300px;    
   }
 
     
