@@ -39,7 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   min-height: 100vh;
   background: var(--Soft-blue);
   background: linear-gradient(
@@ -48,14 +48,14 @@ body {
       var(--Soft-violet) 100%
     )
     no-repeat center center fixed;
-  /* padding: 2rem 0.5rem; */ 
+  /* padding: 2rem 0.5rem; */
 }
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
-  margin: 7rem 0 1rem 0;  
+  justify-content: center;
+  margin: 7rem 0 1rem 0;
 }
 
 img {
@@ -73,9 +73,10 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 0.8rem; 
+  border-radius: 0.8rem;
   max-width: 400px;
-  position: relative; 
+  position: relative;
+  box-shadow: 0px 32px 27px -8px rgba(59,59,135,0.81);
 }
 
 .bg-paterns img {
@@ -91,7 +92,7 @@ img {
   position: absolute;
   top: -95px;
   left: 50%;
-  transform: translateX(-50%); 
+  transform: translateX(-50%);
   z-index: 1;
 }
 
@@ -99,18 +100,20 @@ img {
   display: none;
 }
 
-.card-header{ 
-  padding-bottom: 1rem; 
+#box {
+  display: none;
 }
 
+.card-header {
+  padding-bottom: 1rem;
+}
 
 .card {
-  padding: 2rem 1rem; 
+  padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;    
-  
+  justify-content: center;
 }
 
 .card-body-item {
@@ -128,10 +131,9 @@ h2 {
   gap: 1rem;
 }
 
-
 p {
   font-size: var(--fs);
-  padding-bottom: 1rem; 
+  padding-bottom: 1rem;
   color: var(--Dark-grayish-blue);
 }
 
@@ -150,7 +152,7 @@ p {
 }
 
 .card-body-item div.visible {
-  max-height: 60px;   
+  max-height: 60px;
   opacity: 1;
 }
 
@@ -180,60 +182,84 @@ p {
     width: 45rem;
     height: 30rem;
     max-width: 70rem;
-    padding: 1rem 2rem;   
-    gap: 4rem; 
-    background: url(images/bg-pattern-desktop.svg), white;
-    background-repeat: no-repeat;
-  background-size: co ver;
-  background-position: -600px -310px; 
+    max-height: 31.8rem;
+    padding: 1rem 2rem 1rem 0;
+    gap: 4rem;
+     background: url(images/bg-pattern-desktop.svg), white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: -530px -265px;
   }
 
-  .mock-up{
+  .mock-up {
     display: none;
   }
-  .shadow-img{
-    display: none; 
+  .shadow-img {
+    display: none;
   }
-  .bg-paterns, .card{
-    width: 50%; 
+  .bg-paterns,
+  .card {
+    width: 50%;
   }
 
-  .mock-up-desktop{
+  .mock-up-desktop {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, 0%);
+  }
+
+  .overflowing-img {
+    overflow: hidden;
+  }
+
+  #box {
     display: block;
     position: absolute;
-   top: 50%;
     left: 50%;
-     transform: translate(-60%, -50%);
+    transform: translate(-155%, -120%);
     z-index: 1;
-  } 
+    width: 160px;
+  }
 
-  .bg-paterns{
+  .bg-paterns {
     position: relative;
-  } 
-
-  .bg-paterns img{
-    max-width: 500px;
-    width: 400px;
-    
-  } 
-
-  .card{
-    padding:0;
-    align-items: flex-start;       
   }
 
-  .card-body{
-    height: 280px; 
-    max-height: 300px;    
+  .bg-paterns img {
+    max-width: 600px;
+    width: 300px;
   }
 
-    
+  .card {
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .card-body {
+    height: 280px;
+    max-height: 300px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .container {
-    width: 50rem; 
+    width: 57.5rem;
+    height: 31.8rem; 
   }
 
-}
+  .bg-paterns img {
+    width: 450px;
+  }
 
+  .mock-up-desktop {
+    transform: translate(-65%, 0%);
+  }
+
+  #box {
+    transform: translate(-180%, -120%);
+    width: 170px;
+  }
+  
+}
