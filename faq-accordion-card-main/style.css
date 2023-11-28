@@ -76,7 +76,7 @@ img {
   border-radius: 0.8rem;
   max-width: 400px;
   position: relative;
-  box-shadow: 0px 32px 27px -8px rgba(59,59,135,0.81);
+  box-shadow: 0px 32px 27px -8px rgba(59, 59, 135, 0.81);
 }
 
 .bg-paterns img {
@@ -167,7 +167,7 @@ p {
 }
 
 .attribution {
-  margin-top: 1rem;
+  margin: 1rem 0; 
   font-size: 12px;
   text-align: center;
   color: var(--Very-dark-desaturated-blue);
@@ -177,6 +177,9 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    padding: 0 1rem;
+  }
   .container {
     flex-direction: row;
     width: 45rem;
@@ -185,12 +188,27 @@ p {
     max-height: 31.8rem;
     padding: 1rem 2rem 1rem 0;
     gap: 4rem;
-     background: url(images/bg-pattern-desktop.svg), white;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: -530px -265px;
+    background: url(images/bg-pattern-desktop.svg), white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -470px -150px;
   }
 
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+
+  .card-body-item div {
+    width: 320px;
+  }
+
+  .card-body-item div.visible {
+    max-height: 100px;
+    opacity: 1;
+  }
   .mock-up {
     display: none;
   }
@@ -207,7 +225,7 @@ p {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-60%, 0%);
+    transform: translate(-70%, 0%);
   }
 
   .overflowing-img {
@@ -218,9 +236,9 @@ p {
     display: block;
     position: absolute;
     left: 50%;
-    transform: translate(-155%, -120%);
+    transform: translate(-175%, -115%);
     z-index: 1;
-    width: 160px;
+    width: 130px;
   }
 
   .bg-paterns {
@@ -238,15 +256,20 @@ p {
   }
 
   .card-body {
-    height: 280px;
-    max-height: 300px;
+    height: 320px;
+    max-height: 350px;
   }
+}
+
+.attribution{
+  font-size: 1rem; 
 }
 
 @media screen and (min-width: 1024px) {
   .container {
     width: 57.5rem;
-    height: 31.8rem; 
+    height: 31.85rem;
+    background-position: -530px -265px;
   }
 
   .bg-paterns img {
@@ -258,8 +281,7 @@ p {
   }
 
   #box {
-    transform: translate(-180%, -120%);
-    width: 170px;
+    transform: translate(-170%, -122%);
+    width: 180px;
   }
-  
 }
