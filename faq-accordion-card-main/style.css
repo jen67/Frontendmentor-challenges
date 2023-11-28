@@ -39,7 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-self: center;
+  justify-content: center; 
   min-height: 100vh;
   background: var(--Soft-blue);
   background: linear-gradient(
@@ -48,11 +48,14 @@ body {
       var(--Soft-violet) 100%
     )
     no-repeat center center fixed;
-  padding: 2rem 0.5rem;
+  /* padding: 2rem 0.5rem; */ 
 }
 main {
-  margin: 2rem auto;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin: 7rem 0 1rem 0;  
 }
 
 img {
@@ -70,8 +73,9 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 0.8rem; 
   max-width: 400px;
+  position: relative; 
 }
 
 .bg-paterns img {
@@ -85,9 +89,9 @@ img {
 
 .mock-up {
   position: absolute;
-  top: 0px;
+  top: -95px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); 
   z-index: 1;
 }
 
@@ -95,12 +99,19 @@ img {
   display: none;
 }
 
+/* .card.padded {
+  padding-bottom: 3rem;
+  overflow: hidden; 
+  max-height: 1000px; 
+} */
+
 .card {
-  padding: 2rem 1rem;
+  padding: 2rem 1rem; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;    
+  
 }
 
 .card-body-item {
@@ -118,18 +129,16 @@ h2 {
   gap: 1rem;
 }
 
-.card-body-item div {
-  max-width: 350px;
-  width: 250px;
-}
 
 p {
   font-size: var(--fs);
-  padding-bottom: 1rem;
+  padding-bottom: 1rem; 
   color: var(--Dark-grayish-blue);
 }
 
 .card-body-item div {
+  max-width: 350px;
+  width: 250px;
   overflow: hidden;
   max-height: 0px;
   opacity: 0;
@@ -142,7 +151,7 @@ p {
 }
 
 .card-body-item div.visible {
-  max-height: 60px;
+  max-height: 60px;   
   opacity: 1;
 }
 
@@ -196,11 +205,11 @@ p {
   }
 
   .bg-paterns{
-    background-image:url("./images/illustration-woman-online-desktop.svg");
+    background-image: url("/images/bg-pattern-desktop.svg");  
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 10%; 
-     position: relative;
+    background-size: contain; 
+    position: relative;
 
   }
 
