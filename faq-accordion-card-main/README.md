@@ -41,12 +41,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
+- javaScript
 ### What I learned
 
 This was my very first accordion design. It was quite challenging but I learnt how to use `max-height: 0` and transition to move my hidden texts smoothly.
