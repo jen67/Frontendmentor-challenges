@@ -39,3 +39,4 @@
 <img src="./faq-accordion-card-main/design/desktop-design.jpg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/faq-accordion-card-main/)
+
