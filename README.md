@@ -8,6 +8,7 @@
   - [Tip-calculator](#tip-calculator)
   - [fylo-landing-page](#fylo-landing-page)
   - [Drop-down-navigation](#drop-down-navigation)
+  - [Faq-accordion](#faq-accordion)
 
 ## Interactive-rating-component
 
@@ -29,6 +30,12 @@
 
 ## Drop-down-navigation
 
-<img src="./intro-section-with-dropdown-navigation-main/design/My-desktop-design.png" alt="Tasks" width="500"> 
+<img src="./intro-section-with-dropdown-navigation-main/design/My-desktop-design.png" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://dropdown-nav-three.vercel.app/)
+
+## Faq-accordion
+
+<img src="./faq-accordion-card-main/design/desktop-design.jpg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/faq-accordion-card-main/)
