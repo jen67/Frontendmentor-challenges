@@ -20,7 +20,7 @@
   --white: hsl(0, 0%, 100%);
   --Light-pink: hsl(275, 100%, 97%);
   --Grayish-purple: hsl(292, 16%, 49%);
-  --Dark-purple: hsl(hsl(292, 42%, 14%));
+  --Dark-purple: hsl(292, 42%, 14%);
 }
 
 *,
@@ -31,22 +31,78 @@
   padding: 0;
 }
 
+h1, h2, p{
+    padding:0;
+    margin:0;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
-  background-color: var(--Light-pink);
-  min-height: 100vh;
+  background-color: var(--Light-pink); 
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */ 
-  background-image: url("/assets/images/background-pattern-mobile.svg");
+ justify-content: center; 
+ background-image: url("/assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover; 
+  background-size: 100%;
+ 
 }
+
+section{
+    padding: 1rem; 
+    width: 300px; 
+    height: 100%;
+    max-width: 600px; 
+    background-color: var(--white);
+    margin-top: 9rem;  
+    border-radius: 10px; 
+}
+
+.header{
+    display: flex; 
+    align-items: center; 
+    gap: 1rem;
+    margin-bottom: 1rem; 
+    font-weight: 700; 
+}
+
+.header img{
+    width: 25px;  
+}
+
+.header h1{
+    color: var( --Dark-purple);   
+}
+
+.accordion-header{
+    font-size: 1rem; 
+    display: flex; 
+    flex-direction: row;  
+    gap: 1rem;
+}
+
+.accordion-header h2{ 
+    font-size: 1rem; 
+    color: var(--Dark-purple);
+    font-weight: 600;
+}
+
+.accordion-header img{
+    width: 25px; 
+}
+
+.accordion-body{
+    font-size: 0.8rem; 
+    padding-block: 1rem; 
+    line-height: 1.5; 
+    color: var(--Grayish-purple); 
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
