@@ -41,8 +41,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-image: url(""); 
+  /* justify-content: center; */ 
+  background-image: url("/assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; 
 }
 .attribution {
   font-size: 11px;
