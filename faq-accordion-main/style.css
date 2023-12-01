@@ -49,12 +49,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("./assets/images/background-pattern-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
 }
 
+header{
+    background-image: url("./assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 section {
   padding: 1.2rem 1rem;
   width: 320px;
