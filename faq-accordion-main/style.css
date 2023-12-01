@@ -80,6 +80,10 @@ section{
     color: var( --Dark-purple);   
 }
 
+.accordion{
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
 .accordion:not(:last-of-type){
     border-bottom: 1.5px solid var(--Light-pink); 
     padding-block: 1rem;   
