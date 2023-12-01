@@ -137,9 +137,9 @@ section{
         background-image: url("./assets/images/background-pattern-desktop.svg");
         background-size: 100%;
         background-repeat: no-repeat;
-        background-position: center;
     }
     section{
+        padding:2rem; 
         width: 600px; 
         margin-top: 5rem; 
     }
