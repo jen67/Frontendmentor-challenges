@@ -108,10 +108,10 @@ section{
 
 .accordion-body{
     font-size: 0.8rem; 
-    padding-block: 1rem; 
+    margin-top: 1rem;   
     line-height: 1.5; 
     color: var(--Grayish-purple);
-    display: none; 
+    /* display: none;  */
 }
 
 .attribution {
