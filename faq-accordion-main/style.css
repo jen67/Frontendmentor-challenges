@@ -97,6 +97,8 @@ section{
     justify-content: space-between;  
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .accordion-header h2{ 
