@@ -105,7 +105,8 @@ section{
     font-size: 0.8rem; 
     padding-block: 1rem; 
     line-height: 1.5; 
-    color: var(--Grayish-purple); 
+    color: var(--Grayish-purple);
+    display: none; 
 }
 
 .attribution {
