@@ -143,4 +143,8 @@ section{
         width: 600px; 
         margin-top: 5rem; 
     }
+
+    .header img{
+    width: 25px;   
+}
 }
