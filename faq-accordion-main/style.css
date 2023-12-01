@@ -140,8 +140,13 @@ section {
   }
   section {
     padding: 2rem;
-    width: 600px;
+    width: 700px;
+    max-width: 800px; 
     margin-top: 5rem;
+  }
+
+  .header{
+    margin-bottom: 1rem;
   }
 
   .header img {
@@ -149,6 +154,6 @@ section {
   }
 
   .header h1 {
-  font-size: 2.5rem;  
-}
+    font-size: 2.5rem;
+  }
 }
