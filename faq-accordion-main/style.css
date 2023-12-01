@@ -55,7 +55,7 @@ body {
 
 section{
     padding: 1rem; 
-    width: 300px; 
+    width: 350px;  
     height: 100%;
     max-width: 600px; 
     background-color: var(--white);
