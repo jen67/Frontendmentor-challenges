@@ -40,7 +40,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6;
+  /* line-height: 1.5; */
   background-color: var(--Light-pink); 
   min-height: 100vh; 
   display: flex;
@@ -83,7 +83,8 @@ section{
 }
 
 .accordion{
-    border-bottom: 1px solid var(--Grayish-purple); 
+    padding-block: 1rem; 
+    border-bottom: 1.5px solid var(--Light-pink);  
 }
 
 .accordion-header{
