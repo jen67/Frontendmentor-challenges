@@ -83,9 +83,14 @@ section{
 }
 
 .accordion{
-    padding-block: 1rem; 
-    border-bottom: 1.5px solid var(--Light-pink);  
+    padding-block: 1rem;  
 }
+
+.accordion:not(:last-of-type){
+    border-bottom: 1.5px solid var(--Light-pink);  
+
+}
+
 
 .accordion-header{
     font-size: 1rem; 
