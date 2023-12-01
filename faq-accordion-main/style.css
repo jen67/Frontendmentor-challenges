@@ -82,6 +82,10 @@ section{
     color: var( --Dark-purple);   
 }
 
+.accordion{
+    border-bottom: 1px solid var(--Grayish-purple); 
+}
+
 .accordion-header{
     font-size: 1rem; 
     display: flex; 
