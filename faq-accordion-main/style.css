@@ -52,6 +52,7 @@ body {
 }
 
 header{
+    padding: 15rem;  
     background-image: url("./assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
