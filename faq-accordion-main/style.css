@@ -56,16 +56,16 @@ body {
 }
 
 section {
-    left: 50%;
-    transform: translateX(-50%);
-  padding: 1.2rem 1rem; 
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1.2rem 1rem;
   width: 300px;
   max-width: 600px;
-  background-color: var(--white); 
+  background-color: var(--white);
   border-radius: 10px;
   box-shadow: 0px 10px 60px hsla(292, 16%, 49%, 0.3);
-  position: absolute; 
-    top: 20%; 
+  position: absolute;
+  top: 20%;
 }
 
 .header {
@@ -126,10 +126,10 @@ section {
 }
 
 .attribution {
-position: absolute;
-bottom: 10%;
-left: 50%;
-transform: translate(-50%, -50%);
+  bottom: 0%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 0.8rem;
   text-align: center;
 }
@@ -147,10 +147,10 @@ transform: translate(-50%, -50%);
     top: 10%;
     padding: 2rem;
     width: 600px;
-    max-width: 800px; 
+    max-width: 800px;
   }
 
-  .header{
+  .header {
     padding-bottom: 1rem;
   }
 
@@ -163,7 +163,7 @@ transform: translate(-50%, -50%);
   }
 
   .accordion-header h2 {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
 }
 
@@ -173,9 +173,8 @@ transform: translate(-50%, -50%);
   }
 }
 
-@media screen and (min-width: 1280px){
-  section{
-    top: 20%; 
+@media screen and (min-width: 1280px) {
+  section {
+    top: 20%;
   }
 }
-
