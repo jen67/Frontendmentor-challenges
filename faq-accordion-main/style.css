@@ -123,7 +123,8 @@ section {
   line-height: 1.5;
   height: 0;
   color: var(--Grayish-purple);
-  display: none;
+  overflow: hidden;
+  display: none; 
   transition: height 0.3s ease-in-out;
 }
 
