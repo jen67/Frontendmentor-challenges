@@ -1,0 +1,72 @@
+# Node.js
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Compiled files
+*.min.css
+*.min.js
+
+# Prettier
+.prettierignore
+.prettierrc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# SCSS cache
+.sass-cache/
+
+# Dependency directories
+/bower_components/
+/jspm_packages/
+
+# Environment
+.env
+
+# Compiled Python files
+*.pyc
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Editor-specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Windows image file caches
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# .NET Scaffolding
+Scaffolding/
+
+# Rider
+.idea/
+*.suo
+*.user
+*.sln
+*.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscmd
+*.sln.docstates
