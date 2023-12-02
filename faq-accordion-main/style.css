@@ -52,7 +52,7 @@ body {
   background-image: url("./assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative;
+  position: relative; 
 }
 
 section {
@@ -85,6 +85,7 @@ section {
 
 .accordion {
   overflow: hidden;
+  height: 0;
   transition: height 0.3s ease-in-out;
 }
 .accordion:not(:last-of-type) {
