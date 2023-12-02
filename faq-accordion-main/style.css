@@ -122,9 +122,9 @@ section {
   width: 25px;
 }
 
-.accordion .accordion-header:hover img{
+.collapsing img{
     content: url("./assets/images/icon-minus.svg"); 
-}
+} 
 .accordion-body {
   font-size: 0.8rem;
   margin-top: 1rem;
@@ -136,10 +136,10 @@ section {
   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out; 
 }
 
-.accordion .accordion-header:hover ~ .accordion-body {
+/* .accordion .accordion-header:hover ~ .accordion-body {
   max-height: 100px; 
   opacity: 1;
-}
+} */ 
 
 .collapsing{
     max-height: 60px;
