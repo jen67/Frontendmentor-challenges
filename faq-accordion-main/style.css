@@ -124,13 +124,14 @@ section {
   height: 0;
   color: var(--Grayish-purple);
   overflow: hidden;
-  display: none; 
-  transition: height 0.3s ease-in-out;
+  max-height: 0px;
+  opacity: 0;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .collapsing{
-    height: 60px; 
-    display: block; 
+    max-height: 60px;
+  opacity: 1;; 
 }
 .attribution {         
   position: absolute;
