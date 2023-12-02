@@ -57,7 +57,6 @@ body {
 }
 
 section {
-  left: 50%;
   transform: translateX(-50%);
   padding: 1.2rem 1rem;
   width: 300px;
@@ -67,6 +66,7 @@ section {
   box-shadow: 0px 10px 60px hsla(292, 16%, 49%, 0.3);
   position: absolute;
   top: 20%;
+  left: 50%; 
 }
 
 .header {
