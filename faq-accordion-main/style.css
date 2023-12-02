@@ -126,7 +126,7 @@ section {
 }
 
 .attribution {
-  bottom: 0%;
+  bottom: 30%;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
