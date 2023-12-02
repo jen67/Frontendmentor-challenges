@@ -122,7 +122,7 @@ section {
   width: 25px;
 }
 
-.collapsing img{
+.collapsing-img{
     content: url("./assets/images/icon-minus.svg"); 
 } 
 .accordion-body {
