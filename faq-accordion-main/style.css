@@ -125,14 +125,14 @@ section {
   display: none;
 }
 
-.attribution { 
-    padding-top: 8rem;   
-  bottom: 10%;  
-  position: absolute;
-  left: 50%;
+.attribution {     
+   /* bottom: 10%;  
+   position: absolute; 
+  left: 50%;  */ 
   transform: translate(-50%, 100%); 
   font-size: 0.8rem;
   text-align: center;
+  margin: 2rem auto; 
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
