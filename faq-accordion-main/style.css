@@ -144,6 +144,7 @@ transform: translate(-50%, -50%);
     background-repeat: no-repeat;
   }
   section {
+    top: 10%;
     padding: 2rem;
     width: 600px;
     max-width: 800px; 
@@ -163,5 +164,11 @@ transform: translate(-50%, -50%);
 
   .accordion-header h2 {
     font-size: 1.2rem; 
+  }
+}
+
+@media screen and (min-width: 1024px){
+  section{
+    top: 
   }
 }
