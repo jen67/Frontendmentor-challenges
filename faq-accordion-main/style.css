@@ -129,12 +129,16 @@ section {
   font-size: 0.8rem;
   margin-top: 1rem;
   line-height: 1.5;
-  height: 0;
   color: var(--Grayish-purple);
   overflow: hidden;
   max-height: 0px;
   opacity: 0;
   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+}
+
+.accordion .accordion-header:hover ~ .accordion-body {
+  max-height: 100px;
+  opacity: 1;
 }
 
 .collapsing{
