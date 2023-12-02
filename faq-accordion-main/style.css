@@ -128,8 +128,7 @@ section {
 .attribution {         
   position: absolute;
   transform: translate(-50%, -50%); 
-  bottom:0%;
-  width: 100%;
+  bottom: 0%;
   font-size: 0.8rem;
   text-align: center;  
 }
