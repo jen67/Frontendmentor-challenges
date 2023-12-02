@@ -21,7 +21,7 @@
   --Light-pink: hsl(275, 100%, 97%);
   --Grayish-purple: hsl(292, 16%, 49%);
   --Dark-purple: hsl(292, 42%, 14%);
-  --hover:hsl(281, 85%, 54%);c
+  --hover:hsl(281, 85%, 54%);
 }
 
 *,
@@ -122,6 +122,9 @@ section {
   width: 25px;
 }
 
+.accordion .accordion-header:hover img{
+    content: url("./assets/images/icon-plus.svg"); 
+}
 .accordion-body {
   font-size: 0.8rem;
   margin-top: 1rem;
