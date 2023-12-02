@@ -1,4 +1,4 @@
-const accordionH = document.querySelectorAll(".accordion-header h2");
+const accordionH = document.querySelectorAll(".accordion-header");
 const accordionBody = document.querySelectorAll(".accordion-body");
 const plusImg = document.querySelectorAll(".accordion-header img");
 
