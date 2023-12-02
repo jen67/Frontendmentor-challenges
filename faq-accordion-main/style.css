@@ -128,6 +128,9 @@ section {
   transition: height 0.3s ease-in-out;
 }
 
+.collapsing{
+    height: 60px; 
+}
 .attribution {         
   position: absolute;
   transform: translate(-50%, -50%); 
