@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Url](https://github.com/jen67/Frontendmentor-challenges/tree/main/faq-accordion-main)
+- Live Site URL: [live site URL](https://jen67.github.io/Frontendmentor-challenges/faq-accordion-main)
 
 ## My process
 
