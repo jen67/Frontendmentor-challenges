@@ -123,7 +123,7 @@ section {
 }
 
 .accordion .accordion-header:hover img{
-    content: url("./assets/images/icon-plus.svg"); 
+    content: url("./assets/images/icon-minus.svg"); 
 }
 .accordion-body {
   font-size: 0.8rem;
