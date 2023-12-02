@@ -126,12 +126,11 @@ section {
 }
 
 .attribution {     
-   /* bottom: 10%;  
-   position: absolute; 
-  left: 50%;  */ 
-  transform: translate(-50%, -50%);  
+  .attribution {     
+  width: 100%;
   font-size: 0.8rem;
   text-align: center; 
+}
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
