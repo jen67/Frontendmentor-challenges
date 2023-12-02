@@ -1,12 +1,8 @@
-const accordionH = document.querySelectorAll(".accordion-header");
-const accordionBody = document.querySelectorAll(".accordion-body");
-const plusImg = document.querySelectorAll(".accordion-header img");
+let faqAccordion = document.querySelectorAll(".accordion-header h2");
 
-accordionH.forEach((item, index) => {
-  item.addEventListener("click", () => {
-    accordionBody[index].classList.toggle("collapsing");
-    plusImg[index].classList.toggle("collapsing"); 
-  });
+faqAccordion.forEach((accordion) => {
+    accordion.addEventListener("click", function () {
+        faqAccordion.style.backgroundColor = "#f5f695";
+    });
+
 });
-
-
