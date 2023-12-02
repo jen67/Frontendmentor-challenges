@@ -4,6 +4,6 @@ const plusImg = document.querySelectorAll(".accordion-header img");
 
 accordionH.forEach((item) => {
     item.addEventListener('click', () => {
-        accordionBody[index].classList.toggle('collapsing'); 
+        accordionBody[index].classList.toggle(".collapsing");   
     })
 }); 
