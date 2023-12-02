@@ -122,10 +122,6 @@ section {
   width: 25px;
 }
 
-.accordion .accordion-header img:hover  .accordion-header h2 {
-  color: var(--hover);
-}
-
 .collapsing-img{
     content: url("./assets/images/icon-minus.svg"); 
 } 
