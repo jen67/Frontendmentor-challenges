@@ -53,7 +53,7 @@ body {
   background-image: url("./assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative; 
+  position: relative;   
 }
 
 section {
@@ -66,7 +66,7 @@ section {
   box-shadow: 0px 10px 60px hsla(292, 16%, 49%, 0.3);
   position: absolute;
   top: 20%;
-  left: 50%; 
+  left: 50%;  
 }
 
 .header {
@@ -136,26 +136,12 @@ section {
   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out; 
 }
 
-/* .accordion .accordion-header:hover ~ .accordion-body {
-  max-height: 100px; 
-  opacity: 1;
-} */ 
 
 .collapsing{
     max-height: 60px;
     opacity: 1;   
 }
-.attribution {         
-  position: absolute;
-  transform: translate(-50%, -50%); 
-  bottom: 0%;
-  font-size: 0.8rem;
-  text-align: center;  
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
+ 
 @media screen and (min-width: 768px) {
   body {
     background-image: url("./assets/images/background-pattern-desktop.svg");
@@ -188,6 +174,10 @@ section {
   .accordion-body {
     font-size: 1rem;
   } 
+
+  .collapsing{
+    max-height: 100px;   
+  }
 }
 
 @media screen and (width: 1024px) and (height: 600px) {
