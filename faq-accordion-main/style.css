@@ -125,11 +125,12 @@ section {
   display: none;
 }
 
-.attribution {
-  bottom: 30%;
+.attribution { 
+    padding-top: 8rem;   
+  bottom: 10%;  
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 100%); 
   font-size: 0.8rem;
   text-align: center;
 }
