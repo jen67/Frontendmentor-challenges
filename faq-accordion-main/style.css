@@ -85,7 +85,6 @@ section {
 
 .accordion {
   overflow: hidden;
-  height: 0;
   transition: height 0.3s ease-in-out;
 }
 .accordion:not(:last-of-type) {
@@ -122,8 +121,10 @@ section {
   font-size: 0.8rem;
   margin-top: 1rem;
   line-height: 1.5;
+  height: 0;
   color: var(--Grayish-purple);
   display: none;
+  transition: height 0.3s ease-in-out;
 }
 
 .attribution {         
