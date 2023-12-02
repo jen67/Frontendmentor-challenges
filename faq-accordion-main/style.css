@@ -130,6 +130,7 @@ section {
 
 .collapsing{
     height: 60px; 
+    display: block; 
 }
 .attribution {         
   position: absolute;
