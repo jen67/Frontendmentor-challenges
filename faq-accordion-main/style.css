@@ -125,12 +125,10 @@ section {
   display: none;
 }
 
-.attribution {     
-  .attribution {     
+.attribution {        
   width: 100%;
   font-size: 0.8rem;
   text-align: center; 
-}
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
