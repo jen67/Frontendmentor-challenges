@@ -36,6 +36,12 @@ body{
 }
 
 header, main, footer{
-   padding: 0 2rem;
+   padding: 0 1.2rem;
 
+}
+
+header h1{
+    color: var(--Grayish-Blue);
+    font-size:1.4rem; 
+    font-weight: 400;
 }
