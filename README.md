@@ -10,6 +10,7 @@
   - [Drop-down-navigation](#drop-down-navigation)
   - [Faq-accordion1](#faq-accordion1)
   - [Faq-accordion2](#faq-accordion2)
+  - [Four-card-feature-section](#four-card-feature-section)
 
 ## Interactive-rating-component
 
@@ -46,3 +47,9 @@
 <img src="./faq-accordion-main/design/desktop-design.jpg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/faq-accordion-main/)
+
+## Four-card-feature-section
+
+<img src="./four-card-feature-section/design/My-deskopview.jpeg" alt="Tasks" width="300">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/four-card-feature-section)
