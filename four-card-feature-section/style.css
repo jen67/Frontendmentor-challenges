@@ -185,7 +185,10 @@ footer .attribution a:hover{
         max-width: 1110px;  
     }
     main section{
-        display: grid;
-        grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1rem;
     }
 }
