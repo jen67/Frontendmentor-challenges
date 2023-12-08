@@ -77,3 +77,9 @@ section .card h3{
     font-weight: 600;
     padding-bottom: 1rem;
 }
+
+section .card p{
+    color: var(--Grayish-Blue);
+    font-weight: 200;
+    line-height: 1.5;
+} 
