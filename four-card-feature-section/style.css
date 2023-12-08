@@ -67,7 +67,7 @@ main section{
 
 section .card{
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     padding: 2rem;
     margin-bottom: 2rem;
     box-shadow: 0 0.5rem 1rem rgb(219, 233, 250);
@@ -85,6 +85,18 @@ section .card p{
     font-weight: 400;
 }
 
-section .card .cyan-border{
-   border-top: 5px solid var(--Cyan);  
+section .card.cyan-border{
+   border-top: 4px solid var(--Cyan);  
 }
+
+section .card.red-border{
+    border-top: 4px solid var(--Red);  
+}
+
+section .card.orange-border{
+    border-top: 4px solid var(--Orange);  
+} 
+
+section .card.blue-border{
+    border-top: 4px solid var(--Blue);  
+} 
