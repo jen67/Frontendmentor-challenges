@@ -63,3 +63,11 @@ header p{
 main section{
     margin-top: 3rem; 
 }
+
+section .card{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
