@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
 :root{
     /* Primary */
     --Red: hsl(0, 78%, 62%);
@@ -9,4 +11,10 @@
     --Very-Dark-Blue: hsl(234, 12%, 34%);
     --Grayish-Blue: hsl(229, 6%, 66%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
