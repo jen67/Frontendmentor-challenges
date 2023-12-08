@@ -164,10 +164,16 @@ footer .attribution a:hover{
 } 
 
 @media screen and (min-width: 768px){
+
+    main{
+        max-width: 1110px; 
+        width: 950px; 
+    }
     main section{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0, 1fr)); 
         grid-gap: 2rem;
-        
+
     }
 }
