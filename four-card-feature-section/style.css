@@ -59,3 +59,7 @@ header p{
     color:var(--Grayish-Blue); 
     padding: 1rem 0;
 }
+
+main section{
+    margin-top: 3rem; 
+}
