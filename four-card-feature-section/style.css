@@ -40,6 +40,10 @@ header, main, footer{
 
 }
 
+header{
+    padding-top: 4rem;  
+}
+
 header h1{
     color: var(--Grayish-Blue);
     font-size:1.4rem; 
