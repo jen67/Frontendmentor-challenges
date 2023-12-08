@@ -43,5 +43,5 @@ header, main, footer{
 header h1{
     color: var(--Grayish-Blue);
     font-size:1.4rem; 
-    font-weight: 400;
+    font-weight: 200;
 }
