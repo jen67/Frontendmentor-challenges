@@ -27,5 +27,15 @@ h1, h2, h3, p{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--Very-Light-Gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-size: 0.9375rem;
+}
+
+header, main, footer{
+   padding: 0 2rem;
+
 }
