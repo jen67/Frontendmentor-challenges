@@ -101,6 +101,10 @@ section .card.blue-border{
     border-top: 4px solid var(--Blue);  
 } 
 
+section .card img{
+    
+}
+
 footer .attribution{
     font-size: 0.7rem;
     color: var(--Grayish-Blue);
