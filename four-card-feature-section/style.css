@@ -164,16 +164,31 @@ footer .attribution a:hover{
 } 
 
 @media screen and (min-width: 768px){
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    max-width: 565px;
+  }
+
+  header h1, h2{
+    font-size: 2rem;
+  }
+  header p{
+    font-size: 0.9375rem;
+  }
+  
 
     main{
-        max-width: 1110px; 
-        width: 950px; 
+        max-width: 1110px;  
     }
     main section{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-columns: repeat(3, minmax(0, 1fr)); 
-        grid-gap: 2rem;
+        grid-gap: 1rem;
 
     }
 }
