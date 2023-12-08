@@ -50,6 +50,6 @@
 
 ## Four-card-feature-section
 
-<img src="./four-card-feature-section/design/My-deskopview.jpeg" alt="Tasks" width="300">
+<img src="./four-card-feature-section/design/My-deskopview.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/four-card-feature-section)
