@@ -79,6 +79,11 @@ section .card{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+section .card:hover{
+transform: translateY(-10px);
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
 section .card h3{
     color: var(--Very-Dark-Blue);
     font-weight: 600;
