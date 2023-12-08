@@ -83,4 +83,8 @@ section .card p{
     font-size: 0.8rem;
     color: var(--Grayish-Blue);
     font-weight: 400;
-} 
+}
+
+section .card .cyan-border{
+   border-top: 5px solid var(--Cyan);  
+}
