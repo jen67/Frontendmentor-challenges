@@ -54,3 +54,8 @@ header h2{
     color:var(--Very-Dark-Blue); 
     font-weight: 600;
 }
+
+header p{
+    color:var(--Grayish-Blue); 
+    padding: 1rem 0;
+}
