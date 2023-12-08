@@ -33,7 +33,6 @@ body{
     background-color: var(--Very-Light-Gray);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-size: 0.9375rem;
@@ -198,6 +197,7 @@ footer .attribution a:hover{
     }
 
     section .card.red-border{
+        margin-bottom: 0; 
         grid-column: 2/3;
         grid-row: 1/2;
     }
@@ -211,4 +211,10 @@ footer .attribution a:hover{
         grid-column: 3/4;
         grid-row: 1/3;
     }
+}
+
+@media screen and (min-width: 769px){
+  main section{
+    gap: 2rem; 
+  }
 }
