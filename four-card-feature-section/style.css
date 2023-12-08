@@ -24,6 +24,10 @@ h1, h2, h3, p{
     padding: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--Very-Light-Gray);
@@ -107,6 +111,11 @@ section .card .image{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end; 
+}
+
+section .card .image img{
+    width: 50px;
+    
 }
 
 footer .attribution{
