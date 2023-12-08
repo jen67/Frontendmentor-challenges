@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![My desktop view](./design/My-deskopview.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution URL](https://github.com/jen67/Frontendmentor-challenges/tree/main/four-card-feature-section)
+- Live Site URL: [live site URL](https://jen67.github.io/Frontendmentor-challenges/four-card-feature-section)
 
 ## My process
 
