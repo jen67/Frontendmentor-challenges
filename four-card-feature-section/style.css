@@ -162,3 +162,12 @@ footer .attribution a:hover{
     color: var(--Grayish-Blue);
     font-weight:600 ;
 } 
+
+@media screen and (min-width: 768px){
+    main section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        
+    }
+}
