@@ -71,3 +71,9 @@ section .card{
     margin-bottom: 2rem;
     box-shadow: 0 0.5rem 1rem rgb(219, 233, 250);
 }
+
+section .card h3{
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
