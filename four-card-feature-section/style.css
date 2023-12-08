@@ -101,8 +101,12 @@ section .card.blue-border{
     border-top: 4px solid var(--Blue);  
 } 
 
-section .card img{
-    
+section .card .image{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
 }
 
 footer .attribution{
