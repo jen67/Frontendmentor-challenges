@@ -75,6 +75,7 @@ section .card{
     padding: 2rem;
     margin-bottom: 2rem;
     box-shadow: 0 0.5rem 1rem rgb(219, 233, 250);
+    cursor: pointer; 
 }
 
 section .card h3{
@@ -124,3 +125,13 @@ footer .attribution{
     text-align: center;
     padding: 1rem;
 }
+
+footer .attribution a{
+    color: var(--Very-Dark-Blue);
+    font-weight: 400;
+}
+
+footer .attribution a:hover{
+    color: var(--Grayish-Blue);
+    font-weight:600 ;
+} 
