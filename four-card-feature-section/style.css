@@ -18,3 +18,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Very-Light-Gray);
+    font-size: 15px;
+}
