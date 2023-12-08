@@ -100,3 +100,10 @@ section .card.orange-border{
 section .card.blue-border{
     border-top: 4px solid var(--Blue);  
 } 
+
+footer .attribution{
+    font-size: 0.7rem;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    padding: 1rem;
+}
