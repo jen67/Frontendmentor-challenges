@@ -81,7 +81,6 @@ section .card{
 
 section .card:hover{
 transform: translateY(-10px);
-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 section .card h3{
@@ -100,16 +99,33 @@ section .card.cyan-border{
    border-top: 4px solid var(--Cyan);  
 }
 
+section .card.cyan-border:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 255, 255, 0.1);
+}
+
 section .card.red-border{
     border-top: 4px solid var(--Red);  
 }
+
+section .card.red-border:hover {
+  box-shadow: 0 1rem 2rem rgba(255, 0, 0, 0.1);
+}
+
 
 section .card.orange-border{
     border-top: 4px solid var(--Orange);  
 } 
 
+section .card.orange-border:hover {
+  box-shadow: 0 1rem 2rem rgba(255, 165, 0, 0.1);
+}
+
 section .card.blue-border{
     border-top: 4px solid var(--Blue);  
+} 
+
+section .card.blue-border:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 255, 0.1);
 } 
 
 section .card .image{
