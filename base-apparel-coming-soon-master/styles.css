@@ -135,12 +135,27 @@ form button img {
 
     body{
         background-image: url(./images/bg-pattern-desktop.svg); 
-        background-size: cover;
+        background-size: contain;
+    }
+
+    main section{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between; 
     }
   
   header img {
     width: 120px;
   }
+
+    .banner-image {
+        width: 40%;
+    } 
+
+    .texts {
+        width: 60%; 
+    }
 
   
 }
