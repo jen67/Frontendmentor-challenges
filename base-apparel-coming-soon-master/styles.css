@@ -153,8 +153,9 @@ form button img {
   .logo {
     display: none;
   }
-  .logo img {
-    width: 120px;
+  .deskop-logo{
+    display: block; 
+
   }
 
   .banner-image {
