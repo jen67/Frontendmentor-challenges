@@ -75,6 +75,8 @@ img {
 }
 
 form {
+    display: flex;
+  align-items: center;
   margin-top: 1rem;
   position: relative;
   display: inline-block;
