@@ -129,53 +129,10 @@ form button img {
 }
 
 @media (min-width: 768px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
+  
   header img {
     width: 120px;
   }
 
-  .banner-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .banner-image img {
-    width: 80%;
-  }
-
-  .texts {
-    padding: 2rem 4rem;
-  }
-
-  .texts h1 {
-    font-size: 2.5rem;
-    letter-spacing: 0.8rem;
-  }
-
-  .texts p {
-    padding: 1rem 0;
-    font-size: 1.2rem;
-  }
-
-  form {
-    margin-top: 2rem;
-  }
-
-  form input {
-    width: 300px;
-  }
-
-  form button {
-    padding: 10px 20px;
-  }
-
-  .attribution {
-    margin: 2rem 0;
-  }
+  
 }
