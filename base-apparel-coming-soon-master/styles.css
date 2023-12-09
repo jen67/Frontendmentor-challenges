@@ -140,9 +140,11 @@ form button img {
     border: 1px solid var(--Soft-Red); 
 }
 
-.errorImg{
-    content: "url(/)"; 
-}
+input.errorImg {
+  background-image: url('./images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: right 20% center;   
+} 
 .attribution {
   color: var(--Desaturated-Red);
   font-size: 0.8rem;

@@ -10,7 +10,7 @@
       input.classList.remove("errorImg");
     } else {
       error.innerHTML = "Please provide a valid email";
-      input.src = "./images/icon-error.svg"; 
+      input.classList.add("errorImg");  
       input.classList.add("active");
     }
   });
