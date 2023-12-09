@@ -150,7 +150,7 @@ form button img {
     padding: 2rem; 
     position: absolute;
     top: 0;
-    left: 22%;
+    /* left: 22%; */
     transform: translateX(-50%);
   }
   .logo img {
@@ -215,9 +215,9 @@ form input {
 
 @media screen and (min-width: 1440px) {
 
-    .logo{
+    /* .logo{
         left: 15rem; 
-    }
+    } */
     .texts{
         padding: 2rem 15rem;
     }
