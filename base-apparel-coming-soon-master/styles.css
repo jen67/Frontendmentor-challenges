@@ -86,9 +86,13 @@ form input::placeholder {
 form button {
   border-radius: 30px;
   border: transparent;
-  padding: 8px 16px;
+  padding: 8px 16px; 
   background-color: var(--to2);
   cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
 }
 
 form button img {
