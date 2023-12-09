@@ -190,3 +190,14 @@ form button img {
         letter-spacing: 0.9rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .texts{
+        padding: 2rem 15rem;
+    }
+
+    .texts h1{
+        font-size: 5rem;
+        letter-spacing: 1.2rem;
+    }
+}
