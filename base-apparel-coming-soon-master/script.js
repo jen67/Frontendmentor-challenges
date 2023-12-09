@@ -7,10 +7,10 @@
         e.preventDefault()
         const email = input.value
         if (validateEmail(email)) {
-        error.classList.remove('active')
+        error.innerHTML = ''
         form.classList.remove('error')
         } else {
-        error.classList.add('active')
+        error.innerHTML = 'Please provide a valid email' 
         form.classList.add('error')
         }
     })
