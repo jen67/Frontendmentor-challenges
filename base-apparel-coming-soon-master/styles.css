@@ -72,7 +72,7 @@ form{
 
 form input {
   border-radius: 20px;
-  padding: 7px 20px;
+  padding: 7px 20px; 
   outline: none;
   border: 1px solid var(--Desaturated-Red);
   background-color: transparent; 
