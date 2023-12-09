@@ -154,7 +154,8 @@ form button img {
     display: none;
   }
   .deskop-logo{
-    display: block; 
+    display: block;
+    margin-bottom: 8rem;  
 
   }
 
