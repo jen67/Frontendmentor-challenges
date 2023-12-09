@@ -66,6 +66,7 @@ header img {
 }
 
 form{
+    margin-top: 1rem;  
   position: relative;
   display: inline-block;
 }
@@ -80,7 +81,8 @@ form input {
 }
 
 form input::placeholder {
-  color: var(--Desaturated-Red);
+  color: var(--Desaturated-Red); 
+  font-size: 0.8rem; 
   font-weight: 200;
 }
 
