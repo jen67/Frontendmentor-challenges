@@ -79,7 +79,7 @@ form{
 
 form input {
   border-radius: 20px;
-  padding: 7px 20px; 
+  padding: 10px 20px; 
   outline: none;
   border: 1px solid var(--Desaturated-Red);
   background-color: transparent; 
@@ -88,7 +88,7 @@ form input {
 
 form input::placeholder {
   color: var(--Desaturated-Red); 
-  font-size: 0.8rem; 
+  font-size: 0.95rem; 
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -96,7 +96,7 @@ form input::placeholder {
 form button {
   border-radius: 30px;
   border: transparent;
-  padding: 9px 18px; 
+  padding: 14px 28px; 
   background: linear-gradient(135deg, var(--from2), var(--to2)); 
   cursor: pointer;
   position: absolute;
