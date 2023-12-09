@@ -102,6 +102,10 @@ form button {
   box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5);  
 }
 
+form button:hover {
+  background: linear-gradient(135deg, var(--from2), var(--from2));  
+} 
+
 form button img {
   width: 8px;
 }
