@@ -92,7 +92,7 @@ form button {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: -10px;
   transform: translateY(-50%);
 }
 
