@@ -134,6 +134,10 @@ form button img {
 .active{
     border: 1px solid var(--Soft-Red); 
 }
+
+.error-img{
+    content: "url(./images/icon-error.svg)"; 
+}
 .attribution {
   color: var(--Desaturated-Red);
   font-size: 0.8rem;
