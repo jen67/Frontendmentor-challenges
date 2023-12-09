@@ -32,11 +32,11 @@ img {
   max-width: 100%;
 }
 
-header {
+.logo {
   padding: 1rem 1rem 1rem 1.2rem;
 }
 
-header img {
+.logo img {
   width: 90px;
 }
 
@@ -138,6 +138,9 @@ form button img {
         background-size: contain;
     }
 
+    main{
+        position: relative; 
+    }
     main section{
         display: flex;
         flex-direction: row-reverse;
@@ -145,10 +148,13 @@ form button img {
         justify-content: space-between; 
     }
   
-    header{
-        width: 50%; 
-    }
-  header img {
+    .logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ .logo img {
     width: 120px;
   }
 
