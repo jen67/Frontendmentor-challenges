@@ -88,7 +88,7 @@ form button {
   border-radius: 30px;
   border: transparent;
   padding: 8px 16px; 
-  background-image: linear-gradient(135deg, var(--from1), var(--to1)); 
+  background-color: var(--to2);
   cursor: pointer;
   position: absolute;
   top: 50%;
