@@ -146,7 +146,6 @@ form button img {
   main section {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     justify-content: space-between;
   }
 
@@ -155,7 +154,7 @@ form button img {
   }
   .deskop-logo{
     display: block;
-    margin-bottom: 8rem;  
+    margin: 3rem 0 7rem 0;  
 
   }
 
