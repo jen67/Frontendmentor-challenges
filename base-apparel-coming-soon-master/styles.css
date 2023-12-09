@@ -166,6 +166,7 @@ form button img {
   }
 
   .texts {
+    padding: 10rem 2rem; 
     width: 60%;
     text-align: left;
   }
