@@ -193,15 +193,15 @@ form button img {
   
 form input {
   border-radius: 40px;
-  padding: 15px 20px;
-  outline: none;
-  border: 1px solid var(--Desaturated-Red);
-  background-color: transparent;
-  width: 100%;
+  padding: 18px 20px;
 }
 
+  form input::placeholder{
+    font-size: 1rem;
+  }
+
   form button{
-    padding: 20px 40px;
+    padding: 20px 45px;
     
   }
 
