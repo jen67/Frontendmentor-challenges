@@ -104,7 +104,7 @@ form button {
   background: linear-gradient(135deg, var(--from2), var(--to2));
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 29%;
   right: -2px;
   transform: translateY(-50%);
   display: flex;
