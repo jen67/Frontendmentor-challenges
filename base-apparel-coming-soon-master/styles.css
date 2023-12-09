@@ -134,7 +134,8 @@ form button img {
 @media (min-width: 768px) {
 
     body{
-        background-image: url(../images/bg-pattern-desktop.svg); 
+        background-image: url(./images/bg-pattern-desktop.svg); 
+        background-size: cover;
     }
   
   header img {
