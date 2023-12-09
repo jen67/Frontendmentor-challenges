@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 
 :root {
   /* Primary  */
@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif; 
+  font-family: "Josefin Sans", sans-serif;
   min-height: 100vh;
   font-size: 1rem;
   display: flex;
@@ -48,13 +48,13 @@ img {
 }
 
 .texts {
-  padding: 2rem 1.2rem; 
+  padding: 2rem 1.2rem;
   text-align: center;
   color: var(--Desaturated-Red);
 }
 
 .texts h1 {
-    font-size: 2rem; 
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.4rem;
@@ -70,8 +70,8 @@ img {
   line-height: 1.5;
 }
 
-form{
- margin-top: 1rem;  
+form {
+  margin-top: 1rem;
   position: relative;
   display: inline-block;
   width: 100%;
@@ -79,25 +79,25 @@ form{
 
 form input {
   border-radius: 20px;
-  padding: 10px 20px; 
+  padding: 10px 20px;
   outline: none;
   border: 1px solid var(--Desaturated-Red);
-  background-color: transparent; 
- width: 100%; 
+  background-color: transparent;
+  width: 100%;
 }
 
 form input::placeholder {
-  color: var(--Desaturated-Red); 
-  font-size: 0.95rem; 
+  color: var(--Desaturated-Red);
+  font-size: 0.95rem;
   font-weight: 300;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 form button {
   border-radius: 30px;
   border: transparent;
-  padding: 14px 28px; 
-  background: linear-gradient(135deg, var(--from2), var(--to2)); 
+  padding: 14px 28px;
+  background: linear-gradient(135deg, var(--from2), var(--to2));
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -106,67 +106,62 @@ form button {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5);  
-  transition: all 0.3s ease-in-out; 
+  box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
 form button:hover {
   background: linear-gradient(135deg, var(--from2), var(--from2));
-    box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5); 
-      transform: translateX(10px) translateY(-50%);
-  
-} 
+  box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5);
+  transform: translateX(10px) translateY(-50%);
+}
 
 form button img {
   width: 8px;
 }
 .attribution {
-    color: var(--Desaturated-Red);
+  color: var(--Desaturated-Red);
   font-size: 0.8rem;
   text-align: center;
-  margin: 1rem ; 
-  padding: 0 2rem;  
+  margin: 1rem;
+  padding: 0 2rem;
 }
 .attribution a {
-  color:var(--Desaturated-Red); 
+  color: var(--Desaturated-Red);
 }
 
 @media (min-width: 768px) {
+  body {
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-size: contain;
+  }
 
-    body{
-        background-image: url(./images/bg-pattern-desktop.svg); 
-        background-size: contain;
-    }
+  main {
+    position: relative;
+  }
+  main section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    main{
-        position: relative; 
-    }
-    main section{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-between; 
-    }
-  
-    .logo {
-  position: absolute;
-  top: 0;
-  left:5%; 
-  transform: translateX(-50%);
-}
- .logo img {
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    transform: translateX(-50%);
+  }
+  .logo img {
     width: 120px;
   }
 
-    .banner-image {
-        width: 40%;
-    } 
+  .banner-image {
+    width: 40%;
+  }
 
-
-    .texts {
-        width: 60%; 
-        text-align: left;
-    }
-
-  
+  .texts {
+    width: 60%;
+    text-align: left;
+  }
 }
