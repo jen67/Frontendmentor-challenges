@@ -103,10 +103,12 @@ form button img {
   width: 8px;
 }
 .attribution {
-  font-size: 11px;
+    color: var(--Desaturated-Red);
+  font-size: 0.8rem;
   text-align: center;
-  margin: 1rem ;
+  margin: 1rem ; 
+  padding: 0 2rem;  
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color:var(--to2); 
 }
