@@ -100,11 +100,11 @@ form input::placeholder {
 form button {
   border-radius: 30px;
   border: transparent;
-  padding: 14px 28px;
+  padding: 12px 28px; 
   background: linear-gradient(135deg, var(--from2), var(--to2));
   cursor: pointer;
   position: absolute;
-  top: 29%;
+  top: 50%;
   right: -2px;
   transform: translateY(-50%);
   display: flex;
