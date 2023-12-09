@@ -205,6 +205,10 @@ form input {
     
   }
 
+  form button img{
+    width: 10px;
+  }
+
 
 }
 
