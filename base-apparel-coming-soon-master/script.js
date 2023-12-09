@@ -5,6 +5,10 @@
     
     form.addEventListener('submit', (e) => {
         e.preventDefault()
+        if (validateEmail) {
+            error.innerHTML = '';
+            input.classList.remove(errorImg);
+        }
             
         
     }); 

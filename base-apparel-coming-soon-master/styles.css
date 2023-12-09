@@ -135,7 +135,7 @@ form button img {
     border: 1px solid var(--Soft-Red); 
 }
 
-.error-img{
+.errorImg{
     content: "url(./images/icon-error.svg)"; 
 }
 .attribution {
