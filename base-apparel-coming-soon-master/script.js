@@ -16,7 +16,7 @@
   });
 
   function validateEmail() {
-    const email = input.value.trim(); // Trim to remove leading and trailing spaces
+    const email = input.value.trim(); 
     if (email === "") {
       // Check if the input is empty
       return false;
