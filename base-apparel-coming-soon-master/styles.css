@@ -87,12 +87,12 @@ form input::placeholder {
 form button {
   border-radius: 30px;
   border: transparent;
-  padding: 8px 16px; 
-  background-color: var(--to2);
+  padding: 10px 20px; 
+  background: linear-gradient(135deg, var(--from2), var(--to2)); 
   cursor: pointer;
   position: absolute;
   top: 50%;
-  right: -10px;
+  right: -2px;
   transform: translateY(-50%);
   display: flex;
   justify-content: center;
