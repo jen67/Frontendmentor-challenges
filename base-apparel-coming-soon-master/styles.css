@@ -111,7 +111,7 @@ form button {
   background: linear-gradient(135deg, var(--from2), var(--to2));
   cursor: pointer;
   position: absolute;
-  top: 26%;
+  top: 50%;
   right: -2px;
   transform: translateY(-50%);
   display: flex;
@@ -131,6 +131,9 @@ form button img {
   width: 8px;
 }
 
+#error-text {
+    position: absolute; 
+} 
 .active{
     border: 1px solid var(--Soft-Red); 
 }
@@ -224,7 +227,7 @@ form input {
   }
 
   form button{
-    top: 30%; 
+    /* top: 30%;  */
     padding: 20px 45px;
     
   }
