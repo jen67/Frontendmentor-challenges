@@ -123,6 +123,10 @@ form button:hover {
 form button img {
   width: 8px;
 }
+
+.active{
+    border: 1px solid var(--Soft-Red);
+}
 .attribution {
   color: var(--Desaturated-Red);
   font-size: 0.8rem;
