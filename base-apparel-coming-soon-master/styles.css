@@ -36,6 +36,10 @@ img {
   padding: 1rem 1rem 1rem 1.2rem;
 }
 
+.deskop-logo {
+  display: none;
+}
+
 .logo img {
   width: 90px;
 }
@@ -147,10 +151,7 @@ form button img {
   }
 
   .logo {
-    position: absolute;
-    top: 50px;
-    left: 15%; 
-    transform: translateX(-50%);
+    display: none;
   }
   .logo img {
     width: 120px;
