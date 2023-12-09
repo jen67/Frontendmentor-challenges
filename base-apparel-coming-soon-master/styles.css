@@ -25,7 +25,7 @@ body {
   font-size: 1rem;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(135deg, var(--from1), var(--to1));
+  background: linear-gradient(135deg, var(--from1), var(--to1));
 }
 
 img {
@@ -48,12 +48,13 @@ header img {
 }
 
 .texts {
-  padding: 2rem;
+  padding: 2rem 1.2rem; 
   text-align: center;
   color: var(--Desaturated-Red);
 }
 
 .texts h1 {
+    font-size: 2rem; 
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.4rem;
@@ -66,12 +67,14 @@ header img {
 
 .texts p {
   padding: 1rem 0;
+  line-height: 1.5;
 }
 
 form{
-    margin-top: 1rem;  
+ margin-top: 1rem;  
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 form input {
@@ -80,7 +83,7 @@ form input {
   outline: none;
   border: 1px solid var(--Desaturated-Red);
   background-color: transparent; 
-   width: 100%; 
+ width: 100%; 
 }
 
 form input::placeholder {
@@ -129,6 +132,10 @@ form button img {
 }
 
 @media (min-width: 768px) {
+
+    body{
+        background-image: url(../images/bg-pattern-desktop.svg); 
+    }
   
   header img {
     width: 120px;
