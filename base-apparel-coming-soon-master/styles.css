@@ -85,6 +85,7 @@ form button{
     position: absolute;
    right: 25%;
    background-color: var(--to2); 
+   cursor: pointer; 
    
 }
 
