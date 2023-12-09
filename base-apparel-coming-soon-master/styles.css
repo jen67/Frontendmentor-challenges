@@ -132,7 +132,7 @@ form button img {
 }
 
 .active{
-    border: 1px solid var(--Soft-Red);
+    border: 1px solid var(--Soft-Red); 
 }
 .attribution {
   color: var(--Desaturated-Red);
