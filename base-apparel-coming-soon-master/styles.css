@@ -189,6 +189,23 @@ form button img {
         font-size: 4rem;
         letter-spacing: 0.9rem;
     }
+
+  
+form input {
+  border-radius: 40px;
+  padding: 15px 20px;
+  outline: none;
+  border: 1px solid var(--Desaturated-Red);
+  background-color: transparent;
+  width: 100%;
+}
+
+  form button{
+    padding: 20px 40px;
+    
+  }
+
+
 }
 
 @media screen and (min-width: 1440px) {
