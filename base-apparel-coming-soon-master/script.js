@@ -8,7 +8,8 @@
         const email = input.value
         if (validateEmail(email)) {
         error.innerHTML = ''
-        form.classList.remove('error')
+            form.classList.remove('error')
+            input.src = 'images/icon-error.svg'
         } else {
         error.innerHTML = 'Please provide a valid email' 
         form.classList.add('error')
