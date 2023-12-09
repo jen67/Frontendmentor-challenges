@@ -90,6 +90,7 @@ form input {
   border: 1px solid var(--Desaturated-Red);
   background-color: transparent;
   width: 100%;
+  position: relative;
 }
 
 form input::placeholder {
@@ -106,7 +107,7 @@ form button {
   background: linear-gradient(135deg, var(--from2), var(--to2));
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 26%;
   right: -2px;
   transform: translateY(-50%);
   display: flex;
@@ -209,6 +210,7 @@ form input {
   }
 
   form button{
+    top: 28%; 
     padding: 20px 45px;
     
   }
