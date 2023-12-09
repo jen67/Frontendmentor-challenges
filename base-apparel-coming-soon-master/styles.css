@@ -99,6 +99,7 @@ form button {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5);  
 }
 
 form button img {
@@ -112,5 +113,5 @@ form button img {
   padding: 0 2rem;  
 }
 .attribution a {
-  color:var(--to2); 
+  color:var(--Desaturated-Red); 
 }
