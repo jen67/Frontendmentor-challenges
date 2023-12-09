@@ -71,6 +71,7 @@ form input {
   outline: none;
   border: 1px solid var(--Desaturated-Red);
   position: relative;
+  background-color: transparent;  
 }
 
 form input::placeholder {
