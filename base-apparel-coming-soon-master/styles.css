@@ -104,10 +104,13 @@ form button {
   justify-content: center;
   align-items: center;
   box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5);  
+  transition: all 0.3s ease-in-out; 
 }
 
 form button:hover {
-  background: linear-gradient(135deg, var(--from2), var(--from2));  
+  background: linear-gradient(135deg, var(--from2), var(--from2));
+    box-shadow: 0 10px 10px rgba(219, 175, 175, 0.5); 
+    transform: translateX(-10px); 
 } 
 
 form button img {
