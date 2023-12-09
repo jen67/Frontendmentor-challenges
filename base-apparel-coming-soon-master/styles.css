@@ -133,13 +133,14 @@ form button img {
 
 #error-text {
     position: absolute; 
+    content: url(/images/icon-error.svg);
 } 
 .active{
     border: 1px solid var(--Soft-Red); 
 }
 
 .errorImg{
-    content: "url(./images/icon-error.svg)"; 
+    content: "url(/)"; 
 }
 .attribution {
   color: var(--Desaturated-Red);
