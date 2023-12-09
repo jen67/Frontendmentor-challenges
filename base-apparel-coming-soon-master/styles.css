@@ -100,6 +100,10 @@ form input::placeholder {
   font-family: "Josefin Sans", sans-serif;
 }
 
+input:focus {
+  border: 1px solid var(--Soft-Red);
+} 
+
 form button {
   border-radius: 30px;
   border: transparent;
@@ -210,7 +214,7 @@ form input {
   }
 
   form button{
-    top: 28%; 
+    top: 30%; 
     padding: 20px 45px;
     
   }
