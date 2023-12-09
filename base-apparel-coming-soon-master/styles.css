@@ -143,14 +143,14 @@ form button img {
 input.errorImg {
   background-image: url('./images/icon-error.svg');
   background-repeat: no-repeat;
-  background-position: right 20% center;   
+  background-position: right 26% center;   
 } 
 .attribution {
   color: var(--Desaturated-Red);
   font-size: 0.8rem;
   text-align: center;
   margin: 1rem;
-  padding: 0 2rem;
+  padding: 1rem  2rem;
 }
 .attribution a {
   color: var(--Desaturated-Red);
