@@ -160,6 +160,12 @@ form button img {
     width: 40%;
   }
 
+  .banner-image img{
+    object-fit: cover; 
+    height:100vh;
+    width: 100%; 
+  }
+
   .texts {
     width: 60%;
     text-align: left;
