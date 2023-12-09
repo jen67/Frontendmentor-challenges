@@ -20,6 +20,7 @@
 }
 
 body {
+    font-family: 'Josefin Sans', sans-serif; 
   min-height: 100vh;
   font-size: 1rem;
   display: flex;
@@ -85,7 +86,8 @@ form input {
 form input::placeholder {
   color: var(--Desaturated-Red); 
   font-size: 0.8rem; 
-  font-weight: 200;
+  font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 form button {
