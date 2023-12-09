@@ -8,6 +8,8 @@
     if (validateEmail()) {
       error.innerHTML = "";
       input.classList.remove("errorImg");
+      alert("Your form has been submitted successfully"); 
+      input.value = ""; 
     } else {
       error.innerHTML = "Please provide a valid email";
       input.classList.add("errorImg");  
