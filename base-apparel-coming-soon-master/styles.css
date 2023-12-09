@@ -133,7 +133,8 @@ form button img {
 
 #error-text {
     position: absolute; 
-    content: url(/images/icon-error.svg);
+    font-size: 0.8rem;   
+    color: var(--Soft-Red); 
 } 
 .active{
     border: 1px solid var(--Soft-Red); 
