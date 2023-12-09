@@ -1,0 +1,93 @@
+:root{
+   /* Primary  */
+   --Desaturated-Red: hsl(0, 36%, 70%);
+   --Soft-Red: hsl(0, 93%, 68%);
+
+   /* Gradients */
+   --from1: hsl(0, 0%, 100%);
+   --to1:hsl(0, 100%, 98%);
+
+   --from2: hsl(0, 80%, 86%);
+   --to2: hsl(0, 74%, 74%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    padding: 1rem 1rem 1rem 1.2rem;
+}
+
+header img{
+    width: 90px;
+}
+
+.banner-image{
+    width: 100%;
+}
+.banner-image img{
+    width:100%;  
+}
+
+.texts{
+    padding: 2rem;
+   text-align: center;
+   color: var(--Desaturated-Red);
+}
+
+.texts h1{
+    text-transform:uppercase;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+}
+
+.texts h1 span{
+    font-weight: 600;
+    color: black;
+}
+
+.texts p{
+    padding: 1rem 0;
+}
+
+form input{
+    border-radius: 20px; 
+    padding: 7px  20px; 
+    outline: none;
+    border: 1px solid var(--Desaturated-Red);
+    position: relative;
+}
+
+form input::placeholder{
+    color:var(--Desaturated-Red);
+    font-weight: 200;
+}
+
+form button{
+    border-radius:30px;
+   border: transparent;
+   padding: 8px 16px;
+    position: absolute;
+   right: 25%;
+   background-color: var(--to2); 
+   
+}
+
+form button img{
+    width: 8px;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
