@@ -87,6 +87,11 @@ button {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
+button:hover {
+  background-color: var(--Pale-Blue);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+} 
 input {
   border-radius: 2rem;
   outline: none;
@@ -128,7 +133,7 @@ footer .social-icons {
   width: 1rem;
   border-radius: 50%;
   text-decoration: none;
-  transition: all 0.3s ease-in-out; 
+  transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out, color 0.3s ease-in-out; 
 }
 
 .social-icons a i {
