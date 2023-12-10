@@ -3,6 +3,7 @@
 :root {
   /* primary */
   --Blue: hsl(223, 87%, 63%);
+  --button-hover: hsl(224, 87%, 70%);
 
   /* secondary */
   --Pale-Blue: hsl(223, 100%, 88%);
