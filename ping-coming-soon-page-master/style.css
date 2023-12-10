@@ -12,3 +12,20 @@
   --Very-Dark-Blue: hsl(209, 33%, 12%);
   --Gray: hsl(0, 0%, 59%);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    color: var(--Very-Dark-Blue);
+    background-color: var(--Pale-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
