@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-<https://github.com/jen67/Frontendmentor-challenges/tree/main/base-apparel-coming-soon-master>
+- Solution URL: [Solution Url](https://github.com/jen67/Frontendmentor-challenges/tree/main/faq-accordion-main)
 - Live Site URL: [live site URL](https://jen67.github.io/Frontendmentor-challenges/base-apparel-coming-soon-master)
 
 ## My process
