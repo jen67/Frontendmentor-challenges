@@ -107,7 +107,7 @@ input:focus {
 form button {
   border-radius: 30px;
   border: transparent;
-  padding: 12px 28px; 
+  padding: 15px 30px; 
   background: linear-gradient(135deg, var(--from2), var(--to2));
   cursor: pointer;
   position: absolute;
@@ -157,6 +157,7 @@ input.errorImg {
 
 @media (min-width: 768px) {
   body {
+
     background-image: url(./images/bg-pattern-desktop.svg);
     background-size: contain;
   }
