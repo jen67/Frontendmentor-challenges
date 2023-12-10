@@ -28,10 +28,22 @@ body{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
     color: var(--Very-Dark-Blue);
-    background-color: var(--Pale-Blue);
+    background-color: white; 
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+button { 
+    background-color: var(--Blue);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
