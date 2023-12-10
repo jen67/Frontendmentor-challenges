@@ -11,6 +11,7 @@
   - [Faq-accordion1](#faq-accordion1)
   - [Faq-accordion2](#faq-accordion2)
   - [Four-card-feature-section](#four-card-feature-section)
+  - [Base Apparel card](#base-apparel-card)
 
 ## Interactive-rating-component
 
@@ -53,3 +54,9 @@
 <img src="./four-card-feature-section/design/My-deskopview.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/four-card-feature-section)
+
+## Base Apparel card 
+
+<img src="./base-apparel-coming-soon-master/design/My-desktop-design.jpeg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/base-apparel-coming-soon-master)
