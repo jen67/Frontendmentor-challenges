@@ -76,7 +76,7 @@ form {
 
 button {
   background-color: var(--Blue);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 9px 20px  rgba(0, 123, 255, 0.3);
   outline: none;
   border: transparent;
   color: white;
@@ -88,10 +88,10 @@ button {
   transition: all 0.3s ease-in-out;
 }
 
-button:hover {
-  background-color: var(--Pale-Blue);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-} 
+button:hover{
+  
+}
+
 input {
   border-radius: 2rem;
   outline: none;
