@@ -35,7 +35,7 @@ The designs were created to the following widths:
 - Weights: 300, 600, 700
 
 ## Icons
-
+                    
 For the social icons, you can use a font icon library. Some suggestions can be found below:
 
 - [Font Awesome](https://fontawesome.com)
