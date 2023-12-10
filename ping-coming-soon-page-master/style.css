@@ -168,9 +168,13 @@ footer small {
     max-width: 60%;
   }
 
-  h1{
+  .hero-texts h1{ 
     font-size: 3rem;
   }
+
+  .hero-texts p{
+    font-size: 1.2rem;
+  } 
 
   form{
     width: 100%; 
