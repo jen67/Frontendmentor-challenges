@@ -134,6 +134,13 @@ display: flex;
   .social-icons a i{
     font-size: 20px;
     position: relative;
-    
   }
 
+  footer small{
+    margin-top: 2rem;
+    color: var(--Gray);
+    font-weight: 300;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
