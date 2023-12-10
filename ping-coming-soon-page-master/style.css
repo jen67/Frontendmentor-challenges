@@ -1,150 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
 
-:root{
-    /* primary */
-    --Blue: hsl(223, 87%, 63%); 
+:root {
+  /* primary */
+  --Blue: hsl(223, 87%, 63%);
 
   /* secondary */
   --Pale-Blue: hsl(223, 100%, 88%);
-   --Light-Red: hsl(354, 100%, 66%);
+  --Light-Red: hsl(354, 100%, 66%);
 
   /* neutral */
   --Very-Dark-Blue: hsl(209, 33%, 12%);
   --Gray: hsl(0, 0%, 59%);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
-    display: block; 
+img {
+  max-width: 100%;
+  display: block;
 }
 
-body{
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 300;
-    color: var(--Very-Dark-Blue);
-    background-color: white; 
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  color: var(--Very-Dark-Blue);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-header, main{
+header,
+main {
   width: 80%;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 3rem auto 1.5rem ;   
+  margin: 3rem auto 1.5rem;
 }
 
-.hero-texts{
+.hero-texts {
   text-align: center;
 }
-.hero-texts h1{
+.hero-texts h1 {
   color: var(--Gray);
   font-weight: 300;
   margin-bottom: 1rem;
 }
 
-.hero-texts h1 span{
-  color: var(--Very-Dark-Blue); 
+.hero-texts h1 span {
+  color: var(--Very-Dark-Blue);
   font-weight: 700;
 }
 
-.hero-texts p{
+.hero-texts p {
   font-weight: 300;
   margin-bottom: 2rem;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-button { 
-    background-color: var(--Blue);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
-    outline: none;
-    border: transparent; 
-    color: white;
-    padding: 0.7rem  2rem; 
-    border-radius: 2rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+button {
+  background-color: var(--Blue);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: transparent;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-input{
+input {
   border-radius: 2rem;
   outline: none;
   border: 1.5px solid var(--Pale-Blue);
-  padding: 0.7rem 2rem; 
+  padding: 0.7rem 2rem;
 }
 
-input::placeholder{
-color:var(--Pale-Blue);
+input::placeholder {
+  color: var(--Pale-Blue);
 }
 
-.hero-image{
+.hero-image {
   margin-top: 4rem;
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
-
+  justify-content: center;
 }
 
- footer .social-icons{
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    
-  }
-
-  .social-icons a{
-display: flex;
+footer .social-icons {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-    border: 1px solid var(--Gray);
-    padding: 1rem;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    text-decoration: none;
-  }
+  gap: 1rem;
+}
 
-  .social-icons a i{
-    font-size: 20px;
-    position: relative;
-  }
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--Gray);
+  padding: 1rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out; 
+}
 
-  footer small{
-    margin-top: 2rem;
-    color: var(--Gray);
-    font-weight: 300;
-  }
+.social-icons a i {
+  font-size: 20px;
+  position: relative;
+}
 
-  .attribution { 
-    font-size: 11px; text-align: center; 
-  }
-    .attribution a { 
-      color: hsl(228, 45%, 44%); 
-    }
+.social-icons a:hover {
+  background-color: var(--Blue);
+  border: 1px solid var(--Blue);
+  color: white;
+}
+
+footer small {
+  margin-top: 2rem;
+  color: var(--Gray);
+  font-weight: 300;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 1rem 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
