@@ -89,7 +89,7 @@ button {
 }
 
 button:hover{
-  
+
 }
 
 input {
@@ -160,4 +160,29 @@ footer small {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  header, main{
+    width: 700px;
+    max-width: 60%;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  form{
+    width: 100%; 
+    flex-direction: row;
+    justify-content: center; 
+  }
+
+  input{
+    padding: 1rem  9rem  1rem 2rem; 
+  }
+
+  button{
+    padding: 1rem 3rem; 
+  }
 }
