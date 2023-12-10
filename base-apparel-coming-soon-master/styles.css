@@ -157,7 +157,6 @@ input.errorImg {
 
 @media (min-width: 768px) {
   body {
-    
     background-image: url(./images/bg-pattern-desktop.svg);
     background-size: contain;
   }
@@ -218,9 +217,6 @@ input.errorImg {
     .texts{
         padding: 2rem 5rem;
     }
-  
-  
-
   
 form input {
   border-radius: 40px;
