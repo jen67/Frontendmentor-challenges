@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://jen67.github.io/Frontendmentor-challenges/faq-accordion-main)
+- Live Site URL: [live site URL](https://jen67.github.io/Frontendmentor-challenges/base-apparel-coming-soon-master)
 
 ## My process
 
