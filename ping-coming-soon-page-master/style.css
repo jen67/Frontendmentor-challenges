@@ -133,12 +133,12 @@ input::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
+    background-color: white;
+    padding: 30px;
     text-align: center;
 }
 
-.close {
+.close { 
     position: absolute;
     top: 10px;
     right: 10px;
