@@ -191,7 +191,7 @@ footer .social-icons {
   gap: 1rem;
 }
 
-.social-icons a {
+.social-icons p{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,14 +204,18 @@ footer .social-icons {
   transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out, color 0.3s ease-in-out; 
 }
 
-.social-icons a i {
+.social-icons p i {
+  color: var(--Blue);
   font-size: 20px;
   position: relative;
 }
 
-.social-icons a:hover {
+.social-icons p:hover {
   background-color: var(--Blue);
   border: 1px solid var(--Blue);
+}
+
+.social-icons p:hover i {
   color: white;
 }
 
