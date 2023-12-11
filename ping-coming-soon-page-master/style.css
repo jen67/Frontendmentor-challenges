@@ -108,6 +108,10 @@ input::placeholder {
     color:var(--Light-Red); 
   }
 
+  #error-border{
+    border: 2px solid var(--Light-Red); 
+  }
+
 .hero-image {
   margin-top: 4rem;
 }
