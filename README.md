@@ -12,6 +12,7 @@
   - [Faq-accordion2](#faq-accordion2)
   - [Four-card-feature-section](#four-card-feature-section)
   - [Base Apparel card](#base-apparel-card)
+  - [Ping Coming soon page](#ping-coming-soon-page)
 
 ## Interactive-rating-component
 
@@ -60,3 +61,9 @@
 <img src="./base-apparel-coming-soon-master/design/My-desktop-design.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/base-apparel-coming-soon-master)
+
+## Ping Coming soon page 
+
+<img src="./ping-coming-soon-page-master/design/My-desktop-design.jpeg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/ping-coming-soon-page-master)
