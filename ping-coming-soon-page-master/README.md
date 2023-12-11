@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![My desktop design](./design/My-desktop-design.jpeg)
 
 ### Links
 
