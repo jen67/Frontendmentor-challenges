@@ -99,6 +99,7 @@ input {
   border: 1.5px solid var(--Pale-Blue);
   padding: 0.7rem 2rem;
   width: 100%; 
+  caret-color: var(--Blue);   
 }
 
 input::placeholder {
@@ -107,6 +108,10 @@ input::placeholder {
 
 input:focus {
   border: 2px groove var(--Blue);
+}
+
+input::carret{
+  color: var(--Blue); 
 }
 
   #error-text{
