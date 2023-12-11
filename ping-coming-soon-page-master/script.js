@@ -33,7 +33,7 @@ closeModalBtn.addEventListener("click", hideModal);
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (input.value === "") {
-        showError("Email cannot be empty");
+        showError("Whoops! It looks like you forgot to add your email");
     } else if (!validateEmail(input.value)) {
         showError("Please provide a valid email");
     } else {
