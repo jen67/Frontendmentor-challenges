@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 :root{
     /* Primary colors */
 --linear-gradient: linear-gradient( from hsl(236, 72%, 79%), to hsl(237, 63%, 64%));
