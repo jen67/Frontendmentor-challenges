@@ -136,21 +136,31 @@ input::placeholder {
     background-color: white;
     padding: 30px;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.modal-content p{
-  font-weight: 600;
-  color: var(--Very-Dark-Blue); 
+.modal-content p {
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
 }
 
-.close { 
+.close {
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 10px;
     cursor: pointer;
     font-size: 30px;
-    font-weight: 600; 
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
 }
+
+svg{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
 
 footer {
   display: flex;
