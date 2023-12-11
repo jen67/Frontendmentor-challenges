@@ -117,7 +117,7 @@ input::placeholder {
 }
 
 .modal {
-    /* display: none; */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -238,6 +238,11 @@ footer small {
 
   input{
     padding: 1rem  9rem  1rem 2rem; 
+  }
+
+  .inptanderr{
+    display: flex;
+    flex-direction: column;
   }
 
   button{
