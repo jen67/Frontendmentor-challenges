@@ -21,7 +21,11 @@ function clearError() {
 }
 
 function showModal() {
-    
+    modal.style.display = "block";
+}
+
+function hideModal() {
+    modal.style.display = "none";
 }
 
 form.addEventListener("submit", (e) => {
@@ -32,5 +36,6 @@ form.addEventListener("submit", (e) => {
         showError("Please provide a valid email");
     } else {
         clearError();
+        showModal();
     }
 });
