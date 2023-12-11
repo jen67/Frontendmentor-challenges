@@ -248,7 +248,7 @@ footer small {
   }
 
   button{
-    width: 200px; 
-    padding: 1rem 3rem; 
+    width: 300px; 
+    flex-grow: 1;
   }
 }
