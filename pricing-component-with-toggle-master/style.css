@@ -3,5 +3,9 @@
 --linear-gradient: linear-gradient( from hsl(236, 72%, 79%), to hsl(237, 63%, 64%));
 
 /* Neutral colors */
+--Very-light-grayish-blue: hsl(240, 78%, 98%);
+--Light-grayish-blue: hsl(234, 14%, 74%);
+--Grayish-blue: hsl(233, 13%, 49%);
+--Dark-grayish-blue: hsl(232, 13%, 33%);
 
 }
