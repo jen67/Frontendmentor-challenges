@@ -98,6 +98,7 @@ input {
   outline: none;
   border: 1.5px solid var(--Pale-Blue);
   padding: 0.7rem 2rem;
+  width: 100%; 
 }
 
 input::placeholder {
@@ -240,7 +241,14 @@ footer small {
     padding: 1rem  9rem  1rem 2rem; 
   }
 
+  .inputContainer{
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+  }
+
   button{
+    width: 200px; 
     padding: 1rem 3rem; 
   }
 }
