@@ -105,6 +105,10 @@ input::placeholder {
   color: var(--Pale-Blue);
 }
 
+input:focus {
+  border: 2px groove var(--Blue);
+}
+
   #error-text{
     color:var(--Light-Red); 
   }
