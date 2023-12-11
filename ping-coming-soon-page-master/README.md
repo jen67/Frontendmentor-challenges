@@ -26,8 +26,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Submit their email address using an `input` field
 - Receive an error message when the `form` is submitted if:
-	- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
-	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
+- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
+- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 ### Screenshot
 
@@ -48,6 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - [Gift Amachree](https://www.linkedin.com/in/gift-amachree-8a523623b/)
+- Frontend Mentor - [@jen67](https://www.frontendmentor.io/profile/jen67)
+- Twitter - [@JenniferAm96723](https://www.twitter.com/JenniferAm96723)
