@@ -99,7 +99,8 @@ input {
   border: 1.5px solid var(--Pale-Blue);
   padding: 0.7rem 2rem;
   width: 100%; 
-  caret-color: var(--Blue);   
+  caret-color: var(--Blue); 
+  background-color: transparent;   
 }
 
 input::placeholder {
@@ -134,7 +135,7 @@ input::carret{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(30px);
     z-index: 1;
 }
 
@@ -266,7 +267,7 @@ footer small {
 
   .modal-content{
     width: 40%;
-    padding: 90px  20px 60px 20px;
+    padding: 70px  20px 60px 20px;
   }
 
   svg{
