@@ -116,6 +116,8 @@ input::carret{
 }
 
   #error-text{
+    font-size: 0.9rem; 
+    padding-top: 0.5rem; 
     color:var(--Light-Red); 
   }
 
