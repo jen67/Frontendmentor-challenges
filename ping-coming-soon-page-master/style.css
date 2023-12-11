@@ -138,6 +138,11 @@ input::placeholder {
     text-align: center;
 }
 
+.modal-content p{
+  font-weight: 600;
+  color: var(--Very-Dark-Blue); 
+}
+
 .close { 
     position: absolute;
     top: 10px;
