@@ -28,6 +28,8 @@ function hideModal() {
     modal.style.display = "none";
 }
 
+closeModalBtn.addEventListener("click", hideModal); 
+
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (input.value === "") {
