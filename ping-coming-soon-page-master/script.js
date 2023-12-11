@@ -1,6 +1,8 @@
 const form = document.querySelector("form");
 const error = document.querySelector("#error-text"); 
 const input = document.querySelector("#input");
+const modal = document.getElementById("thankYouModal");
+const closeModalBtn = modal.querySelector(".close");
 
 function validateEmail(email) {
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -16,6 +18,10 @@ function clearError() {
     error.textContent = "";
     input.classList.remove("error-border");
     input.value = ""; 
+}
+
+function showModal() {
+    
 }
 
 form.addEventListener("submit", (e) => {
