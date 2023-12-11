@@ -9,5 +9,12 @@
 --Light-grayish-blue: hsl(234, 14%, 74%);
 --Grayish-blue: hsl(233, 13%, 49%);
 --Dark-grayish-blue: hsl(232, 13%, 33%);
-
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
