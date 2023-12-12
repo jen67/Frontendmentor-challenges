@@ -186,6 +186,10 @@ button {
   transition: all 0.3s ease-in-out; 
 }
 
+button:active {
+  transform: scale(0.95);
+}
+
 button:hover{
     border: 2px groove var(--Very-light-grayish-blue);
     background: transparent; 
