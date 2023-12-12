@@ -42,8 +42,8 @@ footer {
 }
 
 ul li {
-    font-size: .75rem;
-    padding-block:0.5rem ;
+  font-size: 0.75rem;
+  padding-block: 0.5rem;
   list-style: none;
   color: var(--Grayish-blue);
   border-top: 1.2px solid var(--Light-grayish-blue);
