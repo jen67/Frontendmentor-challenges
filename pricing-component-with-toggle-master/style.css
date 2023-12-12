@@ -139,3 +139,9 @@ button {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.price{
+    margin: 1rem 0;
+    color: var(--Dark-grayish-blue); 
+    font-weight: 700; 
+}
