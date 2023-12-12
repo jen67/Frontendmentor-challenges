@@ -129,6 +129,13 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
   width: 100%;
 }
 
+.card h2{
+    color: var(--Grayish-blue);
+    font-weight: 700; 
+    font-size: 0.7rem; 
+
+}
+
 button {
   width: 100%;
   padding: 0.625rem 0;
