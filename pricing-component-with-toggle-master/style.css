@@ -51,7 +51,7 @@ header, main{
 }
 
 .toggle p {
-     
+color: var(--Light-grayish-blue); 
   cursor: pointer;
   transition: background-color 0.3s;
 }
