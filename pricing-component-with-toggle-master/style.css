@@ -42,7 +42,7 @@ footer {
 }
 
 ul li {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   padding-block: 0.5rem;
   list-style: none;
   color: var(--Grayish-blue);
@@ -125,9 +125,15 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
   box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
 }
 
+.card:nth-child(2) {
+  background: var(--linear-gradient);
+  color: white; 
+}
+
 .card ul {
   width: 100%;
 }
+
 
 .card h2{
     color: var(--Grayish-blue);
