@@ -149,11 +149,11 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 
 .card:nth-child(2) button {
   color: var(--button-color);
-  background: var(--Very-light-grayish-blue);
+  background: var(--Very-light-grayish-blue); 
 }
 
 .card:nth-child(2) button:hover{
-    border: 2px groove var(--);
+    border: 2px groove var(--Very-light-grayish-blue);
     background: transparent; 
     color: var(--Very-light-grayish-blue);
 
