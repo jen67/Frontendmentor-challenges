@@ -24,62 +24,62 @@ body{
 }
 
 header {
-      text-align: center;
-    }
+  text-align: center;
+}
 
-    h1 {
-      margin-bottom: 20px;
-    }
+h1 {
+  margin-bottom: 20px;
+}
 
-    .toggle {
-      display: flex;
-      align-items: center;
-      font-size: 1rem;
-    }
+.toggle {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
 
-    .toggle span {
-      text-align: center;
-      cursor: pointer;
-      padding: 10px;
-      transition: background-color 0.3s;
-    }
+.toggle span {
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
 
-    .switch-container {
-      display: flex;
-      align-items: center;
-      position: relative;
-      width: 60px;
-      height: 30px;
-      background: var(--linear-gradient);
-      border-radius: 15px;
-      margin: 0 10px;
-      padding: 0 0.2rem;
-    }
+.switch-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background: var(--linear-gradient); /* Assuming you have a variable for linear gradient */
+  border-radius: 15px;
+  margin: 0 10px;
+  padding: 0 0.2rem;
+}
 
-    .switch-toggle {
-      content: '';
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      background-color: var(--Very-light-grayish-blue);
-      border-radius: 50%;
-      transition: transform 0.3s;
-    }
+.switch-toggle {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--Very-light-grayish-blue); /* Assuming you have a variable for color */
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
 
-    input[type="checkbox"] {
-      display: none;
-    }
+input[type="checkbox"] {
+  display: none;
+}
 
-    input[type="checkbox"]:checked + .switch-container .switch-toggle {
-      transform: translateX(30px);
-    }
+input[type="checkbox"]:checked + .switch-container .switch-toggle {
+  transform: translateX(30px);
+}
 
-    input[type="checkbox"]:checked + .toggle span:nth-child(1) {
-      background-color: #3498db;
-      color: #fff;
-    }
+input[type="checkbox"]:checked + .toggle span:nth-child(1) {
+  background-color: #3498db;
+  color: #fff;
+}
 
-    input[type="checkbox"]:checked + .toggle span:nth-child(3) {
-      background-color: #ddd;
-      color: #555;
-    }
+input[type="checkbox"]:checked + .toggle span:nth-child(3) {
+  background-color: #ddd;
+  color: #555;
+}
