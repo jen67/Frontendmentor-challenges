@@ -83,6 +83,6 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + .switch-container .switch-toggle {
-  transform: translateX(calc(100% - 1rem));  
+  transform: translateX(calc(30px));  
 }
 
