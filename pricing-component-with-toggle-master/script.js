@@ -1,1 +1,1 @@
-const toggleButton = document.querySelector('.toggle-button');
+const toggleButton = document.querySelector(".switch-toggle");
