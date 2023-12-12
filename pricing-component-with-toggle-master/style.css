@@ -63,7 +63,7 @@ h1 {
   height: 20px;
   background-color: var(--Very-light-grayish-blue); 
   border-radius: 50%;
-  transition: transform 0.3s;
+ transition: all 0.3s;
 }
 
 input[type="checkbox"] {
