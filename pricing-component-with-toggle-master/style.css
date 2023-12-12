@@ -113,9 +113,13 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
     margin-top: 1rem;
     box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
 }
+
+.card ul{
+    width: 100%; 
+}
 .card ul li{
 color: var(--Grayish-blue); 
-border-top: 1px solid var(--Grayish-blue); 
+border-top: 1px solid var(--Grayish-blue);  
 }
 
 button{
