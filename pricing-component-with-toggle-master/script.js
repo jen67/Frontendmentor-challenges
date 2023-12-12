@@ -1,5 +1,4 @@
 (function () {
-    
   const toggleSwitch = document.querySelector("#toggle-switch");
   const priceElements = document.querySelectorAll(".amount");
 
@@ -14,4 +13,4 @@
       priceElements[2].innerText = "399.99";
     }
   });
-});
+})();
