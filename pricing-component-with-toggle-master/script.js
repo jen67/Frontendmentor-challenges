@@ -1,21 +1,17 @@
-document.addEventListener("DOMContentLoaded", function () {
+(function () {
+    
   const toggleSwitch = document.querySelector("#toggle-switch");
-  const prices = document.querySelectorAll(".amount");
+  const priceElements = document.querySelectorAll(".amount");
 
   toggleSwitch.addEventListener("change", () => {
     if (toggleSwitch.checked) {
-        prices.forEach((price) => (price.textContent = "message"));
-        prices[0].textContent = "19.99";
-        prices[1].textContent = "24.99";
-        prices[2].textContent = "39.99";
+      priceElements[0].innerText = "19.99";
+      priceElements[1].innerText = "24.99";
+      priceElements[2].innerText = "39.99";
     } else {
-      prices.forEach(
-        (price) => (price.textContent = "message")
-        
-        );
-        prices[0].textContent = "199.99";
-        prices[1].textContent = "249.99";
-        prices[2].textContent = "399.99";
+      priceElements[0].innerText = "199.99";
+      priceElements[1].innerText = "249.99";
+      priceElements[2].innerText = "399.99";
     }
   });
 });
