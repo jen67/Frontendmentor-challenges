@@ -26,6 +26,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--Very-light-grayish-blue);
     font-size: 0.9375rem;
+    background-image: url('./images/bg-top.svg'), url('./images/bg-bottom.svg');
+  background-position: top right, bottom left;
+  background-repeat: no-repeat, no-repeat;
 }
 
 header, main, footer{
