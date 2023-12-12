@@ -141,6 +141,10 @@ button {
 }
 
 .price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
     margin: 1rem 0;
     color: var(--Dark-grayish-blue); 
     font-weight: 700; 
