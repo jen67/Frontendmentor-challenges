@@ -8,7 +8,7 @@
     hsl(237, 63%, 64%)
   );
   --button-color: hsl(237, 63%, 64%);
-  --second-card: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
+  --second-card: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 
   /* Neutral colors */
   --Very-light-grayish-blue: hsl(240, 78%, 98%);
