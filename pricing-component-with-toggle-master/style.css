@@ -145,3 +145,11 @@ button {
     color: var(--Dark-grayish-blue); 
     font-weight: 700; 
 }
+
+.price .amount{
+    font-size: 2.5rem;
+}
+
+.price .dollar-sign{
+    font-size: 1.5rem;
+}
