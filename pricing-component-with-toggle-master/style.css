@@ -46,20 +46,22 @@ header {
 
     .switch-container {
       display: flex;
+      align-items: center;
       position: relative;
       width: 60px;
       height: 30px;
-      background-color: #ddd;
+      background: var(--linear-gradient);
       border-radius: 15px;
       margin: 0 10px;
+      padding: 0 0.2rem;
     }
 
     .switch-toggle {
       content: '';
       position: absolute;
-      width: 30px;
-      height: 30px;
-      background-color: #3498db;
+      width: 20px;
+      height: 20px;
+      background-color: var(--Very-light-grayish-blue);
       border-radius: 50%;
       transition: transform 0.3s;
     }
