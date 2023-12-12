@@ -23,22 +23,62 @@ body{
     font-size: 0.95rem;
 }
 
-.switch-container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; 
-    padding: 0.5rem  0.5rem 0.5rem 0;
-    background:var(--linear-gradient);
-    border-radius: 20px;
-    width: 4rem;
-}
+header {
+      text-align: center;
+    }
 
-.switch-container .switch-toggle{
-    position: relative;
-    width: 1rem;
-    height: 1rem;
-    background-color: var(--Very-light-grayish-blue);
-    border-radius: 50%;
-    cursor: pointer;
-} 
+    h1 {
+      margin-bottom: 20px;
+    }
 
+    .toggle {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .toggle span {
+      text-align: center;
+      cursor: pointer;
+      padding: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .switch-container {
+      display: flex;
+      position: relative;
+      width: 60px;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 15px;
+      margin: 0 10px;
+    }
+
+    .switch-toggle {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: #3498db;
+      border-radius: 50%;
+      transition: transform 0.3s;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked + .switch-container .switch-toggle {
+      transform: translateX(30px);
+    }
+
+    input[type="checkbox"]:checked + .toggle span:nth-child(1) {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    input[type="checkbox"]:checked + .toggle span:nth-child(3) {
+      background-color: #ddd;
+      color: #555;
+    }
