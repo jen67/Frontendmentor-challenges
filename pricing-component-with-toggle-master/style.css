@@ -37,6 +37,8 @@ header, main, footer{
 
 ul li{
     list-style: none;
+    color: var(--Grayish-blue); 
+border-top: 1px solid var(--Grayish-blue);
 
 }
 
@@ -116,10 +118,6 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 
 .card ul{
     width: 100%; 
-}
-.card ul li{
-color: var(--Grayish-blue); 
-border-top: 1px solid var(--Grayish-blue);  
 }
 
 button{
