@@ -38,7 +38,7 @@ header, main, footer{
 ul li{
     list-style: none;
     color: var(--Grayish-blue); 
-border-top: 1px solid var(--Grayish-blue);
+border-top: 1.2px solid var(--Light-grayish-blue);
 
 }
 
