@@ -125,7 +125,7 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
   justify-content: center;
   background-color: white;
   border-radius: 0.625rem;
-  padding: 1rem;
+  padding: 2rem;
   margin-top: 1rem;
   box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
 }
