@@ -179,6 +179,10 @@ button {
   margin-top: 1.25rem;
 }
 
+button:hover{
+    border: 2px groove var(--Very-light-grayish-blue);
+    background: transparent; 
+}
 .price {
   display: flex;
   flex-direction: row;
