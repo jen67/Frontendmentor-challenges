@@ -26,19 +26,19 @@ body{
 .switch-container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
+    align-items: flex-start; 
+    padding: 1rem  1rem 1rem 0;
     background:var(--linear-gradient);
     border-radius: 20px;
     width: 4rem;
 }
 
-.switch-container .switch{
+.switch-container .switch-toggle{
     position: relative;
-    width: 2rem;
+    width: 1rem;
     height: 1rem;
     background-color: var(--Very-light-grayish-blue);
-    border-radius: 20px;
+    border-radius: 50%;
     cursor: pointer;
 } 
 
