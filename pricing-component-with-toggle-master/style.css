@@ -25,7 +25,7 @@ body{
     text-align: center; 
     font-family: 'Montserrat', sans-serif;
     background-color: var(--Very-light-grayish-blue);
-    font-size: 0.95rem;
+    font-size: 0.9375rem;
 }
 
 header, main, footer{
