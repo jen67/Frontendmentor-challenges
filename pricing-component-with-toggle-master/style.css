@@ -34,7 +34,7 @@ body {
   font-size: 0.9375rem;
   background-image: url(./images/bg-top.svg);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top  left 7rem;
     background-size: contain;
 }
 
