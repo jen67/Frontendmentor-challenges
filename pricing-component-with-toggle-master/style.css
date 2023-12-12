@@ -99,3 +99,7 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
   transform: translateX(calc(34px));  
 }
 
+.card{
+    
+}
+
