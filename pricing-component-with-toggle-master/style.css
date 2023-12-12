@@ -25,6 +25,11 @@ body{
     background-color: var(--Very-light-grayish-blue);
     font-size: 0.95rem;
 }
+
+header, main{
+    width: 90%; 
+    margin: 0 auto; 
+}
 ul li{
     list-style: none;
 
@@ -45,9 +50,7 @@ header span{
     color: var(--Light-grayish-blue);
 }
 
-header, main{
-    width: 90%; 
-}
+
 .toggle {
   display: flex;
   align-items: center;
