@@ -2,7 +2,7 @@ const toggleButton = document.querySelector(".switch-toggle");
 const price = document.querySelectorAll(".price");
 
 
-toggleButton.addEventListener("click", () => { 
+toggleButton.addEventListener("change", () => { 
     if (toggleButton.checked) {
         price[0].innerHTML = "$199.99";
         price[1].innerHTML = "$249.99";
