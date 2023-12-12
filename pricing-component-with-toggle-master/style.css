@@ -65,7 +65,8 @@ header, main{
   background: var(--linear-gradient); 
   border-radius: 0.9375rem;
   /* margin: 0 0.625rem; */
-  padding: 0 0.2rem;
+  padding: 0 0.2rem; 
+  margin: 0 1rem;
 }
 
 .switch-toggle {
@@ -83,6 +84,6 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + .switch-container .switch-toggle {
-  transform: translateX(calc(30px));  
+  transform: translateX(calc(34px));  
 }
 
