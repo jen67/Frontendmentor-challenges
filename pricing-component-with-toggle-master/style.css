@@ -26,10 +26,11 @@ body{
     font-size: 0.95rem;
 }
 
-header, main{
+header, main, footer{
     width: 90%; 
     margin: 0 auto; 
 }
+
 ul li{
     list-style: none;
 
