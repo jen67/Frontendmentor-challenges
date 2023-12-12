@@ -144,6 +144,11 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
     background: var(--Very-light-grayish-blue);
 }
 
+.card:nth-child(2) ul li{
+    color: var(--Very-light-grayish-blue); 
+    border-top: 1.2px solid var(--Light-grayish-blue);
+}
+
 
 
 .card ul {
