@@ -1,5 +1,5 @@
 const toggleButton = document.querySelector(".switch-toggle");
-const price = document.querySelectorAll(".price");
+const price = document.querySelectorAll(".amount");
 
 
 toggleButton.addEventListener("change", () => { 
