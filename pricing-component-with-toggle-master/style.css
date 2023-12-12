@@ -35,6 +35,7 @@ body {
   background-image: url(./images/bg-top.svg);
   background-repeat: no-repeat;
   background-position: top left;
+    background-size: contain;
 }
 
 header,
