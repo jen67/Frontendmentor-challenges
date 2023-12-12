@@ -183,7 +183,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 1.25rem;
-  tran
+  transition: all 0.3s ease-in-out; 
 }
 
 button:hover{
