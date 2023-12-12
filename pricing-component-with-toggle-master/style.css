@@ -50,10 +50,9 @@ header, main{
   font-size: 1rem;
 }
 
-.toggle span {
-  text-align: center;
+.toggle p {
+     
   cursor: pointer;
-  padding: 0.625rem;
   transition: background-color 0.3s;
 }
 
@@ -84,6 +83,6 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + .switch-container .switch-toggle {
-  transform: translateX(1.875rem);
+  transform: translateX(2.1rem);
 }
 
