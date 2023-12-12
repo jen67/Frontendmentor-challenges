@@ -7,6 +7,7 @@
     hsl(236, 72%, 79%),
     hsl(237, 63%, 64%)
   );
+  --button-color: hsl(237, 63%, 64%);
 
   /* Neutral colors */
   --Very-light-grayish-blue: hsl(240, 78%, 98%);
@@ -139,7 +140,7 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 }
 
 .card:nth-child(2) button{
-    color: var(--Very-light-grayish-blue);
+    color: var(--button-color);
     background: var(--Very-light-grayish-blue);
 }
 
