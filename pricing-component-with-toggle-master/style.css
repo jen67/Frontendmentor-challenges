@@ -99,6 +99,16 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
   transform: translateX(calc(34px));  
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Very-light-grayish-blue);
+    border-radius: 0.625rem;
+    padding: 2rem 0;
+    margin-top: 1rem;
+}
 .card ul li{
 color: var(--Grayish-blue); 
 }
