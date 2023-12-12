@@ -23,3 +23,22 @@ body{
     font-size: 0.95rem;
 }
 
+.switch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background:var(--linear-gradient);
+    border-radius: 20px;
+    width: 4rem;
+}
+
+.switch-container .switch{
+    position: relative;
+    width: 2rem;
+    height: 1rem;
+    background-color: var(--Very-light-grayish-blue);
+    border-radius: 20px;
+    cursor: pointer;
+} 
+
