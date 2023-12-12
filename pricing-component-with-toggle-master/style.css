@@ -138,6 +138,7 @@ button {
   background: var(--linear-gradient);
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: 1.25rem;
 }
 
 .price{
