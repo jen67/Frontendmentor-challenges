@@ -175,7 +175,7 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 
 button {
   width: 100%;
-  padding: 0.625rem 0;
+  padding: 0.625rem 0.5rem;
   border-radius: 0.3125rem;
   border: transparent;
   color: var(--Very-light-grayish-blue);
@@ -183,6 +183,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 1.25rem;
+  tran
 }
 
 button:hover{
