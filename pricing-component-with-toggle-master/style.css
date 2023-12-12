@@ -74,12 +74,3 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
   transform: translateX(30px);
 }
 
-input[type="checkbox"]:checked ~ .toggle span:nth-child(1) {
-  background-color: #3498db;
-  color: var(--Grayish-blue);
-}
-
-input[type="checkbox"]:checked ~ .toggle span:nth-child(3) {
-  background-color: #ddd;
-  color: #555;
-}
