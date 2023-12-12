@@ -109,12 +109,13 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
     justify-content: center;
     background-color: white;
     border-radius: 0.625rem;
-    padding: 2rem 0;
+    padding: 1rem;
     margin-top: 1rem;
     box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
 }
 .card ul li{
 color: var(--Grayish-blue); 
+border-top: 1px solid var(--Grayish-blue); 
 }
 
 button{
