@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center; 
     font-family: 'Montserrat', sans-serif;
     background-color: var(--Very-light-grayish-blue);
     font-size: 0.95rem;
@@ -28,7 +29,6 @@ body{
 
 header, main, footer{
     width: 90%; 
-    margin: 0 auto; 
 }
 
 ul li{
