@@ -49,6 +49,10 @@ ul li {
   border-top: 1.2px solid var(--Light-grayish-blue);
 }
 
+ul li:last-child {
+  border-bottom: 1.2px solid var(--Light-grayish-blue);
+}
+
 header {
   display: flex;
   flex-direction: column;
