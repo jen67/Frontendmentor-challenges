@@ -50,7 +50,7 @@ h1 {
   position: relative;
   width: 60px;
   height: 30px;
-  background: var(--linear-gradient); /* Assuming you have a variable for linear gradient */
+  background: var(--linear-gradient); 
   border-radius: 15px;
   margin: 0 10px;
   padding: 0 0.2rem;
@@ -61,7 +61,7 @@ h1 {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: var(--Very-light-grayish-blue); /* Assuming you have a variable for color */
+  background-color: var(--Very-light-grayish-blue); 
   border-radius: 50%;
   transition: transform 0.3s;
 }
@@ -76,7 +76,7 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 
 input[type="checkbox"]:checked + .toggle span:nth-child(1) {
   background-color: #3498db;
-  color: #fff;
+  color: var(--Grayish-blue);
 }
 
 input[type="checkbox"]:checked + .toggle span:nth-child(3) {
