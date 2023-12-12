@@ -1,65 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-:root{
-    /* Primary colors */
---linear-gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+:root {
+  /* Primary colors */
+  --linear-gradient: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
 
-/* Neutral colors */
---Very-light-grayish-blue: hsl(240, 78%, 98%);
---Light-grayish-blue: hsl(234, 14%, 74%);
---Grayish-blue: hsl(233, 13%, 49%);
---Dark-grayish-blue: hsl(232, 13%, 33%);
+  /* Neutral colors */
+  --Very-light-grayish-blue: hsl(240, 78%, 98%);
+  --Light-grayish-blue: hsl(234, 14%, 74%);
+  --Grayish-blue: hsl(233, 13%, 49%);
+  --Dark-grayish-blue: hsl(232, 13%, 33%);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--Very-light-grayish-blue);
-    font-size: 0.9375rem;
-    background-image: url(./images/bg-top.svg);
-    background-repeat: no-repeat;
-    background-position: top left;  
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--Very-light-grayish-blue);
+  font-size: 0.9375rem;
+  background-image: url(./images/bg-top.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
-header, main, footer{
-    width: 90%; 
+header,
+main,
+footer {
+  width: 90%;
 }
 
-ul li{
-    list-style: none;
-    color: var(--Grayish-blue); 
-border-top: 1.2px solid var(--Light-grayish-blue);
-
+ul li {
+  list-style: none;
+  color: var(--Grayish-blue);
+  border-top: 1.2px solid var(--Light-grayish-blue);
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
   text-align: center;
-   
 }
 
 h1 {
   margin-bottom: 1.25rem;
-  color: var(--Grayish-blue); 
+  color: var(--Grayish-blue);
 }
 
-header span{
-    color: var(--Light-grayish-blue);
+header span {
+  color: var(--Light-grayish-blue);
 }
-
 
 .toggle {
   display: flex;
@@ -68,7 +71,7 @@ header span{
 }
 
 .toggle p {
-color: var(--Light-grayish-blue); 
+  color: var(--Light-grayish-blue);
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -79,21 +82,21 @@ color: var(--Light-grayish-blue);
   position: relative;
   width: 3.75rem;
   height: 1.875rem;
-  background: var(--linear-gradient); 
+  background: var(--linear-gradient);
   border-radius: 0.9375rem;
   /* margin: 0 0.625rem; */
-  padding: 0 0.2rem; 
+  padding: 0 0.2rem;
   margin: 0 1rem;
 }
 
 .switch-toggle {
-  content: '';
+  content: "";
   position: absolute;
   width: 1.25rem;
   height: 1.25rem;
-  background-color: var(--Very-light-grayish-blue); 
+  background-color: var(--Very-light-grayish-blue);
   border-radius: 50%;
- transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 input[type="checkbox"] {
@@ -101,33 +104,32 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + .switch-container .switch-toggle {
-  transform: translateX(calc(34px));  
+  transform: translateX(calc(34px));
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 0.625rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0.625rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
 }
 
-.card ul{
-    width: 100%; 
+.card ul {
+  width: 100%;
 }
 
-button{
-    width: 100%;
-    padding: 0.625rem 0;
-    border-radius: 0.3125rem;
-    border: transparent;
-    color: var(--Very-light-grayish-blue);
-    background: var(--linear-gradient);
-    text-transform: uppercase;
-    font-weight: 700;
+button {
+  width: 100%;
+  padding: 0.625rem 0;
+  border-radius: 0.3125rem;
+  border: transparent;
+  color: var(--Very-light-grayish-blue);
+  background: var(--linear-gradient);
+  text-transform: uppercase;
+  font-weight: 700;
 }
-
