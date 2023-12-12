@@ -127,11 +127,15 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 
 .card:nth-child(2) {
   background: var(--linear-gradient);
-  color: white; 
+  color: var(--Very-light-grayish-blue); 
 }
 
 .card:nth-child(2) h2{
     color: white;
+}
+
+.card:nth-child(2) .price{
+    color: var(--Very-light-grayish-blue); 
 }
 
 
