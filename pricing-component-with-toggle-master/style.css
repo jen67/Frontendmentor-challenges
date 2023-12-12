@@ -130,6 +130,12 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
   color: white; 
 }
 
+.card:nth-child(2) h2{
+    color: white;
+}
+
+
+
 .card ul {
   width: 100%;
 }
