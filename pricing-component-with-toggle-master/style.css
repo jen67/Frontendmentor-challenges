@@ -128,7 +128,7 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 }
 
 .card:nth-child(2) {
-  background: var(--linear-gradient);
+  background: var(--second-card);
   color: var(--Very-light-grayish-blue);
 }
 
