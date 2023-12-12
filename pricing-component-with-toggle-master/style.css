@@ -34,7 +34,7 @@ header {
     .toggle {
       display: flex;
       align-items: center;
-      font-size: 18px;
+      font-size: 1rem;
       color: #555;
     }
 
