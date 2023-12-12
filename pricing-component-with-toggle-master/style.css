@@ -128,39 +128,35 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 
 .card:nth-child(2) {
   background: var(--linear-gradient);
-  color: var(--Very-light-grayish-blue); 
+  color: var(--Very-light-grayish-blue);
 }
 
-.card:nth-child(2) h2{
-    color: white;
+.card:nth-child(2) h2 {
+  color: white;
 }
 
-.card:nth-child(2) .price{
-    color: var(--Very-light-grayish-blue); 
+.card:nth-child(2) .price {
+  color: var(--Very-light-grayish-blue);
 }
 
-.card:nth-child(2) button{
-    color: var(--button-color);
-    background: var(--Very-light-grayish-blue);
+.card:nth-child(2) button {
+  color: var(--button-color);
+  background: var(--Very-light-grayish-blue);
 }
 
-.card:nth-child(2) ul li{
-    color: var(--Very-light-grayish-blue); 
-    border-top: 1.2px solid var(--Light-grayish-blue);
+.card:nth-child(2) ul li {
+  color: var(--Very-light-grayish-blue);
+  border-top: 1.2px solid var(--Light-grayish-blue);
 }
-
-
 
 .card ul {
   width: 100%;
 }
 
-
-.card h2{
-    color: var(--Grayish-blue);
-    font-weight: 700; 
-    font-size: 0.7rem; 
-
+.card h2 {
+  color: var(--Grayish-blue);
+  font-weight: 700;
+  font-size: 0.7rem;
 }
 
 button {
@@ -175,20 +171,20 @@ button {
   margin-top: 1.25rem;
 }
 
-.price{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.2rem;
-    margin: 1rem 0;
-    color: var(--Dark-grayish-blue); 
-    font-weight: 700; 
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+  margin: 1rem 0;
+  color: var(--Dark-grayish-blue);
+  font-weight: 700;
 }
 
-.price .amount{
-    font-size: 2.5rem;
+.price .amount {
+  font-size: 2.5rem;
 }
 
-.price .dollar-sign{
-    font-size: 1.5rem;
+.price .dollar-sign {
+  font-size: 1.5rem;
 }
