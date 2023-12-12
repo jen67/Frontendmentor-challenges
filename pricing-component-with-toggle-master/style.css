@@ -45,6 +45,10 @@ footer {
   width: 90%;
 }
 
+section{
+    margin-top: 5rem;
+}
+
 ul li {
   font-size: 0.7rem;
   padding-block: 0.5rem;
