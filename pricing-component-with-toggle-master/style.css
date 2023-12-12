@@ -19,7 +19,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: var(--linear-gradient);
+    background-color: var(--Very-light-grayish-blue);
     font-size: 0.95rem;
 }
 
