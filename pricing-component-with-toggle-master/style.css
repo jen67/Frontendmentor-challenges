@@ -124,5 +124,7 @@ button{
     border: transparent;
     color: var(--Very-light-grayish-blue);
     background: var(--linear-gradient);
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
