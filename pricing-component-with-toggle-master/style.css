@@ -25,9 +25,13 @@ body{
     background-color: var(--Very-light-grayish-blue);
     font-size: 0.95rem;
 }
+ul li{
+    list-style: none;
+
+}
 
 header {
-    margin-top: 2rem;
+margin-top: 2rem;
   text-align: center;
    
 }
