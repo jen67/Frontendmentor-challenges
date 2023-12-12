@@ -138,6 +138,11 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
     color: var(--Very-light-grayish-blue); 
 }
 
+.card:nth-child(2) button{
+    color: var(--Very-light-grayish-blue);
+    background: var(--Very-light-grayish-blue);
+}
+
 
 
 .card ul {
