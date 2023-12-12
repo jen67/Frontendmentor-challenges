@@ -1,4 +1,7 @@
 (function () {
+    "use strict" 
+
+    // Toggle switch
   const toggleSwitch = document.querySelector("#toggle-switch");
   const priceElements = document.querySelectorAll(".amount");
 
