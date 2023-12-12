@@ -182,6 +182,7 @@ button {
 button:hover{
     border: 2px groove var(--Very-light-grayish-blue);
     background: transparent; 
+    color: var(--button-color);
 }
 .price {
   display: flex;
