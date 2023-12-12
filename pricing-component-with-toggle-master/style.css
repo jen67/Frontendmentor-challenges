@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .toggle {
@@ -40,7 +40,7 @@ h1 {
 .toggle span {
   text-align: center;
   cursor: pointer;
-  padding: 10px;
+  padding: 0.625rem;
   transition: background-color 0.3s;
 }
 
@@ -48,19 +48,19 @@ h1 {
   display: flex;
   align-items: center;
   position: relative;
-  width: 60px;
-  height: 30px;
+  width: 3.75rem;
+  height: 1.875rem;
   background: var(--linear-gradient); 
-  border-radius: 15px;
-  margin: 0 10px;
+  border-radius: 0.9375rem;
+  margin: 0 0.625rem;
   padding: 0 0.2rem;
 }
 
 .switch-toggle {
   content: '';
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   background-color: var(--Very-light-grayish-blue); 
   border-radius: 50%;
  transition: all 0.3s;
