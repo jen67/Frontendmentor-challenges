@@ -32,10 +32,12 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--Very-light-grayish-blue);
   font-size: 0.9375rem;
-  background-image: url(./images/bg-top.svg);
-  background-repeat: no-repeat;
-  background-position: top  left 7rem;
-    background-size: contain;
+  background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 26.5%, 26.5%;
+  background-position:
+    top 0 right -1rem,
+    bottom -4.7rem left -1.9rem;
     padding: 0 1rem; 
 }
 
