@@ -238,6 +238,7 @@ footer {
 
   section{
     display: flex;
+    justify-content: center;
   }
 
   .card:not:nth-of-type(2) {
