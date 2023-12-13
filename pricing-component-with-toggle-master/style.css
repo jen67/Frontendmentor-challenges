@@ -239,4 +239,8 @@ footer {
   section{
     display: flex;
   }
+
+  .card:nth-of-type(2) {
+   border-radius:  
+  }
 }
