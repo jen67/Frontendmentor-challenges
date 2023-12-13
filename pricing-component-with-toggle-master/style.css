@@ -222,3 +222,14 @@ footer{
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (min-width: 768px) {
+        body{
+            background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 26.5%, 26.5%;
+  background-position:
+    top 0 right -1rem,
+    bottom -4.7rem left -1.9rem;
+        }
+    }
