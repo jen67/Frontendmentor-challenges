@@ -34,11 +34,10 @@ body {
   font-size: 0.9375rem;
   background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-size: 26.5%, 26.5%;
-  background-position:
-    top 0 right -1rem,
-    bottom -4.7rem left -1.9rem;
-    padding: 0 1rem; 
+  background-size: 80%, 26.5%;
+    background-position:
+      top 0 right -10rem,
+      bottom -4.7rem left -1.9rem;
 }
 
 header,
