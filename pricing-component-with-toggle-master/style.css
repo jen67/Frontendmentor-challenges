@@ -8,7 +8,11 @@
     hsl(237, 63%, 64%)
   );
   --button-color: hsl(237, 63%, 64%);
-  --second-card: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  --second-card: linear-gradient(
+    to bottom,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
 
   /* Neutral colors */
   --Very-light-grayish-blue: hsl(240, 78%, 98%);
@@ -35,9 +39,7 @@ body {
   background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 80%, 26.5%;
-    background-position:
-      top 0 right -10rem,
-      bottom -4.7rem left -1.9rem;
+  background-position: top 0 right -10rem, bottom -4.7rem left -1.9rem;
 }
 
 header,
@@ -46,8 +48,8 @@ footer {
   width: 90%;
 }
 
-section{
-    margin-top: 4rem;
+section {
+  margin-top: 4rem;
 }
 
 ul li {
@@ -63,7 +65,7 @@ ul li:last-child {
 }
 
 header {
-    width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,14 +152,13 @@ input[type="checkbox"]:checked + .switch-container .switch-toggle {
 
 .card:nth-child(2) button {
   color: var(--button-color);
-  background: var(--Very-light-grayish-blue); 
+  background: var(--Very-light-grayish-blue);
 }
 
-.card:nth-child(2) button:hover{
-    border: 2px groove var(--Very-light-grayish-blue);
-    background: transparent; 
-    color: var(--Very-light-grayish-blue);
-
+.card:nth-child(2) button:hover {
+  border: 2px groove var(--Very-light-grayish-blue);
+  background: transparent;
+  color: var(--Very-light-grayish-blue);
 }
 .card:nth-child(2) ul li {
   color: var(--Very-light-grayish-blue);
@@ -184,17 +185,17 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 1.25rem;
-  transition: all 0.3s ease-in-out; 
+  transition: all 0.3s ease-in-out;
 }
 
 button:active {
   transform: scale(0.95);
 }
 
-button:hover{
-    border: 2px groove var(--Very-light-grayish-blue);
-    background: transparent; 
-    color: var(--button-color);
+button:hover {
+  border: 2px groove var(--Very-light-grayish-blue);
+  background: transparent;
+  color: var(--button-color);
 }
 .price {
   display: flex;
@@ -214,21 +215,24 @@ button:hover{
   font-size: 1.5rem;
 }
 
-footer{
-    margin-top: 3rem;
-    padding: 0 2rem 1rem 2rem;
+footer {
+  margin-top: 3rem;
+  padding: 0 2rem 1rem 2rem;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-    @media screen and (min-width: 768px) {
-        body{
-            background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-size: 26.5%, 26.5%;
-  background-position:
-    top 0 right -1rem,
-    bottom -4.7rem left -1.9rem;
-        }
-    }
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 26.5%, 26.5%;
+    background-position: top 0 right -1rem, bottom -4.7rem left -1.9rem;
+  }
+}
