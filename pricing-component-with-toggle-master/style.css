@@ -61,7 +61,7 @@ ul li {
 }
 
 ul li:last-child {
-  border-bottom: 1.2px solid var(--Light-grayish-blue);
+  border-bottom: 1.2px solid rgba(188, 188, 194, 0.5);
 }
 
 header {
