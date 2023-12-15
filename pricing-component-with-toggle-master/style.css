@@ -98,11 +98,11 @@ header span {
   display: flex;
   align-items: center;
   position: relative;
+  max-width: 100%; 
   width: 3.75rem;
   height: 1.875rem;
   background: var(--linear-gradient);
   border-radius: 0.9375rem;
-  /* margin: 0 0.625rem; */
   padding: 0 0.2rem;
   margin: 0 1rem;
 }
