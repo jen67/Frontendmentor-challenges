@@ -57,7 +57,7 @@ ul li {
   padding-block: 0.5rem;
   list-style: none;
   color: var(--Grayish-blue);
-   border-top: 1.2px solid rgba(188, 188, 194, 0.5);
+  border-top: 1.2px solid rgba(188, 188, 194, 0.5);
 }
 
 ul li:last-child {
@@ -235,19 +235,19 @@ footer {
     background-position: top 0 right -1rem, bottom -4.7rem left -1.9rem;
   }
 
-  section{
+  section {
     display: flex;
     justify-content: center;
   }
- ul{
+  ul {
     height: 20rem;
- }
+  }
   .card {
-    width: 20rem; 
+    width: 20rem;
     height: 20rem;
   }
 
-  .card:not(:nth-of-type(2)){
-   border-radius:  0; 
+  .card:not(:nth-of-type(2)) {
+    border-radius: 0;
   }
 }
