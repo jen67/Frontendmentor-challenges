@@ -244,6 +244,11 @@ footer {
     height: 20rem; 
   }
 
+  ul li{
+    font-size: 1rem;
+    padding-block: 0.8rem;
+  }
+
   .card {
     width: 20rem;
     height: 20rem;
