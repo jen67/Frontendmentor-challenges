@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![My desktop view](./design/Nest%20Hub%20Max-1702688656048.jpeg)
 
 ### Links
 
