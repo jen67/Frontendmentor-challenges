@@ -106,6 +106,10 @@ header span {
   margin: 0 1rem;
 }
 
+.switch-container:hover{
+    opacity: 0.5;
+}
+
 .switch-toggle {
   content: "";
   position: absolute;
