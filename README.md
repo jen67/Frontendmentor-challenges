@@ -13,6 +13,7 @@
   - [Four-card-feature-section](#four-card-feature-section)
   - [Base Apparel card](#base-apparel-card)
   - [Ping Coming soon page](#ping-coming-soon-page)
+  - [Pricing component with toggle](#pricing-component-with-toggle)
 
 ## Interactive-rating-component
 
@@ -67,3 +68,10 @@
 <img src="./ping-coming-soon-page-master/design/My-desktop-design.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/ping-coming-soon-page-master)
+
+
+## Pricing component with toggle
+
+<img src="./pricing-component-with-toggle-master/design/My-desktop-design.jpeg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/pricing-component-with-toggle-master)
