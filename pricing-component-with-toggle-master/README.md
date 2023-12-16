@@ -12,7 +12,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
-  - [Author](#author)
+  - [Author 👩‍💻](#author-)
 
 ## Overview
 
@@ -42,8 +42,8 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
   
-## Author
+## Author 👩‍💻
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - [Gift Amachree](https://www.linkedin.com/in/gift-amachree-8a523623b/)
+- Frontend Mentor - [@jen67](https://www.frontendmentor.io/profile/jen67)
+- Twitter - [@JenniferAm96723](https://www.twitter.com/JenniferAm96723)
