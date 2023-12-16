@@ -282,4 +282,8 @@ footer {
     border-radius:0 0.625rem 0.625rem 0;
     transform: scaleY(1.1);
   }
+
+  footer{
+    padding-top: 4rem; 
+  }
 }
