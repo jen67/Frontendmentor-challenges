@@ -286,4 +286,8 @@ footer {
   footer{
     padding-top: 4rem; 
   }
+
+  footer .attribution{
+    font-size: 1rem;
+  }
 }
