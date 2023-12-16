@@ -235,12 +235,16 @@ footer {
     background-position: top 0 right -1rem, bottom -4.7rem left -1.9rem;
   }
 
+  h1{
+    margin-bottom: 2.6rem;
+  }
+
   .card h2{
     font-size: 1rem;
   }
 
   header{
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   section {
