@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+    display: block;  
+}
+
 ul li{
     list-style: none;
 
