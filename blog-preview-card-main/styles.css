@@ -1,4 +1,9 @@
 @font-face {
-    font-family: ;
-    src: url();
+  font-family: 'FigTreeExtraBold';
+  src: url('static/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'FigTreeSemiBold';
+    src: url('static/Figtree-SemiBold.ttf') format('truetype');
 }
