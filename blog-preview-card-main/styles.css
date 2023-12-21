@@ -27,7 +27,7 @@
 }
 
 body {
-  font-family: "Figtree, snas-serif";
+   font-family: "FigTreeSemiBold", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
