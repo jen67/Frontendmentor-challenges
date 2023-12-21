@@ -1,9 +1,55 @@
+:oot {
+  --Yellow: hsl(47, 88%, 63%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+} 
+
+
 @font-face {
-  font-family: 'FigTreeExtraBold';
-  src: url('static/Figtree-ExtraBold.ttf') format('truetype');
+  font-family: "FigTreeExtraBold";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
 }
 
-@font-face{
-    font-family: 'FigTreeSemiBold';
-    src: url('static/Figtree-SemiBold.ttf') format('truetype');
+@font-face {
+  font-family: "FigTreeSemiBold";
+  src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree, snas-serif";
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background-color: var(--Yellow);
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  width: 300px;
+  max-width: 500px;
+  background-color: var(--Yellow); 
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
