@@ -48,6 +48,8 @@ section {
   max-width: 500px;
   background-color: var(--White);
   padding:  1rem; 
+  border-radius: 10px;
+ border: 1px solid var(--Grey);
 }
 .attribution {
   font-size: 11px;
