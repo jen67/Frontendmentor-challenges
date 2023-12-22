@@ -43,9 +43,11 @@ img {
 }
 
 section {
+    margin-top: 5rem; 
   width: 300px;
   max-width: 500px;
-  background-color: var(--Yellow); 
+  background-color: var(--White);
+  padding:  1rem; 
 }
 .attribution {
   font-size: 11px;
