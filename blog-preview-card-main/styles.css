@@ -91,6 +91,8 @@ p{
 .user-details img{
     border-radius: 50%;
     margin-right: 0.5rem;
+    height: 40px;
+    width: 40px; 
 }
 .attribution {
   font-size: 11px;
