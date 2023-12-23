@@ -87,6 +87,11 @@ p{
     font-family: "FigTreeSemiBold", sans-serif;
     padding-bottom: 1rem;
 }
+
+.user-details img{
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
