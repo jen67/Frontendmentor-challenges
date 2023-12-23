@@ -88,6 +88,10 @@ p{
     padding-bottom: 1rem;
 }
 
+.user-details{
+    display: flex;
+    align-items: center;
+}
 .user-details img{
     border-radius: 50%;
     margin-right: 0.5rem;
