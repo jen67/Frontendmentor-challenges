@@ -40,8 +40,7 @@ img {
 }
 
 section {
-  margin-top: 5rem;
-  width: 300px;
+  width: 350px;
   max-width: 500px;
   background-color: var(--White);
   padding: 1rem;
@@ -86,6 +85,12 @@ p{
     font-size: 0.9rem;
     font-family: "FigTreeSemiBold", sans-serif;
     padding-bottom: 1rem;
+}
+
+span{
+    color: var(--Black);
+    font-size: 0.8rem;
+    font-family: "FigTreeExtraBold", sans-serif;
 }
 
 .user-details{
