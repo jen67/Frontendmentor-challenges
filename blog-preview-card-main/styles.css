@@ -73,6 +73,13 @@ small{
     display: block;
     padding-bottom: 1rem;
 }
+
+h1{
+    color: var(--Black);
+    font-size: 1.2rem;
+    font-family: "FigTreeExtraBold", sans-serif;
+    padding-bottom: 1rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
