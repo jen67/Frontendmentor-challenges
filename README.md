@@ -79,4 +79,4 @@
 
 <img src="./blog-preview-card-main/design/My-desktop-design.jpeg" alt="Tasks" width="500">
 
-- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/pricing-component-with-toggle-master)
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/blog-preview-card-main/)
