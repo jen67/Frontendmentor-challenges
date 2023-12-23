@@ -80,6 +80,11 @@ h1{
     font-size: 1.2rem;
     font-family: "FigTreeExtraBold", sans-serif;
     padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: var(--Yellow);
 }
 
 p{
@@ -107,8 +112,7 @@ span{
 }
 
 footer{
-  margin-top: 2rem;
-  padding: 0 4rem;
+  margin: 2rem;
 }
 
 .attribution {
