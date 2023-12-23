@@ -1,13 +1,12 @@
 :root {
-    /* primary */
+  /* primary */
   --Yellow: hsl(47, 88%, 63%);
 
   /* Neutral */
   --White: hsl(0, 0%, 100%);
   --Grey: hsl(0, 0%, 50%);
   --Black: hsl(0, 0%, 7%);
-} 
-
+}
 
 @font-face {
   font-family: "FigTreeExtraBold";
@@ -19,8 +18,6 @@
   src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +25,7 @@
 }
 
 body {
-   font-family: "FigTreeSemiBold", sans-serif;
+  font-family: "FigTreeSemiBold", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,21 +40,20 @@ img {
 }
 
 section {
-    margin-top: 5rem; 
+  margin-top: 5rem;
   width: 300px;
   max-width: 500px;
   background-color: var(--White);
-  padding:  1rem; 
+  padding: 1rem;
   border-radius: 10px;
- border: 1px solid var(--Grey);
+  border: 1px solid var(--Grey);
+}
+.card-header img {
+  border-radius: 8px;
 }
 
-.card-header img{
-    border-radius: 8px;
-}
-
-article{
-    padding-top: 1rem;
+article {
+  padding-top: 1rem;
 }
 .attribution {
   font-size: 11px;
