@@ -101,6 +101,7 @@ span{
 }
 
 .user-details{
+    margin-top: 0.7rem;
     display: flex;
     align-items: center;
 }
