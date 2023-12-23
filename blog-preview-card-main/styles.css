@@ -40,12 +40,14 @@ img {
 }
 
 section {
-  width: 350px;
+  width: 330px;
   max-width: 500px;
   background-color: var(--White);
-  padding: 1rem;
-  border-radius: 10px;
-  border: 1px solid var(--Grey);
+  padding: 1.2rem;
+  border-radius: 20px;
+  border: 2px solid var(--Black);
+  box-shadow: 8px 8px 0px 0px var(--Black);
+
 }
 .card-header img {
   border-radius: 8px;
@@ -61,7 +63,7 @@ button{
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: "FigTreeExtraBold", sans-serif;
     cursor: pointer;
     display: block;
@@ -103,6 +105,12 @@ span{
     height: 40px;
     width: 40px; 
 }
+
+footer{
+  margin-top: 2rem;
+  padding: 0 4rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
