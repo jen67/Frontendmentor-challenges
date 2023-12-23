@@ -55,6 +55,17 @@ section {
 article {
   padding-top: 1rem;
 }
+
+button{
+    background-color: var(--Yellow);
+    color: var(--White);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: "FigTreeExtraBold", sans-serif;
+    cursor: pointer;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
