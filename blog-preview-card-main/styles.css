@@ -40,8 +40,8 @@ img {
 }
 
 section {
-  width: 330px;
-  max-width: 500px;
+  width: 20.625rem;
+  max-width: 43.75rem;
   background-color: var(--White);
   padding: 1.2rem;
   border-radius: 20px;
@@ -113,12 +113,12 @@ span{
 }
 
 footer{
-  margin: 2rem;
+  padding: 3rem 4rem;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+   text-align: center;
+    font-size: 0.8rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
