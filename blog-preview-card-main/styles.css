@@ -80,6 +80,13 @@ h1{
     font-family: "FigTreeExtraBold", sans-serif;
     padding-bottom: 1rem;
 }
+
+p{
+    color: var(--Grey);
+    font-size: 0.9rem;
+    font-family: "FigTreeSemiBold", sans-serif;
+    padding-bottom: 1rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
