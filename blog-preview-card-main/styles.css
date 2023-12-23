@@ -56,7 +56,9 @@ section {
     border-radius: 8px;
 }
 
-
+article{
+    padding-top: 1rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
