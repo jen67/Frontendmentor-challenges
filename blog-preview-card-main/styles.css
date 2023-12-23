@@ -68,8 +68,13 @@ button{
     cursor: pointer;
     display: block;
     margin-bottom: 1rem;
+    transition: background-color 0.3s ease-in-out, color 0.4s ease-in-out; 
 }
 
+button:hover{
+    background-color: var(--Black);
+    color: var(--White);
+} 
 small{
     display: block;
     padding-bottom: 1rem;
