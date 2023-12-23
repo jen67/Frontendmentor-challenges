@@ -17,7 +17,7 @@
 
 ## Interactive-rating-component
 
-<img src="./interactive-rating-component-main/design/desktop-design.jpg" alt="Tasks" width="300">
+<img src="./interactive-rating-component-main/design/desktop-design.jpg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/interactive-rating-component-main/index.html)
 
