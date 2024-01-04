@@ -123,4 +123,8 @@ footer {
   .attribution {
     font-size: 1rem;
   }
+
+  footer{
+    margin-top: 5rem;
+  }
 }
