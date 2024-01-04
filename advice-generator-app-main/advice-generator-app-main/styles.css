@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+ 
 }
 
 body {
@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh; 
+     font-family: "Manrope", sans-serif; 
 }
 
 p {
@@ -43,9 +44,17 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 200px; 
+    width: 300px; 
     text-align: center;
     padding: 2rem 1rem;
+}
+
+small{
+    display: block;
+    font-size: 0.8rem;
+    color: var(--Neon-green); 
+   padding-bottom: 2rem; 
+   font-weight: 400;  
 }
 
 footer{
