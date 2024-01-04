@@ -92,6 +92,8 @@ small span {
   width: 15px;
   height: 15px;
 }
+
+
 footer {
   width: 300px;
 }
@@ -107,6 +109,11 @@ footer {
   font-style: oblique;
   border-radius: 20px;
   border-bottom: 1px solid var(--Grayish-blue);
+}
+
+.attribution a:hover {
+  color: var(--Neon-green);
+  border-bottom: 1px solid var(--Neon-green);
 }
 
 @media screen and (min-width: 548px) {
