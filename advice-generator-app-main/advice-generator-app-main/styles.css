@@ -47,6 +47,7 @@ img{
     width: 300px; 
     text-align: center;
     padding: 2rem 1rem;
+    position: relative;
 }
 
 small{
@@ -72,7 +73,8 @@ small{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    position: absolute;
+    bottom: -10px;
 }
 
 .advice-button:hover{
