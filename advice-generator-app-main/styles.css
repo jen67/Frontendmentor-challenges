@@ -98,6 +98,7 @@ small span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding:1rem;
 }
 footer {
   width: 300px;
@@ -130,6 +131,11 @@ footer {
     width: 25rem;
     max-width: 31.25rem;
     margin-top: 0;
+  }
+
+  small{
+    font-size: 1rem;
+    /* padding: 1rem 0 2rem 0; */
   }
 
   .attribution {
