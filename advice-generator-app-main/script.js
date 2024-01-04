@@ -14,7 +14,6 @@ function getAdvice() {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
         adviceId.textContent = `#${data.slip.id}`;
         adviceText.textContent = `"${data.slip.advice}"`;
       })
