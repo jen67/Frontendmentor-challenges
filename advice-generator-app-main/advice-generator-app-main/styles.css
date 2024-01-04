@@ -42,7 +42,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
+ width: 90vw;  
   text-align: center;
   padding: 2rem 1rem;
   position: relative;
@@ -100,14 +100,16 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 548px) {
   body {
     justify-content: center;
   }
 
   .advice-container {
+    width: 25rem;
+    max-width: 31.25rem;
     margin-top: 0;
-    width: 400px;
+   
   }
 
   .attribution{
