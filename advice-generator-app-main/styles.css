@@ -93,7 +93,7 @@ small span {
   height: 15px;
 }
 
-.advice{
+.advice {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,7 +133,7 @@ footer {
     margin-top: 0;
   }
 
-  small{
+  small {
     font-size: 1rem;
     /* padding: 1rem 0 2rem 0; */
   }

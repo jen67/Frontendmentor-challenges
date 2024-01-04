@@ -1,11 +1,10 @@
-const adviceId = document.querySelector("#adviceId");
-const adviceText = document.querySelector("#adviceText");
-const adviceBtn = document.querySelector("#adviceBtn");
-const apiUrl = "https://api.adviceslip.com/advice";
+(function () {
+  const adviceId = document.querySelector("#adviceId");
+  const adviceText = document.querySelector("#adviceText");
+  const adviceBtn = document.querySelector("#adviceBtn");
+  const apiUrl = "https://api.adviceslip.com/advice";
 
-
-function getAdvice() {
-
+  function getAdvice() {
     fetch(apiUrl)
       .then((response) => {
         if (!response.ok) {
@@ -20,9 +19,7 @@ function getAdvice() {
       .catch((error) => {
         console.error("Error:", error);
       });
+  }
 
-}
-
-adviceBtn.addEventListener("click", getAdvice); 
-
-
+  adviceBtn.addEventListener("click", getAdvice);
+})();
