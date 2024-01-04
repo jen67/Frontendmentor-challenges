@@ -14,6 +14,8 @@
   - [Base Apparel card](#base-apparel-card)
   - [Ping Coming soon page](#ping-coming-soon-page)
   - [Pricing component with toggle](#pricing-component-with-toggle)
+  - [Blog card preview](#blog-card-preview)
+  - [Random Advice generator app](#random-advice-generator-app)
 
 ## Interactive-rating-component
 
@@ -76,7 +78,15 @@
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/pricing-component-with-toggle-master)
 
+## Blog card preview
 
 <img src="./blog-preview-card-main/design/My-desktop-design.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/blog-preview-card-main/)
+
+
+## Random Advice generator app
+
+<img src="./advice-generator-app-main/design/mydesktop-design.jpg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/advice-generator-app-main/)
