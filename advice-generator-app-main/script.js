@@ -25,5 +25,6 @@
       });
   }
 
+   getAdvice();
   adviceBtn.addEventListener("click", getAdvice);
 })();

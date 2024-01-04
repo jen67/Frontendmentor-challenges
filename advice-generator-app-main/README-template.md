@@ -14,7 +14,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-  - [Author](#author)
+  - [Author 👩‍💻](#author-)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Url](https://github.com/jen67/Frontendmentor-challenges/tree/main/advice-generator-app-main)
+- Live Site URL: [live site URL](https://jen67.github.io/Frontendmentor-challenges/advice-generator-app-main)
 
 ## My process
 
@@ -48,14 +48,14 @@ Users should be able to:
 
 ### What I learned
 
-I just recently started learning about API and JSON and this project helped me practicalized what I have been.
+This project provided practical experience in working with APIs and JSON, consolidating my recent learning in these areas.
 
 ### Continued development
 
-I intend to keep practicing as I learn and also tackle more API related projects untill I am fully convident with the concepts
+I plan to continue practicing and learning, particularly focusing on more API-related projects until I am fully confident with the concepts.
 
-## Author
+## Author 👩‍💻
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - [Gift Amachree](https://www.linkedin.com/in/gift-amachree-8a523623b/)
+- Frontend Mentor - [@jen67](https://www.frontendmentor.io/profile/jen67)
+- Twitter - [@JenniferAm96723](https://www.twitter.com/JenniferAm96723)
