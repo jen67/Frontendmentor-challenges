@@ -63,7 +63,7 @@ small span {
 }
 
 .divider {
-  margin: 1rem 0;
+  margin: 2rem 0 0 0;
 }
 .advice-button {
   background-color: var(--Neon-green);
@@ -99,7 +99,6 @@ small span {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  height: 200px; 
 }
 footer {
   width: 300px;
