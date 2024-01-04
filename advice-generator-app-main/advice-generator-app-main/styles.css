@@ -47,18 +47,19 @@ img {
   padding: 2rem 1rem;
   position: relative;
   margin: 6rem;
+  border-radius: 5px;
 }
 
 small {
   display: block;
   font-size: 0.8rem;
   color: var(--Neon-green);
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-weight: 400;
 }
 
 .divider {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 .advice-button {
   background-color: var(--Neon-green);
