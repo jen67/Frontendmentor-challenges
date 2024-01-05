@@ -56,6 +56,8 @@ small {
   color: var(--Neon-green);
   padding-bottom: 1rem;
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 small span {
