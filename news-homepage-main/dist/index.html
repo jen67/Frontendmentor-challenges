@@ -15,12 +15,31 @@
 
 <body>
   <div class="container">
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+    <header class="mt-3 mb-2">
+      <nav class="navbar navbar-expand-lg  navbar-light-color">
+        <div class="container">
           <a href="#" class="navbar-brand">
-            <img src="/logo.92136df5.svg" alt="logo">
+            <img src="/logo.92136df5.svg" alt="logo" class="logo">
           </a>
+
+          <a href="#" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </a>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          </div>
+
+          <div class="offcanvas-header">
+            <img src="/icon-menu-close.48ac369a.svg" alt="close icon" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
       </nav>
@@ -32,7 +51,8 @@
       Trending
       Categories
       The Bright Future of Web 3.0?
-      We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
+      We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of
+      the
       people.
       But is it really fulfilling its promise?
       Read more

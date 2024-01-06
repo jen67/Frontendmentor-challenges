@@ -1,20 +1,3 @@
-.card-title {
-  color: #e9ab53;
-}
-
-.card-text {
-  color: #fffdfa;
-}
-
-.attribution {
-  text-align: center;
-  font-size: 11px;
-}
-
-.attribution a {
-  color: #3e52a3;
-}
-
 :root, [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3096,7 +3079,7 @@ textarea.form-control-lg {
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
-  --bs-btn-color: #fffdfa;
+  --bs-btn-color: var(--bs-body-color);
   --bs-btn-bg: transparent;
   --bs-btn-border-width: var(--bs-border-width);
   --bs-btn-border-color: transparent;
@@ -4105,7 +4088,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: .5rem;
-  --bs-navbar-color: #fffdfa;
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), .65);
   --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), .8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), .3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
@@ -13217,6 +13200,41 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+body {
+  background-color: #fffdfa;
+}
+
+header .logo {
+  width: 50px;
+}
+
+header nav .navbar-toggler {
+  border: none;
+}
+
+header nav .navbar-toggler-icon {
+  background-image: url("icon-menu.013914f3.svg");
+  width: 30px;
+  height: 30px;
+}
+
+.card-title {
+  color: #e9ab53;
+}
+
+.card-text {
+  color: #fffdfa;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=index.a097447b.css.map */

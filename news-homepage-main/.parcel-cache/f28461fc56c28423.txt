@@ -1,4 +1,4 @@
-6613
+6618
 92C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\package.json133490350025105986 0
 142C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133490335625993601 0
 141C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\_\_array_without_holes\package.json133490335687488382 0
@@ -11,7 +11,7 @@
 162C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Block.js133490335628652076 0
 101C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\lib133490395257902702 1
 115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\parent-module\index.js133490335603056741 0
-84C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist133490405307514359 1
+84C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist133490443701001573 1
 147C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\rust\parcel-node-bindings.linux-arm64-gnu.node133490335724237352 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\source-map-js\lib\quick-sort.js133490335622525591 0
 98C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\chalk133490395031586956 1
@@ -68,6 +68,7 @@
 152C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.1133490335648150949 0
 145C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\css-select\node_modules\domutils\lib\manipulation.js133490335631460478 0
 112C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\dotenv\package.json133490335597040181 0
+115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.a097447b.css.map.19104.t133490438800220225 0
 120C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\plugins\mergeStyles.js133490335665251118 0
 134C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\mediasource.js133490335724647098 0
 108C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\is-json\LICENSE133490335612881115 0
@@ -134,10 +135,10 @@
 120C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\utility-types\dist\index.js133490335613590719 0
 130C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\cjs\syntax133490395087790138 1
 123C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\_\_inherits_loose133490394970562876 1
-87C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css133490417560496167 1
+87C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css133490421028259875 1
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\PT.js133490335728774733 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\reporter-tracer\LICENSE133490335627462783 0
-94C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\index.html133490405003582933 0
+94C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\index.html133490443479982328 0
 131C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\bootstrap\dist\js\bootstrap.esm.min.js133490344891363612 0
 123C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\core\lib\Dependency.js133490335669228845 0
 132C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133490335674036082 0
@@ -167,7 +168,7 @@
 101C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\chokidar133490395032226609 1
 140C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\input-placeholder.js133490335713153683 0
 148C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Operator.cjs133490335671377609 0
-103C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\_variables.scss133490418694000030 0
+103C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\_variables.scss133490431760902159 0
 119C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\htmlnano\docs\netlify.toml133490335674895593 0
 135C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\transforms3d.js133490335739468783 0
 142C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@babel\code-frame\node_modules\color-name\LICENSE133490335613380821 0
@@ -188,7 +189,7 @@
 154C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\mdn-css-backdrop-pseudo-element.js133490335721129108 0
 141C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\esm\_initializer_define_property.js133490335680302512 0
 150C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133490335672776806 0
-99C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\styles.scss133490392042632363 0
+99C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\styles.scss133490428646460530 0
 115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\entities\lib\encode.js133490335625903654 0
 113C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\lib\svgo\coa.js133490335651638938 0
 127C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\is-fullwidth-code-point\index.d.ts133490335602547029 0
@@ -209,12 +210,21 @@
 115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\source-map\lib\util.js133490335635678056 0
 122C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\plugins\removeDoctype.js133490335668719132 0
 100C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\_footer.scss133490391784358491 0
+110C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lightningcss\node133490395155321454 1
+121C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\node-addon-api\noexcept.gypi133490335615209775 0
+144C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\_\_class_static_private_field_spec_get133490394969159116 1
+110C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\lib\utils.js133490335673036657 0
+151C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\README.md133490335651688886 0
+115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\lib\svgo\tools.js133490335653138060 0
+118C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\lib\replace\Value.js133490335673186575 0
+122C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\sass\types\legacy\render.d.ts133490350024076571 0
+100C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\_header.scss133490421028259875 0
 108C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\globals\license133490335598059625 0
 158C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\generic.js133490335664521533 0
 118C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\chokidar\types\index.d.ts133490350017109139 0
 130C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\outline.js133490335727395526 0
 109C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\semver\README.md133490335661473304 0
-98C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\_main.scss133490418922060661 0
+98C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\src\css\_main.scss133490443889119681 0
 134C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\input-color.js133490335712643979 0
 116C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\package-manager133490394882939191 1
 116C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\semver\functions\lte.js133490335646491862 0
@@ -222,14 +232,6 @@
 97C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\.bin133490394821535549 1
 93C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\assets\images133490394817314655 1
 120C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\dom-serializer\lib\index.js133490335619757178 0
-147C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\cjs\generator\sourceMap.cjs133490335674595769 0
-162C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\walker\create.js133490335651439056 0
-142C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest4.c133490335669448708 0
-124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\IR.js133490335714632835 0
-124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\RO.js133490335729464343 0
-123C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\profiler\src\Tracer.js133490335631790283 0
-145C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Block.cjs133490335629561557 0
-99C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\dotenv133490395120131617 1
 111C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\.package-lock.json133490350029103699 0
 102C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\.bin\svgo133490335751265240 0
 137C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\mdn-data\css\syntaxes.json133490335648310817 0
@@ -402,11 +404,11 @@
 104C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\detect-libc133490395106069783 1
 134C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\namer-default\src\DefaultNamer.js133490335633999028 0
 107C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\dom-serializer133490395107778828 1
+128C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\sass\types\value\argument_list.d.ts133490350022887268 0
+117C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\semver\functions\diff.js133490335632160082 0
 133C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\css-shapes.js133490335691186264 0
 117C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\profiler\LICENSE133490335609063293 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\sass\types\legacy\function.d.ts133490350023067153 0
-128C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\sass\types\value\argument_list.d.ts133490350022887268 0
-117C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\semver\functions\diff.js133490335632160082 0
 155C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\String.js133490335659834235 0
 115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\is-arrayish\.npmignore133490335602557025 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\TJ.js133490335738759195 0
@@ -414,6 +416,14 @@
 129C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\core\src\loadParcelPlugin.js133490335674575776 0
 101C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\domutils133490395116833508 1
 97C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lmdb133490395210439888 1
+147C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\cjs\generator\sourceMap.cjs133490335674595769 0
+162C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\walker\create.js133490335651439056 0
+142C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest4.c133490335669448708 0
+124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\IR.js133490335714632835 0
+124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\RO.js133490335729464343 0
+123C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\profiler\src\Tracer.js133490335631790283 0
+145C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Block.cjs133490335629561557 0
+99C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\dotenv133490395120131617 1
 142C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\node_modules\css-tree\lib\syntax\node\Raw.js133490335691316186 0
 126C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\bootstrap\scss\_button-group.scss133490344907684913 0
 153C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\coa.js133490335637377083 0
@@ -627,9 +637,9 @@
 102C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\path-type133490395233926436 1
 130C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\utils\test\collection.test.js133490335644552976 0
 129C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\ordered-binary\assets\powers-dre.png133490335634728599 0
+125C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\esm\_await_value.js133490335674355905 0
 103C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\picocolors133490395234446142 1
 141C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\element-from-point.js133490335701670260 0
-125C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\esm\_await_value.js133490335674355905 0
 143C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\core\test\fixtures\plugins\local-plugin.js133490335674825635 0
 118C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\ordered-binary\index.d.ts133490335635897925 0
 102C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\picomatch133490395234935847 1
@@ -1278,7 +1288,7 @@
 137C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\es6-generators.js133490335702159973 0
 122C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\plugins\removeViewBox.js133490335671817359 0
 134C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\import-maps.js133490335712194240 0
-111C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\favicon-32x32.d48f6cd1.png133490405306794770 0
+111C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\favicon-32x32.d48f6cd1.png133490443594630666 0
 120C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\plugins\removeXlink.js133490335672307074 0
 142C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\data133490394868227366 1
 108C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\is-glob\LICENSE133490335597020201 0
@@ -1331,12 +1341,6 @@
 134C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\source-map\dist\SourceMap.js.flow133490335607294311 0
 115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\supports-color\license133490335596760348 0
 117C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\lib\svgo\plugins.js133490335652828231 0
-110C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lightningcss\node133490395155321454 1
-121C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\node-addon-api\noexcept.gypi133490335615209775 0
-144C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\_\_class_static_private_field_spec_get133490394969159116 1
-110C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\lib\utils.js133490335673036657 0
-151C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\README.md133490335651688886 0
-115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\svgo\lib\svgo\tools.js133490335653138060 0
 131C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\esm\_wrap_native_super.js133490335686129156 0
 107C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\semver\LICENSE133490335597729784 0
 139C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\src\_interop_require_wildcard.mjs133490335710455240 0
@@ -1454,7 +1458,7 @@
 109C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\msgpackr\LICENSE133490335601397695 0
 111C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\source-map\LICENSE133490335609323154 0
 131C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\src\_class_call_check.mjs133490335704788470 0
-103C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.a097447b.css133490405305895283 0
+103C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.a097447b.css133490443700441979 0
 131C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\json-parse-even-better-errors\index.js133490335596660394 0
 129C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\dialog.js133490335700181116 0
 108C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\detect-libc\lib133490395106139629 1
@@ -1480,9 +1484,9 @@
 112C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\htmlparser2\LICENSE133490335596630413 0
 117C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\source-map\lib\base64.js133490335623195216 0
 122C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\source-map\lib\source-node.js133490335634088964 0
-119C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lightningcss\node\index.js133490335636497586 0
 149C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\path.js133490335655106928 0
 128C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\source-map\dist\source-map.debug.js133490335645492428 0
+119C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lightningcss\node\index.js133490335636497586 0
 120C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\reporter-tracer\lib133490394889907355 1
 120C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\node-addon-api\node_api.gyp133490335601087868 0
 165C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertTransform.js133490335648100937 0
@@ -1625,8 +1629,6 @@
 179C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133490335645372502 0
 127C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\sass\types\legacy\plugin_this.d.ts133490350024026619 0
 144C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\css-select\node_modules\domutils\lib\traversal.d.ts133490335667459857 0
-118C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\csso\lib\replace\Value.js133490335673186575 0
-122C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\sass\types\legacy\render.d.ts133490350024076571 0
 115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\safe-buffer\index.d.ts133490335616509036 0
 165C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\_\_class_check_private_static_field_descriptor\package.json133490335689367308 0
 123C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\detect-libc\bin\detect-libc.js133490335616738905 0
@@ -2385,7 +2387,7 @@
 135C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lightningcss\node\browserslistToTargets.js133490335631850244 0
 119C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\lightningcss\node\flags.js133490335635368233 0
 140C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\entities\lib\generated\decode-data-xml.d.ts.map133490335638206605 0
-102C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\logo.92136df5.svg133490405305885286 0
+102C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\logo.92136df5.svg133490443594750625 0
 141C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\cjs\_apply_decorated_descriptor.cjs133490335604156108 0
 114C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\entities\package.json133490335633299412 0
 111C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\json5\lib\index.js133490335613680651 0
@@ -4181,6 +4183,7 @@
 168C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\config\lexer.js133490335669838488 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\CM.js133490335674965554 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\CO.js133490335675225404 0
+118C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\favicon-32x32.d48f6cd1.png.6076.9133490426468081010 0
 145C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\getelementsbyclassname.js133490335708226499 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\regions\CR.js133490335677104331 0
 133C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-svgo\node_modules\svgo133490394879040861 1
@@ -4413,6 +4416,7 @@
 144C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\css-container-queries.js133490335681801631 0
 135C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@swc\helpers\_\_class_private_field_update133490394968727555 1
 148C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\css-container-query-units.js133490335681871593 0
+107C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\icon-menu.013914f3.svg133490443594600674 0
 130C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\core\lib\SymbolPropagation.js133490335684869912 0
 135C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\css-counters.js133490335682371315 0
 138C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\caniuse-lite\data\features\css-crisp-edges.js133490335682491244 0
@@ -6331,7 +6335,7 @@
 146C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\node_modules\.bin\svgo.ps1133490335751205271 0
 144C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\lib\HTMLNanoOptimizer.js133490335626993027 0
 138C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-htmlnano\lib\svgMappings.js133490335630341117 0
-107C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.a097447b.css.map133490405307204528 0
+107C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.a097447b.css.map133490443700961600 0
 122C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-css\LICENSE133490335629891390 0
 127C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-css\package.json133490335635028447 0
 118C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\@parcel\optimizer-css\src133490394848932720 1
@@ -6598,10 +6602,11 @@
 106C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\.bin\svgo.ps1133490335751265240 0
 120C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\.bin\update-browserslist-db133490335751305208 0
 124C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\node_modules\.bin\update-browserslist-db.ps1133490335751305208 0
-102C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.59a40e7a.js133490405307044629 0
-106C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.59a40e7a.js.map133490405307274493 0
+102C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.59a40e7a.js133490443594620668 0
+106C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.59a40e7a.js.map133490443594780571 0
 107C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.77a9bc14.css.map133490342199073943 0
-95C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.html133490405306754789 0
+110C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.a097447b.css.6076.a133490426468140970 0
+95C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\index.html133490443594610664 0
 115C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\dist\news-homepage-main.59712999.js133490340233277632 0
 104C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\design\active-states.jpg133490324078879319 0
 92C:\Users\User\Desktop\anotherclone\Frontendmentor-challenges\news-homepage-main\assets\fonts133490394816266649 1
