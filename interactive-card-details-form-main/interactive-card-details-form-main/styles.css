@@ -40,7 +40,6 @@ body {
   font-family: "Space Grotesk", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center; 
   min-height: 100vh;
 }
 
@@ -51,13 +50,40 @@ body {
 .card-container{
  background-image: var(--bg-img-sm); 
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-container .card-front, .card-back{
-width: 200px;  
+width: 80%;  
 }
 
+.cvc{
+  position: relative;
+  top: 1.84rem;
+  left: 15%;
+}
 
+.card-back{
+  position: relative;
+}
+
+.cvc-number{
+  position: absolute;
+  top: 2.8rem; 
+  left: 40%;
+  font-size: 0.8rem;
+}
+
+.card-front{
+  position: relative;
+  left: 20%;
+}
+
+.card-logo{
+  position: absolute;
+  top: 15%;
+  left: 1.5rem;
+}
 
 
 
