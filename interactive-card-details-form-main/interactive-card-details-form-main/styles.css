@@ -24,7 +24,6 @@
 }
 
 
-
 img{
     max-width: 100%;
     display: block;
@@ -39,10 +38,24 @@ img{
 
 body {
   font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 100vh;
 }
 
+.container{
+  width: 100%;
+}
 
+.card-container{
+ background-image: var(--bg-img-sm); 
+  background-repeat: no-repeat;
+}
 
+.card-container .card-front, .card-back{
+width: 200px;  
+}
 
 
 
