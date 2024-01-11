@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+:root{
+    /* primary */
+    --Purple: hsl(259, 100%, 65%);
+    --Light red: hsl(0, 100%, 67%);
+
+    /* neutral */
+    -- White: hsl(0, 0%, 100%)
+}
