@@ -21,6 +21,5 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: var(--White);
-    color: var(--off-black);
+    background-color: var(--Light-grey);
 }
