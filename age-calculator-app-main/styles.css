@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-  padding: 1rem;
+  padding: 1rem 2rem;
   width: 400px;
   background-color: var(--White);
 }
@@ -46,6 +46,7 @@ form {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
+  width: 70%;
 }
 
 form div {
@@ -54,10 +55,36 @@ form div {
   gap: 0.5rem;
 }
 
-form input {
-  width: 100%;
+form label {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  color: var(--Smokey-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
+form input {
+  width: 100%;
+  padding: 0.3rem;
+  border: 1px solid var(--Light-grey);
+  border-radius: 5px;
+  color: var(--Smokey-grey);
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.hr-line {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.hr-line hr {
+  border: none;
+  border: 1px solid var(--Off-white);
+}
 .hr-line div {
   display: flex;
   align-items: center;
@@ -66,6 +93,9 @@ form input {
   height: 50px;
   width: 50px;
   padding: 0.5rem;
+  position: absolute;
+  top: -0.5rem;
+  left: 90%;
 }
 
 h2,
