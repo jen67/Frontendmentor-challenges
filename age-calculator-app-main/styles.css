@@ -73,7 +73,7 @@ form input {
   font-size: 1.3rem;
   border: 1px solid var(--Light-grey);
   border-radius: 5px;
-  color: var(--Smokey-grey);
+  color: var(--off-black);
   font-weight: 700;
   font-family: inherit;
 }

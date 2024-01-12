@@ -19,45 +19,108 @@ function checkAge() {
   const currentDate = new Date();
   const birthDate = new Date(year, month - 1, day);
 
-  if (isNaN(birthDate.getTime())) {
-    // Check if the entered date is valid
-    erroTextDay.textContent = "Invalid day.";
-    erroTextMonth.textContent = "Invalid month.";
-    erroTextYear.textContent = "Invalid year.";
+  // Reset error messages and styles
+  function resetError() {
+    erroTextDay.textContent = "";
+    erroTextMonth.textContent = "";
+    erroTextYear.textContent = "";
+    labels.forEach((label) => {
+      label.style.color ="var(--Smokey-grey)";
+    });
+    errorBorders.forEach((error) => {
+      error.style.borderColor = "var(--Light-grey)";
+    });
+  }
 
+  resetError();
+
+  let hasError = false;
+
+  function update() {
     labels.forEach((label) => {
       label.style.color = "var(--Light-red)";
     });
+    years.textContent = "--";
+    months.textContent = "--";
+    days.textContent = "--";
+  }
 
-    errorBorders.forEach((error) => {
-      error.style.borderColor = "var(--Light-red)";
-    });
+  // Check if the entered date is valid
+  if (isNaN(day) || day < 1 || day > 31) {
+    erroTextDay.textContent = "Invalid day";
+    document.querySelector("label[for='day']").style.color = "var(--Light-red)";
+    birthDay.style.borderColor = "var(--Light-red)";
+    birthMonth.style.borderColor = "var(--Light-red)";
+    birthYear.style.borderColor = "var(--Light-red)";
+    hasError = true;
+  }
 
+  if (isNaN(month) || month < 1 || month > 12) {
+    erroTextMonth.textContent = "Invalid month.";
+    document.querySelector("label[for='month']").style.color =
+      "var(--Light-red)";
+    birthMonth.style.borderColor = "var(--Light-red)";
+    birthDay.style.borderColor = "var(--Light-red)";
+    birthYear.style.borderColor = "var(--Light-red)";
+    hasError = true;
+  }
+
+  if (isNaN(year) || year < 1 || year > currentDate.getFullYear()) {
+    erroTextYear.textContent = "Invalid year.";
+    document.querySelector("label[for='year']").style.color =
+      "var(--Light-red)";
+    birthYear.style.borderColor = "var(--Light-red)";
+    birthDay.style.borderColor = "var(--Light-red)";
+    birthMonth.style.borderColor = "var(--Light-red)";
+    hasError = true;
+  }
+
+  if (hasError) {
+    update();
     return;
   }
 
-  if (birthDate > currentDate) {
-    erroTextDay.textContent = "Must be a valid day";
-    erroTextMonth.textContent = "Must be a valid month";
-    erroTextYear.textContent = "Must be in the past";
-    labels.forEach((label) => {
-      label.style.color = "var(--Light-red)";
-    });
+    // Calculate the age
+  if (
+    !isNaN(day) &&
+    !isNaN(month) &&
+    !isNaN(year) &&
+    birthDate <= currentDate
+  ) {
+    let ageInYears = currentDate.getFullYear() - birthDate.getFullYear();
+    let ageInMonths = 0;
+    let ageInDays = 0;
 
-    errorBorders.forEach((error) => {
-      error.style.borderColor = "var(--Light-red)";
-    });
+    if (currentDate < new Date(currentDate.getFullYear(), month - 1, day)) {
+      ageInYears--;
+      ageInMonths = currentDate.getMonth() + 1;
+      ageInDays = currentDate.getDate();
+    } else {
+      if (currentDate.getMonth() + 1 === month) {
+        ageInMonths = 0;
+        ageInDays = currentDate.getDate() - day;
+      } else {
+        ageInMonths = currentDate.getMonth() + 1 - month;
+        if (currentDate.getDate() < day) {
+          ageInMonths--;
+          ageInDays =
+            currentDate.getDate() +
+            new Date(
+              currentDate.getFullYear(),
+              currentDate.getMonth(),
+              0
+            ).getDate() -
+            day;
+        } else {
+          ageInDays = currentDate.getDate() - day;
+        }
+      }
+    }
+
+    // Display the calculated age
+    years.textContent = ` ${ageInYears}`;
+    months.textContent = ` ${ageInMonths}`;
+    days.textContent = ` ${ageInDays}`;
   }
-
-  const ageInMilliseconds = currentDate - birthDate;
-  const ageInDays = Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24));
-  const ageInMonths = Math.floor(ageInDays / 30.44); // Average month length
-  const ageInYears = Math.floor(ageInDays / 365);
-
-  // Display the calculated age
-  years.textContent = ` ${ageInYears}`;
-  months.textContent = ` ${ageInMonths}`;
-  days.textContent = ` ${ageInDays}`;
 }
-
 button.addEventListener("click", checkAge);
