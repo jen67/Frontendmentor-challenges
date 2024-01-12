@@ -25,8 +25,23 @@ body {
   font-weight: 400;
 }
 
+h2, h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--off-black);
+}
+
+
 .error-texts{
     color: var(--Light-red);
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .container {
