@@ -1,6 +1,6 @@
 # Frontend Mentor - Age calculator app solution
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -52,6 +52,8 @@ Users should be able to:
 - Mobile-first workflow
 
 ```js
+//function to animate the value of an element
+
 function animateValue(element, start, end, duration) {
     let current = start;
     let range = end - start;
@@ -65,6 +67,12 @@ function animateValue(element, start, end, duration) {
       }
     }, stepTime);
   }
+
+//implementing the animation
+
+  animateValue(years, 0, ageInYears, 1000);
+  animateValue(months, 0, ageInMonths, 1000);
+  animateValue(days, 0, ageInDays, 1000);
 
 ```
 
