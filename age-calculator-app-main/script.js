@@ -2,9 +2,9 @@ const button = document.querySelector(".btn");
 const birthDay = document.querySelector("#day");
 const birthMonth = document.querySelector("#month");
 const birthYear = document.querySelector("#year");
-const years = document.querySelector(".years");
-const months = document.querySelector(".months");
-const days = document.querySelector(".days");
+const years = document.querySelector(".years span");
+const months = document.querySelector(".months span");
+const days = document.querySelector(".days span");
 const erroTextYear = document.querySelector(".error-text-year");
 const erroTextMonth = document.querySelector(".error-text-month");
 const erroTextDay = document.querySelector(".error-text-day");
@@ -30,7 +30,7 @@ function checkAge() {
     });
 
     errorBorders.forEach((error) => {
-      error.style.borderColor = "var(--light-red)";
+      error.style.borderColor = "var(--Light-red)";
     });
 
     return;
@@ -43,11 +43,21 @@ function checkAge() {
     labels.forEach((label) => {
       label.style.color = "var(--Light-red)";
     });
-      
-       errorBorders.forEach((error) => {
-         error.style.borderColor = "var(--light-red)";
-       });
+
+    errorBorders.forEach((error) => {
+      error.style.borderColor = "var(--Light-red)";
+    });
   }
+
+  const ageInMilliseconds = currentDate - birthDate;
+  const ageInDays = Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24));
+  const ageInMonths = Math.floor(ageInDays / 30.44); // Average month length
+  const ageInYears = Math.floor(ageInDays / 365);
+
+  // Display the calculated age
+  years.textContent = ` ${ageInYears}`;
+  months.textContent = ` ${ageInMonths}`;
+  days.textContent = ` ${ageInDays}`;
 }
 
 button.addEventListener("click", checkAge);
