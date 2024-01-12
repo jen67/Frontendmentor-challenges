@@ -16,6 +16,7 @@
   - [Pricing component with toggle](#pricing-component-with-toggle)
   - [Blog card preview](#blog-card-preview)
   - [Random Advice generator app](#random-advice-generator-app)
+  - [Age calculator app](#age-calculator-app)
 
 ## Interactive-rating-component
 
@@ -90,3 +91,10 @@
 <img src="./advice-generator-app-main/design/mydesktop-design.jpg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/advice-generator-app-main/)
+  
+
+## Age calculator app
+
+<img src="./age-calculator-app-main/design/My-desktop-view.jpeg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/age-calculator-app-main/)
