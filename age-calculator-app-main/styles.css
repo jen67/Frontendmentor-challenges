@@ -47,7 +47,7 @@ form {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 form div {
@@ -99,7 +99,7 @@ form input:focus {
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  padding: 0.5rem;
+  padding: 0.8rem;
   position: absolute;
   top: -1.5rem;
   left: 40%;
@@ -118,7 +118,7 @@ h3 {
 }
 
 .years {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 span.lines {
