@@ -19,6 +19,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--Off-white);
@@ -53,6 +58,15 @@ form input {
   width: 100%;
 }
 
+.hr-line div {
+  display: flex;
+  align-items: center;
+  background-color: var(--Purple);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 0.5rem;
+}
 
 h2,
 h3 {
@@ -64,10 +78,3 @@ h3 {
 .error-texts {
   color: var(--Light-red);
 }
-
-
-
-
-
-
-
