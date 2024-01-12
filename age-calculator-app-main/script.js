@@ -9,6 +9,7 @@ const erroTextYear = document.querySelector(".error-text-year");
 const erroTextMonth = document.querySelector(".error-text-month");
 const erroTextDay = document.querySelector(".error-text-day");
 const labels = document.querySelectorAll("label[for]");
+const errorBorders = document.querySelectorAll("input");
 
 function checkAge() {
   const day = parseInt(birthDay.value, 10);
@@ -27,6 +28,11 @@ function checkAge() {
     labels.forEach((label) => {
       label.style.color = "var(--Light-red)";
     });
+
+    errorBorders.forEach((error) => {
+      error.style.borderColor = "var(--light-red)";
+    });
+
     return;
   }
 
@@ -37,6 +43,10 @@ function checkAge() {
     labels.forEach((label) => {
       label.style.color = "var(--Light-red)";
     });
+      
+       errorBorders.forEach((error) => {
+         error.style.borderColor = "var(--light-red)";
+       });
   }
 }
 
