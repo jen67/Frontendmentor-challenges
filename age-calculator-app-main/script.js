@@ -1,5 +1,4 @@
 const button = document.querySelector(".btn");
-const input = document.querySelectorAll("input");
 const birthDay = document.querySelector("#day");
 const birthMonth = document.querySelector("#month");
 const birthYear = document.querySelector("#year");
@@ -9,6 +8,7 @@ const days = document.querySelector(".days");
 const erroTextYear = document.querySelector(".error-text-year");
 const erroTextMonth = document.querySelector(".error-text-month");
 const erroTextDay = document.querySelector(".error-text-day");
+const labels = document.querySelectorAll("label[for]");
 
 function checkAge() {
   const day = parseInt(birthDay.value, 10);
@@ -23,13 +23,20 @@ function checkAge() {
     erroTextDay.textContent = "Invalid day.";
     erroTextMonth.textContent = "Invalid month.";
     erroTextYear.textContent = "Invalid year.";
+
+    labels.forEach((label) => {
+      label.style.color = "var(--Light-red)";
+    });
     return;
   }
 
   if (birthDate > currentDate) {
-    erroTextDay.innerContent = "Must be a valid day";
-    erroTextMonth.innerContent = "Must be a valid month";
-    erroTextYear.innerContent = "Must be in the past";
+    erroTextDay.textContent = "Must be a valid day";
+    erroTextMonth.textContent = "Must be a valid month";
+    erroTextYear.textContent = "Must be in the past";
+    labels.forEach((label) => {
+      label.style.color = "var(--Light-red)";
+    });
   }
 }
 
