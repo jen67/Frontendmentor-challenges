@@ -133,7 +133,7 @@ span.lines {
 }
 
 footer {
-  width: 300px;
+  width: 290px;
   text-align: center;
   margin: 1rem auto;
 }
@@ -154,6 +154,7 @@ footer {
 .attribution a:hover {
   color: var(--Purple);
   border-bottom: 1px solid var(--Purple);
+  font-weight: 800;
 }
 
 @media screen and (min-width: 768px) {
