@@ -14,19 +14,26 @@
   const labels = document.querySelectorAll("label[for]");
   const errorBorders = document.querySelectorAll("input");
 
-  function animateValue(element, start, end, duration) {
-    let current = start;
-    let range = end - start;
-    let increment = end > start ? 1 : -1;
-    let stepTime = Math.abs(Math.floor(duration / range));
-    let timer = setInterval(function () {
-      current += increment;
-      element.textContent = ` ${current}`;
-      if (current == end) {
-        clearInterval(timer);
-      }
-    }, stepTime);
-  }
+  // function animateValue(element, start, end, duration) {
+  //   let current = start;
+  //   let range = end - start;
+  //   let increment = end > start ? 1 : -1;
+  //   let stepTime = Math.abs(Math.floor(duration / range));
+  //   let timer = setInterval(function () {
+  //     current += increment;
+  //     element.textContent = ` ${current}`;
+  //     if (current == end) {
+  //       clearInterval(timer);
+  //     }
+  //   }, stepTime);
+  // }
+
+  // Restrict input to numbers only
+  [birthDay, birthMonth, birthYear].forEach((input) => {
+    input.addEventListener("input", function () {
+      this.value = this.value.replace(/[^0-9]/g, "");
+    });
+  });
 
   function checkAge() {
     const day = parseInt(birthDay.value, 10);
@@ -125,10 +132,14 @@
         ageInYears--;
       }
 
-      // Display the calculated age
-      animateValue(years, 0, ageInYears, 1000);
-      animateValue(months, 0, ageInMonths, 1000);
-      animateValue(days, 0, ageInDays, 1000);
+      years.textContent = ageInYears;
+      months.textContent = ageInMonths;
+      days.textContent = ageInDays;
+
+      // had to comment out because of the glich
+      // animateValue(years, 0, ageInYears, 1000);
+      // animateValue(months, 0, ageInMonths, 1000);
+      // animateValue(days, 0, ageInDays, 1000);
     }
   }
   button.addEventListener("click", checkAge);

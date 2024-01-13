@@ -127,7 +127,7 @@ h3 {
   font-weight: 400;
 }
 
-.error-border{
+.error-border {
   border-color: var(--Light-red);
 }
 
@@ -172,7 +172,7 @@ footer {
   .container {
     width: 600px;
     margin: 0;
-    padding:2rem;
+    padding: 2rem;
   }
 
   form {
@@ -180,7 +180,7 @@ footer {
     padding-bottom: 1rem;
   }
 
-  form input{
+  form input {
     width: 120px;
     padding: 0.5rem;
   }
@@ -193,15 +193,14 @@ footer {
   h2,
   h3 {
     font-size: 5rem;
-    
   }
 
-  .years{
+  .years {
     padding-top: 1.2rem;
   }
 
-  footer{
-    width:400px;
-    padding-top:4rem;
+  footer {
+    width: 400px;
+    padding-top: 4rem;
   }
 }
