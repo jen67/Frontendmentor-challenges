@@ -105,6 +105,7 @@ form input:focus {
   left: 40%;
   z-index: 1;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .hr-line div:hover {
