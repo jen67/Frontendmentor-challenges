@@ -51,6 +51,7 @@ body {
   color:var(--White);
   margin-top: 1rem;
   padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 .card a:hover, .card a:focus, .card a:active{
