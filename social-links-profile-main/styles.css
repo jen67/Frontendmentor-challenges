@@ -21,7 +21,7 @@ img{
     display: block;
     max-width: 100%;
     border-radius: 50%;
-    width: 50px;
+    width: 70px;
 }
 
 
@@ -39,9 +39,35 @@ body {
 
 
 .card{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--Dark-Grey);
     padding: 2rem;
+    text-align: center;
 }
+
+.card-content h1{
+    margin-top: 1rem;
+color: var(--White);
+}
+
+.card-content p:first-of-type{
+    color: var(--Green);
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.card-content p:nth-of-type(2){
+    color: var(--White);
+    margin: 1.2rem 0 1rem 0 ;
+}
+
+.card-links{
+    width: 100%;
+}
+
 .card a {
   text-decoration: none;
   display: block;
@@ -52,6 +78,7 @@ body {
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .card a:hover, .card a:focus, .card a:active{
