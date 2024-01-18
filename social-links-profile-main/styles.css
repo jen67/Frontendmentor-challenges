@@ -17,6 +17,22 @@
   box-sizing: border-box;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.card a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: var(--Green);
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 0.875rem;
