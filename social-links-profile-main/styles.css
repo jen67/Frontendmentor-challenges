@@ -24,14 +24,6 @@ img{
     width: 50px;
 }
 
-.card a {
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  background-color: var(--Green);
-  margin-top: 1rem;
-  padding: 1rem;
-}
 
 body {
   font-family: "Inter", sans-serif;
@@ -42,6 +34,28 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: var(--Off-Black);
+}
+
+
+.card{
+    background-color: var(--Dark-Grey);
+    padding: 2rem;
+}
+.card a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: var(--Grey);
+  font-weight: 600;
+  color:var(--White);
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.card a:hover, .card a:focus, .card a:active{
+    background-color: var(--Green);
+    color: var(--Off-Black);
 }
 
 .attribution {
