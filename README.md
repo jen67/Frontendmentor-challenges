@@ -17,6 +17,7 @@
   - [Blog card preview](#blog-card-preview)
   - [Random Advice generator app](#random-advice-generator-app)
   - [Age calculator app](#age-calculator-app)
+  - [social media link app](#social-media-link-app)
 
 ## Interactive-rating-component
 
@@ -98,3 +99,10 @@
 <img src="./age-calculator-app-main/design/My-desktop-view.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/age-calculator-app-main/)
+
+
+## social media link app
+
+<img src="./social-links-profile-main/design/mydesktop-design.jpeg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/social-links-profile-main/)

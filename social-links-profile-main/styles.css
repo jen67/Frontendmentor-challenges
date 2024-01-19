@@ -37,12 +37,14 @@ body {
 }
 
 .card {
-  max-width: 700px;
+  width: 95vw;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--Dark-Grey);
   padding: 2rem;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -87,10 +89,25 @@ body {
   color: var(--Off-Black);
 }
 
+footer {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
 .attribution {
-  font-size: 11px;
+  color: var(--White);
+  opacity: 0.7;
+  font-size: 0.9rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: var(--White);
+  font-style: oblique;
+  border-radius: 20px;
+  border-bottom: 1px solid var(--White);
+}
+
+.attribution a:hover{
+    color: var(--Green);
+    border-bottom: 1px solid var(--Green);
 }
