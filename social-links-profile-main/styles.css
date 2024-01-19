@@ -44,6 +44,7 @@ body {
   align-items: center;
   background-color: var(--Dark-Grey);
   padding: 2rem;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -88,6 +89,9 @@ body {
   color: var(--Off-Black);
 }
 
+footer{
+    padding-top: 1rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
