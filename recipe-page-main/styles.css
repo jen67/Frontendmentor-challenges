@@ -131,12 +131,15 @@ font-size: 1.3rem;
     font-weight: 600;
 }
 
+.Nutrition{
+    padding-bottom: 1.2rem;
+}
 .Nutrition h5{
     font-size: 1.3rem;
 }
 
 .Nutrition p{
-    margin:1rem 0;
+    margin: 1rem 0;
 }
 
 table {
@@ -157,6 +160,10 @@ table td:nth-of-type(2) {
   color: var(--Nutmeg);
   font-weight: 700;
 }
+
+table tr:last-of-type td {
+  border-bottom: none;
+} 
 
 table tr {
     cursor: pointer;
