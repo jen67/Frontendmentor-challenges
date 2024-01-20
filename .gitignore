@@ -70,3 +70,6 @@ Scaffolding/
 *.user
 *.userosscmd
 *.sln.docstates
+
+# style guid
+style-guide.md

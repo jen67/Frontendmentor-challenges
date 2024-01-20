@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+:root {
+  /* primary  */
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+
+  /* neutral */
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  padding: 1rem;
+}
+
+hr {
+  border: 0;
+  height: 1.1px;
+  background: var(--Light-Grey);
+}
+
+body {
+  background-color: var(--Eggshell);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  color: var(--Wenge-Brown);
+}
+
+main {
+  max-width: 700px;
+  background-color: var(--White);
+}
+h1,
+h3,
+h4,
+h5 {
+  font-family: "Young Serif", serif;
+}
+
+h3,
+h4,
+h5 {
+  color: var(--Nutmeg);
+}
+
+h2 {
+  color: var(--Dark-Raspberry);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+}
+
+section,
+.Instructions,
+.Nutrition {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--Dark-Charcoal);
+  padding-bottom: 1rem;
+}
+
+section .preparation-time {
+  margin-top: 1.5rem;
+  background-color: var(--Rose-White);
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+}
+
+section .preparation-time ul,
+.ingredients ul {
+  line-height: 1.9;
+}
+
+section .preparation-time ul li::marker, .Instructions ol li::marker,
+.ingredients ul li::marker {
+  color: var(--Dark-Raspberry);
+  font-weight: 600;
+}
+
+section .preparation-time ul li,
+.ingredients ul li, .Instructions ol li {
+  padding-left: 1rem;
+}
+
+section .preparation-time span {
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.Instructions h4{
+font-size: 1.3rem;
+}
+
+.Instructions ol li{
+    margin-bottom: 1rem;
+}
+
+.Instructions ol li span{
+    font-weight: 600;
+}
+
+.Nutrition h5{
+    font-size: 1.3rem;
+}
+
+.Nutrition p{
+    margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+table td {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+table td:nth-of-type(2) {
+  color: var(--Nutmeg);
+  font-weight: 700;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
