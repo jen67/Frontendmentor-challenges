@@ -23,6 +23,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  padding: 1rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -31,16 +42,39 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 1rem;
 }
-
-
-.recipe{
-    background-image: url(./assets/images/image-omelette.jpeg);
-}
 h1,
-h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Young Serif", serif;
+}
+
+h3,
+h4,
+h5 {
+  color: var(--Nutmeg);
+}
+
+h2 {
+  color: var(--Dark-Raspberry);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+}
+
+section,
+.Instructions,
+.Nutrition {
+  padding: 1rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+}
+
+section .preparation-time {
+  margin-top: 1.5rem;
+  background-color: var(--Rose-White);
+  padding: 1rem;
 }
 
 .attribution {
