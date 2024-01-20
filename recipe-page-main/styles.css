@@ -1,31 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
 
-:root{
-   /* primary  */
-   --Nutmeg:hsl(14, 45%, 36%);
-   --Dark-Raspberry: hsl(332, 51%, 32%);
+:root {
+  /* primary  */
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
 
-    /* neutral */
-    --White: hsl(0, 0%, 100%);
-    --Rose-White: hsl(330, 100%, 98%);
-    --Eggshell: hsl(30, 54%, 90%);
-    --Light-Grey: hsl(30, 18%, 87%);
-    --Wenge-Brown: hsl(30, 10%, 34%);
-    --Dark-Charcoal: hsl(24, 5%, 18%);
+  /* neutral */
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
 }
 
 
-h1{
-    font-family: 'Young Serif', serif;
+.recipe{
+    background-image: url(./assets/images/image-omelette.jpeg);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Young Serif", serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
