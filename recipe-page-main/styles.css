@@ -82,6 +82,10 @@ section .preparation-time ul {
   color:var(--Wenge-Brown);
 }
 
+section .preparation-time ul li::marker {
+color:var(--Dark-Raspberry);
+}
+
 section .preparation-time ul li{
     padding-left: 1rem; 
 }
