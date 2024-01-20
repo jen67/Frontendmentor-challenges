@@ -51,7 +51,7 @@ body {
   color: var(--Wenge-Brown);
 }
 
-main {
+.container {
   max-width: 700px;
   background-color: var(--White);
 }
@@ -98,14 +98,16 @@ section .preparation-time ul,
   line-height: 1.9;
 }
 
-section .preparation-time ul li::marker, .Instructions ol li::marker,
+section .preparation-time ul li::marker,
+.Instructions ol li::marker,
 .ingredients ul li::marker {
   color: var(--Dark-Raspberry);
   font-weight: 600;
 }
 
 section .preparation-time ul li,
-.ingredients ul li, .Instructions ol li {
+.ingredients ul li,
+.Instructions ol li {
   padding-left: 1rem;
 }
 
@@ -119,27 +121,27 @@ h3 {
   font-weight: 600;
 }
 
-.Instructions h4{
-font-size: 1.3rem;
+.Instructions h4 {
+  font-size: 1.3rem;
 }
 
-.Instructions ol li{
-    margin-bottom: 1rem;
+.Instructions ol li {
+  margin-bottom: 1rem;
 }
 
-.Instructions ol li span{
-    font-weight: 600;
+.Instructions ol li span {
+  font-weight: 600;
 }
 
-.Nutrition{
-    padding-bottom: 1.2rem;
+.Nutrition {
+  padding-bottom: 1.2rem;
 }
-.Nutrition h5{
-    font-size: 1.3rem;
+.Nutrition h5 {
+  font-size: 1.3rem;
 }
 
-.Nutrition p{
-    margin: 1rem 0;
+.Nutrition p {
+  margin: 1rem 0;
 }
 
 table {
@@ -163,34 +165,49 @@ table td:nth-of-type(2) {
 
 table tr:last-of-type td {
   border-bottom: none;
-} 
+}
 
 table tr {
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-table tr:hover{
-    background-color: var(--Rose-White);
+table tr:hover {
+  background-color: var(--Rose-White);
 }
 
-footer{
-    padding: 1rem 1rem 0 1rem;
+footer {
+  padding: 3rem 1rem 0.7rem 1rem;
 }
 .attribution {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 .attribution a {
-text-decoration: none;
-font-style: oblique;
-border-radius: 30px;
-border-bottom: 1.4px solid var(--Dark-Raspberry);
-  color:var(--Dark-Raspberry);
+  text-decoration: none;
+  font-style: oblique;
+  border-radius: 30px;
+  border-bottom: 1.4px solid var(--Dark-Raspberry);
+  color: var(--Dark-Raspberry);
 }
 
-.attribution a:hover{
-    color: var(--Nutmeg);
-    border-bottom: 1.4px solid var(--Nutmeg);
-    font-weight: 600;
+.attribution a:hover {
+  color: var(--Nutmeg);
+  border-bottom: 1.4px solid var(--Nutmeg);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 6rem 0 2rem 0;
+    border-radius: 20px;
+  }
+
+  .recipe {
+    padding: 2rem;
+  }
+
+  .recipe img {
+    border-radius: 20px;
+  }
 }
