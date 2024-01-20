@@ -74,8 +74,23 @@ h1 {
 section .preparation-time {
   margin-top: 1.5rem;
   background-color: var(--Rose-White);
-  padding: 1rem;
+  padding: 0.8rem 1rem;
 }
+
+section .preparation-time ul {
+  line-height: 1.9;
+  color:var(--Wenge-Brown);
+}
+
+section .preparation-time ul li{
+    padding-left: 1rem; 
+}
+
+section .preparation-time span {
+  font-weight: 600;
+}
+
+
 
 .attribution {
   font-size: 11px;
