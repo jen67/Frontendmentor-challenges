@@ -77,17 +77,17 @@ section .preparation-time {
   padding: 0.8rem 1rem;
 }
 
-section .preparation-time ul {
+section .preparation-time ul, .ingredients ul {
   line-height: 1.9;
-  color:var(--Wenge-Brown);
+  color: var(--Wenge-Brown);
 }
 
-section .preparation-time ul li::marker {
-color:var(--Dark-Raspberry);
+section .preparation-time ul li::marker, .ingredients ul li::marker {
+  color: var(--Dark-Raspberry);
 }
 
-section .preparation-time ul li{
-    padding-left: 1rem; 
+section .preparation-time ul li, .ingredients ul li {
+  padding-left: 1rem;
 }
 
 section .preparation-time span {
@@ -95,7 +95,12 @@ section .preparation-time span {
 }
 
 
-
+h3{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+   
+}
 .attribution {
   font-size: 11px;
   text-align: center;
