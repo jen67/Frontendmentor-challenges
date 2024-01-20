@@ -136,7 +136,7 @@ font-size: 1.3rem;
 }
 
 .Nutrition p{
-    margin-bottom: 1rem;
+    margin:1rem 0;
 }
 
 table {
@@ -146,18 +146,44 @@ table {
 }
 
 table td {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--Light-Grey);
   padding: 10px;
+}
+table td:nth-of-type(1) {
+  padding-left: 20px;
 }
 
 table td:nth-of-type(2) {
   color: var(--Nutmeg);
   font-weight: 700;
 }
+
+table tr {
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+table tr:hover{
+    background-color: var(--Rose-White);
+}
+
+footer{
+    padding: 1rem 1rem 0 1rem;
+}
 .attribution {
-  font-size: 11px;
+  font-size: 0.9rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+text-decoration: none;
+font-style: oblique;
+border-radius: 30px;
+border-bottom: 1.4px solid var(--Dark-Raspberry);
+  color:var(--Dark-Raspberry);
+}
+
+.attribution a:hover{
+    color: var(--Nutmeg);
+    border-bottom: 1.4px solid var(--Nutmeg);
+    font-weight: 600;
 }
