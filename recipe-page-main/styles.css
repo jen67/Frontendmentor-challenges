@@ -77,7 +77,7 @@ h2 {
 section,
 .Instructions,
 .Nutrition {
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 h1 {
@@ -90,6 +90,7 @@ section .preparation-time {
   margin-top: 1.5rem;
   background-color: var(--Rose-White);
   padding: 0.8rem 1rem;
+  border-radius: 10px;
 }
 
 section .preparation-time ul,
