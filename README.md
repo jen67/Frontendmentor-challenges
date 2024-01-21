@@ -18,6 +18,7 @@
   - [Random Advice generator app](#random-advice-generator-app)
   - [Age calculator app](#age-calculator-app)
   - [social media link app](#social-media-link-app)
+  - [recipe page app](#recipe-page-app)
 
 ## Interactive-rating-component
 
@@ -106,3 +107,10 @@
 <img src="./social-links-profile-main/design/mydesktop-design.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/social-links-profile-main/)
+
+
+## recipe page app 
+
+<img src="./recipe-page-main/design/Mydesktop-design.jpeg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/recipe-page-main/)

@@ -74,6 +74,10 @@ h2 {
   font-size: 1.3rem;
 }
 
+
+.recipe-img{
+    width: 100%;
+}
 section,
 .Instructions,
 .Nutrition {
