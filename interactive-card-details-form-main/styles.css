@@ -23,7 +23,6 @@
   --bg-img-md:url(./images/bg-main-desktop.png);
 }
 
-
 img{
     max-width: 100%;
     display: block;
@@ -84,6 +83,8 @@ width: 80%;
   top: 15%;
   left: 1.5rem;
 }
+
+
 
 
 
