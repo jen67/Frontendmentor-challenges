@@ -20,14 +20,13 @@
 
   --bg-img-sm: url(./images/bg-main-mobile.png);
 
-  --bg-img-md:url(./images/bg-main-desktop.png);
+  --bg-img-md: url(./images/bg-main-desktop.png);
 }
 
-img{
-    max-width: 100%;
-    display: block;
+img {
+  max-width: 100%;
+  display: block;
 }
-
 
 * {
   margin: 0;
@@ -43,54 +42,48 @@ body {
   min-height: 100vh;
 }
 
-.container{
+.container {
   width: 100%;
 }
 
-.card-container{
- background-image: var(--bg-img-sm); 
+.card-container {
+  background-image: var(--bg-img-sm);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.card-container .card-front, .card-back{
-width: 80%;  
+.card-container .card-front,
+.card-back {
+  width: 80%;
 }
 
-.cvc{
+.cvc {
   position: relative;
   top: 1.84rem;
   left: 15%;
 }
 
-.card-back{
+.card-back {
   position: relative;
 }
 
-.cvc-number{
+.cvc-number {
   position: absolute;
-  top: 2.8rem; 
+  top: 2.8rem;
   left: 40%;
   font-size: 0.8rem;
 }
 
-.card-front{
+.card-front {
   position: relative;
   left: 20%;
 }
 
-.card-logo{
+.card-logo {
   position: absolute;
   top: 15%;
   left: 1.5rem;
 }
-
-
-
-
-
-
-
 
 .attribution {
   font-size: 11px;
