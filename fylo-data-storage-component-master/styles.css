@@ -92,6 +92,7 @@ body {
   background: var(--very-dark-blue);
   border-radius: 20px;
   width: 100%;
+  overflow: hidden;
 }
 
 .myslider {
@@ -110,6 +111,7 @@ body {
   border-radius: 50%;
   background-color: var(--pale-blue);
   cursor: pointer;
+  box-shadow: -202px 0 0 200px var(--grayish-blue);
 }
 
 .attribution {
