@@ -74,6 +74,7 @@ body {
   padding: 1.5rem;
   margin-top: 1rem;
   border-radius: 10px;
+  position: relative;
 }
 
 .used-range p {
@@ -117,6 +118,22 @@ body {
   box-shadow: -202px 0 0 200px var(--grayish-blue);
 }
 
+
+.values{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color:var(--pale-blue);
+  font-weight: 700  ;
+}
+
+.left{
+  background-color: white;
+  width: 200px;
+  padding: 2rem;
+  color: var(--grayish-blue);
+
+}
 .attribution {
   font-size: 11px;
   text-align: center;
