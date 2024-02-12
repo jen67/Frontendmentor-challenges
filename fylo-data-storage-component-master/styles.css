@@ -19,6 +19,97 @@ body {
   font-size: 0.875rem;
   color: var(--grayish-blue);
   background-color: var(--very-dark-blue);
+  background-image: url("./images/bg-mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fylo {
+  background-color: var(--dark-blue);
+  padding: 1.5rem;
+  border-radius: 10px 65px 10px 10px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.document {
+  width: 15px;
+}
+
+.folder {
+  width: 18px;
+}
+
+.upload {
+  width: 20px;
+}
+
+.images div {
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 5px;
+}
+
+.range {
+  background-color: var(--dark-blue);
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.used-range p {
+  margin-bottom: 0.5rem;
+  color: var(--grayish-blue);
+}
+
+.used-range span {
+  color: var(--pale-blue);
+  font-weight: 700;
+}
+
+.range-container {
+  display: flex;
+  align-items: center;
+  background: var(--very-dark-blue);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.myslider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.myslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--pale-blue);
+  cursor: pointer;
 }
 
 .attribution {
