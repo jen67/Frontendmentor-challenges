@@ -101,6 +101,9 @@ body {
   width: 100%;
   height: 15px;
   border-radius: 20px;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  background: var(--very-dark-blue);
 }
 
 .myslider::-webkit-slider-thumb {
