@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="styles.css">
-
+  
   <title>Frontend Mentor | Fylo data storage component</title>
 </head>
 
@@ -30,15 +30,22 @@
 
     <div class="range">
         <div class="used-range">
-          <p>You’ve used <span> 815 GB</span> of your storage</p>
-          <div class="range-container"><input type="range" min="0"  max="1000" name="range" value="815" id="myrange" class="myslider"></div>
+          <p>You’ve used <span id="output" class="output"> 815 </span> <span>GB</span> of your storage</p>
+          <div class="range-container">
+            <div class="slider">
+              <div class="thumb">
+
+              </div>
+            </div>
+          </div>
         </div>
         <div class="values">
           <p>0 <span>GB</span></p>
           <p>1000 <span>GB</span></p>
         </div>
       <div class="left">
-        <p><span>185 </span> GB Left</p>
+        <p class="range-number">185</p>
+        <p class="range-text">GB LEFT</p>
       </div>
     </div>
   </main>
@@ -46,8 +53,10 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.linkedin.com/in/gift-amachree-8a523623b/">Gift Amachree</a>.
   </div>
+
+  <script src="./index.js"></script>
 </body>
 
 </html>
