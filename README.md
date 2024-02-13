@@ -19,6 +19,7 @@
   - [Age calculator app](#age-calculator-app)
   - [social media link app](#social-media-link-app)
   - [recipe page app](#recipe-page-app)
+  - [Fylo data storage](#fylo-data-storage)
 
 ## Interactive-rating-component
 
@@ -114,3 +115,10 @@
 <img src="./recipe-page-main/design/Mydesktop-design.jpeg" alt="Tasks" width="500">
 
 - Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/recipe-page-main/)
+
+
+## Fylo data storage 
+
+<img src="./fylo-data-storage-component-master/design/My-desktop-view.jpeg" alt="Tasks" width="500">
+
+- Live Site URL: [live view](https://jen67.github.io/Frontendmentor-challenges/fylo-data-storage-component-master/)
