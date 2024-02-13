@@ -67,6 +67,12 @@ body {
   height: 2.2rem;
   width: 2.2rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.images div:hover img {
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in-out;
 }
 
 .range {
@@ -78,14 +84,16 @@ body {
 }
 
 .used-range p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   color: var(--grayish-blue);
 }
 
 .used-range span {
+  display: inline-block;
   color: var(--pale-blue);
   font-weight: 700;
 }
+
 
 .range-container {
   display: flex;
@@ -93,51 +101,55 @@ body {
   background: var(--very-dark-blue);
   border-radius: 20px;
   width: 100%;
-  overflow: hidden;
-}
-
-.myslider {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
   height: 15px;
-  border-radius: 30px;
-  -webkit-transition: 0.2s;
-  transition: background 450ms ease-in;
-  background: var(--very-dark-blue);
   overflow: hidden;
-  border: 1px solid var(--very-dark-blue);
-  box-shadow: 2px 2px 5px var(--very-dark-blue);
-  -webkit-box-shadow: 2px 2px 5px var(--very-dark-blue);
-  -moz-box-shadow: 2px 2px 5px var(--very-dark-blue);
+  border: 1px solid var(--dark-blue);
 }
 
-.myslider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
+.slider{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  height: 11px;
+  background: var(--gradient);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.thumb{
   width: 10px;
   height: 10px;
+  background: var(--pale-blue);
   border-radius: 50%;
-  background-color: var(--pale-blue);
-  cursor: pointer;
-  box-shadow: 2px 8px 13px -3px var(--pale-blue);
-  -webkit-box-shadow: 2px 8px 13px -3px var(--pale-blue);
-  -moz-box-shadow: 2px 8px 13px -3px var(--pale-blue);
+  margin-right: 0.1rem;
 }
 
 .values {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+  padding-bottom: 1rem;
   color: var(--pale-blue);
   font-weight: 700;
 }
 
 .left {
   background-color: white;
-  width: 200px;
-  padding: 2rem;
-  color: var(--grayish-blue);
+  width: 150px;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  color: var(--very-dark-blue);
+  position: absolute;
+  bottom: -2rem;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.left span{
+  font-weight: 700;
+  font-size: 1.2rem; 
 }
 .attribution {
   font-size: 11px;
