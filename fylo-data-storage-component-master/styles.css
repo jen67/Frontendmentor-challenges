@@ -101,10 +101,15 @@ body {
   appearance: none;
   width: 100%;
   height: 15px;
-  border-radius: 20px;
+  border-radius: 30px;
   -webkit-transition: 0.2s;
-  transition: opacity 0.2s;
+  transition: background 450ms ease-in;
   background: var(--very-dark-blue);
+  overflow: hidden;
+  border: 1px solid var(--very-dark-blue);
+  box-shadow: 2px 2px 5px var(--very-dark-blue);
+  -webkit-box-shadow: 2px 2px 5px var(--very-dark-blue);
+  -moz-box-shadow: 2px 2px 5px var(--very-dark-blue);
 }
 
 .myslider::-webkit-slider-thumb {
@@ -115,24 +120,24 @@ body {
   border-radius: 50%;
   background-color: var(--pale-blue);
   cursor: pointer;
-  box-shadow: -202px 0 0 200px var(--grayish-blue);
+  box-shadow: 2px 8px 13px -3px var(--pale-blue);
+  -webkit-box-shadow: 2px 8px 13px -3px var(--pale-blue);
+  -moz-box-shadow: 2px 8px 13px -3px var(--pale-blue);
 }
 
-
-.values{
+.values {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
-  color:var(--pale-blue);
-  font-weight: 700  ;
+  color: var(--pale-blue);
+  font-weight: 700;
 }
 
-.left{
+.left {
   background-color: white;
   width: 200px;
   padding: 2rem;
   color: var(--grayish-blue);
-
 }
 .attribution {
   font-size: 11px;
