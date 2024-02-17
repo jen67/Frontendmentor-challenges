@@ -2,14 +2,23 @@
 
 :root {
   /* Dark-mode */
-  --Dark-Blue-Dark-Mode-Elements: hsl(209, 23%, 22%);
-  --Very-Dark-Blue-Dark-Mode-Background: hsl(207, 26%, 17%);
+  --filter-color: hsl(209, 23%, 22%);
+  --card-p-color: hsl(207, 26%, 17%);
 
   /* Light-mode */
-  --Very-dark-blue-light-mode-text: hsl(200, 15%, 8%);
-  --Dark-gray-light-mode-input: hsl(0, 0%, 52%);
-  --Very-Light-Gray-Light-Mode-Background: hsl(0, 0%, 98%);
-  --White-Light-Mode-Elements-dark-mode-text: hsl(0, 0%, 100%);
+  --text-color: hsl(200, 15%, 8%);
+  --input-color: hsl(0, 0%, 52%);
+  --background-color: hsl(0, 0%, 98%);
+  --card-bg: hsl(0, 0%, 100%);
+  --filter-color: hsl(0, 0%, 100%);
+}
+
+.dark-mode{
+--background-color: hsl(207, 26%, 17%);
+--text-color: hsl(0, 0%, 100%); 
+--card-bg: hsl(209, 23%, 22%);
+--input-color: hsl(0, 0%, 100%);
+--card-p-color: hsl(0, 0%, 98%);
 }
 
 * {
@@ -28,11 +37,12 @@ img {
   max-width: 100%;
 }
 
-body {
+body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   font-size: 0.875rem;
+  background-color: var(--background-color);
 }
 
 header nav {
@@ -41,12 +51,13 @@ header nav {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  background-color: var(--White-Light-Mode-Elements-dark-mode-text);
+  background-color: var(--card-bg);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header nav h1 {
   font-size: 1rem;
+  color: var(--text-color);
 }
 
 header nav div {
@@ -54,9 +65,15 @@ header nav div {
   align-items: center;
   gap: 0.6rem;
 }
+
+header nav p{
+  color: var(--input-color);
+}
 header nav img {
   width: 20px;
+  cursor: pointer;
 }
+
 
 .search {
   display: flex;
@@ -72,7 +89,7 @@ header nav img {
   border: none;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: var(--White-Light-Mode-Elements-dark-mode-text);
+  background-color: var(--card-bg);
 }
 
 .search-bar img {
@@ -84,13 +101,19 @@ header nav img {
   padding: 0 1.2rem;
   border: none;
   outline: none;
-  color: var(--Dark-gray-light-mode-input);
+  color: var(--input-color);
+  background-color: var(--card-bg);
+}
+
+.search-bar input::placeholder {
+  color: var(--input-color);
 }
 
 .filters {
   display: flex;
   flex-direction: column;
 }
+
 .filter-search {
   display: flex;
   align-items: center;
@@ -98,7 +121,7 @@ header nav img {
   gap: 1rem;
   margin: 0.7rem 1.4rem 1.4rem 1rem;
   max-width: 230px;
-  background-color: var(--White-Light-Mode-Elements-dark-mode-text);
+  background-color: var(--card-bg);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 1rem 1.5rem;
   border-radius: 5px;
@@ -106,7 +129,7 @@ header nav img {
 }
 
 .filter-search p {
-  color: var(--Very-dark-blue-light-mode-text);
+  color: var(--text-color); 
   font-weight: 600;
 }
 
@@ -114,16 +137,19 @@ header nav img {
   width: 15px;
 }
 
+.dark-mode .filter-search img{
+  filter: invert(1);
+}
+
 .filter-options {
-  display: none;
+  display: block;
   position: absolute;
   margin-left: 1rem;
-  background-color: var(--White-Light-Mode-Elements-dark-mode-text);
+  background-color: var(--card-bg);
   border-radius: 5px;
   width: 230px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  left: 0;
-  margin-top: 4.5rem;
+  margin-top: 4.3rem;
 }
 
 .filter-options ul {
@@ -131,7 +157,7 @@ header nav img {
 }
 .filter-options ul li {
   padding: 0.5rem 0 0.5rem 1.5rem;
-  color: var(--Very-dark-blue-light-mode-text);
+  color: var(--text-color);
   font-weight: 600;
 }
 
@@ -144,17 +170,25 @@ header nav img {
 }
 
 .filter-options ul li:hover {
-  background-color: var(--Very-Light-Gray-Light-Mode-Background);
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
 .countries{
-  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 4rem 2rem;
 }
 .country-card{
-  background-color: var(--White-Light-Mode-Elements-dark-mode-text);
+  margin: 1rem;
+  background-color: var(--card-bg);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 200px;
+  width: 300px;
+  max-width: 300px;
+  border-radius: 0 0 5px 5px;
 }
 
 .country-card img {
@@ -162,6 +196,29 @@ header nav img {
   width: 100%; 
   object-fit: cover;
 }
+
+.country-info{
+  padding:  1.5rem ;
+}
+
+.country-info h2{
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+  color: var(--text-color);
+}
+
+.country-info p{
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: var(--card-p-color); 
+}
+.country-info p span{
+  font-weight: 600;
+  color: var(--text-color);
+
+}
+
+
 
 @media screen and (min-width: 768px) {
   header nav {
