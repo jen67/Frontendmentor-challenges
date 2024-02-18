@@ -50,44 +50,52 @@
   }
 
   function displayDetails(country) {
-    let currencies = Object.values(country.currencies)
-      .map((currency) => currency.name)
-      .join(", ");
+    let currencies = country.currencies
+      ? Object.values(country.currencies)
+          .map((currency) => currency.name)
+          .join(", ")
+      : "";
+    let languages = country.languages
+      ? Object.values(country.languages).join(", ")
+      : "";
     let borderCountries = country.borders
       ? country.borders.map((border) => `<button>${border}</button>`).join("")
       : "";
+    let capital = country.capital || "";
+    let region = country.region || "";
+    let population = country.population || "";
+
     detailsContainer.innerHTML = `
-  <div class="btn-container">
-      <button id="back-button"><img src="./images/arrow-back-outline.svg" alt="arrow">Back</button>
-  </div>
-  <div class="country-details-container">
-      <div class="country-flag">
-          <img src="${country.flags.png}" alt="flag">
-      </div>
-      <div class="flex-items">
-          <div class="flex-items2">
-              <div class="details">
-                  <h2>${country.name.common}</h2>
-                  <p> <span>Population: </span> ${country.population} </p>
-                  <p><span>Region: </span> ${country.region}</p>
-                  <p><span>Capital: </span> ${country.capital}</p>
-              </div>
-              <div class="domains">
-                  <p><span>Currencies: </span> ${currencies}</p>
-                  <p><span>Languages: </span> ${Object.values(
-                    country.languages
-                  ).join(", ")}</p>
-              </div>
-          </div>
-          <div class="border">
-              <h3>Border Countries:</h3>
-              <div class="botton-container">
-                  ${borderCountries}
-              </div>
-          </div>
-      </div>
-  </div>
-`;
+    <div class="btn-container">
+        <button id="back-button"><img src="./images/arrow-back-outline.svg" alt="arrow">Back</button>
+    </div>
+    <div class="country-details-container">
+        <div class="country-flag">
+            <img src="${country.flags.png}" alt="flag">
+        </div>
+        <div class="flex-items">
+            <div class="flex-items2">
+                <div class="details">
+                    <h2>${country.name.common}</h2>
+                    <p> <span>Population: </span> ${population} </p>
+                    <p><span>Region: </span> ${region}</p>
+                    <p><span>Capital: </span> ${capital}</p>
+                </div>
+                <div class="domains">
+                    <p><span>Currencies: </span> ${currencies}</p>
+                    <p><span>Languages: </span> ${languages}</p>
+                </div>
+            </div>
+            <div class="border">
+                <h3>Border Countries:</h3>
+                <div class="botton-container">
+                    ${borderCountries}
+                </div>
+            </div>
+        </div>
+    </div>
+  `;
+
     detailsContainer.style.display =
       detailsContainer.getAttribute("data-display");
 
