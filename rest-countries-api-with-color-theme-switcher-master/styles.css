@@ -4,14 +4,13 @@
   /* Dark-mode */
   --filter-color: hsl(209, 23%, 22%);
   --card-p-color: hsl(207, 26%, 17%);
-  --details-bg: hsl(0, 0%, 100%)
+  --details-bg: hsl(0, 0%, 100%);
 
   /* Light-mode */
   --text-color: hsl(200, 15%, 8%);
   --input-color: hsl(0, 0%, 52%);
   --background-color: hsl(0, 0%, 98%);
   --card-bg: hsl(0, 0%, 100%);
-  
 }
 
 .dark-mode {
@@ -56,6 +55,8 @@ header nav {
   gap: 1rem;
   background-color: var(--card-bg);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
 }
 
 header nav h1 {
@@ -81,7 +82,6 @@ header nav img {
 }
 
 .search {
-  transform: translatex(-100%);
   display: flex;
   flex-direction: column;
 }
@@ -145,7 +145,7 @@ header nav img {
   cursor: pointer;
 }
 
-.rotate{
+.rotate {
   transform: rotate(180deg);
 }
 
@@ -154,10 +154,10 @@ header nav img {
 }
 
 .filter-options.show {
-    max-height: 300px; 
+  max-height: 300px;
 }
 
-.filter-options {  
+.filter-options {
   position: absolute;
   margin-left: 1rem;
   background-color: var(--card-bg);
@@ -168,6 +168,7 @@ header nav img {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
+  z-index: 100;
 }
 
 /* .filter-options ul {
@@ -194,7 +195,6 @@ header nav img {
 }
 
 .countries {
-  transform: translate(-100%);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -202,6 +202,7 @@ header nav img {
   justify-content: center;
   padding: 2rem 2rem 4rem 2rem;
 }
+
 .country-card {
   margin: 1rem;
   background-color: var(--card-bg);
@@ -210,6 +211,13 @@ header nav img {
   max-width: 350px;
   height: 400px;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.country-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .country-card img {
@@ -223,25 +231,29 @@ header nav img {
   padding: 2.5rem 1.8rem;
 }
 
-.country-info h2 {
+.country-info h2,
+.details h2 {
   line-height: 1.1;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: var(--text-color);
-  font-weight: 800; 
+  font-weight: 800;
 }
 
-.country-info p {
+.country-info p,
+.details p,
+.domains p {
   line-height: 1.1;
   font-size: 1rem;
   margin-top: 0.5rem;
   color: var(--card-p-color);
 }
-.country-info p span {
+.country-info p span,
+.details p span,
+.domains p span {
   font-weight: 600;
   color: var(--text-color);
 }
-
 
 @keyframes shimmer {
   0% {
@@ -258,7 +270,8 @@ header nav img {
   background-size: 200px 100%;
 }
 
-.skeleton-flag, .skeleton-line {
+.skeleton-flag,
+.skeleton-line {
   background-color: transparent;
 }
 
@@ -280,69 +293,221 @@ header nav img {
   background-color: #bbb;
 }
 
-.country-details{
-  padding: 1rem 2rem;
+
+.country-details {
+  padding: 5rem 1rem;
   background-color: var(--details-bg);
   position: absolute;
-  top: 14%;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  display: none;
 }
 
-.btn-container button{
-  margin-top: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+.btn-container button {
+  margin: 2rem 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  color: var(--text-color);
   background-color: var(--card-bg);
-  border-radius: 5px; 
+  border-radius: 5px;
   border: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1.8rem;
 }
 
-.btn-container button img{
+
+.btn-container button img {
   width: 15px;
 }
+.btn-container button:hover img {
+  transform: scale(1.1); 
+  margin-right: 0.5rem;
+}
 
-.dark-mode .btn-container button img{
+.dark-mode .btn-container button img {
   filter: invert(1);
 }
 
+
+button{
+  cursor: pointer; 
+}
+
+button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.country-flag img {
+  width: 100%;
+  max-width: 500px;
+  margin: 3rem 0 2rem 0;
+}
+
+.domains {
+  margin: 2.5rem 0;
+}
+
+.details h2{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.border{
+  display: flex;
+  flex-direction: column;
+}
+
+.border h3{
+  width:100%;
+  margin: 0.2rem 0 2rem 0; 
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.botton-container{
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.border button{
+  margin: 0 1%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  color: var(--text-color);
+  background-color: var(--card-bg);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
 @media screen and (min-width: 768px) {
-  header nav{
+  header nav {
     padding: 1.5rem 4rem;
   }
-  
+
   header nav h1 {
     font-size: 1.5rem;
   }
 
-  .search{
+  .search {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 0 0 0;
+  }
+
+  .countries {
     padding: 0;
   }
 
-  .countries{
-    padding: 0;
-  }
-  
   .search-bar {
     width: 450px;
   }
 
-  .filter-search, .filter-options {
+  .filter-search,
+  .filter-options {
     max-width: 400px;
     width: 250px;
   }
 
-  .countries, .search{
+  .countries,
+  .search {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .country-details{
+    padding: 6rem 6rem 5rem 6rem;
+  }
+
+  .country-flag img{
+    width: 100%;
+    max-width: unset;
+  }
+
+  .flex-items2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+  }
+
+  .border{
+    margin-top: 3rem;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    gap: 0.7rem;
+  }
+
+.border h3{
+  margin: unset;
+  width: 45%;
+}
+
+  .botton-container button{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .country-details{
+    padding: 6rem 4rem 5rem 4rem;
+  }
+  .flex-items{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .country-details-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem
+  }
+
+  .country-flag{
+    max-width: 420px;
+  }
+
+  .flex-items{
+    width: 100%
+  }
+
+  .border {
+    width:92%;
+  }
+
+  .details h2{
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1280px){
+
+  .country-flag img{
+    width: 550px;
+    
+  }
+  .country-flag {
+    width: 50%;
+  }
+
+  .flex-items{
+    width: 50%;
   }
 }
