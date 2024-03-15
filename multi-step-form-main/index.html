@@ -68,7 +68,7 @@
 
 
       <!-- Step 1 start -->
-      <form>
+      <form >
         <div class="P-info">
           <h1>Personal info</h1>
           <p>Please provide your name, email address, and phone number.</p>
@@ -76,18 +76,27 @@
 
         <div class="form-inputs">
           <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" placeholder="e.g. Stephen King" id="name" class="name" required>
+            <div class="label-error">
+              <label for="name">Name</label>
+              <p class="name-error"></p>
+            </div>
+            <input type="text" name="name" placeholder="e.g. Stephen King" id="name" class="name" required autocomplete="off">
           </div>
 
           <div>
-            <label for="email">Email Address</label>
-            <input type="email" name="email" placeholder="e.g. stephenking@lorem.com" class="email" id="email" required>
+            <div class="label-error">
+              <label for="email">Email Address</label>
+              <p class="email-error"></p>
+            </div>
+            <input type="email" name="email" placeholder="e.g. stephenking@lorem.com" class="email" id="email" required autocomplete="on">
           </div>
 
           <div>
-            <label for="Phone">Phone Number</label>
-            <input type="tel" name="phone" id="phone" class="phone" placeholder="e.g. +1 234 567 890">
+            <div class="label-error">
+              <label for="phone">Phone Number</label>
+              <p class="tel-error"></p>
+            </div>
+            <input type="tel" name="phone" id="phone" class="phone" placeholder="e.g. +1 234 567 890" autocomplete="off" required>
           </div>
         </div>
 
@@ -140,14 +149,14 @@
 
       <!-- Step 3 start -->
       <div class="add-ons">
-        <div>
+        <div class="adds-header">
           <h3>Pick add-ons</h3>
-          Add-ons help enhance your gaming experience.
+          <p>Add-ons help enhance your gaming experience.</p>
         </div>
 
         <div class="online-service">
           <div>
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <input type="checkbox" name="checkbox" class="checkbox">
           </div>
 
           <div>
@@ -160,7 +169,7 @@
 
         <div class="larger-storage">
           <div>
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <input type="checkbox" name="checkbox" class="checkbox">
           </div>
 
           <div>
@@ -173,7 +182,7 @@
 
         <div class="customizable-profile">
           <div>
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <input type="checkbox" name="checkbox" class="checkbox">
           </div>
 
           <div>
@@ -195,8 +204,10 @@
 
       <!-- Step 4 start -->
       <div class="finishing-up">
-        <h5>Finishing up</h5>
-        <p>Double-check everything looks OK before confirming.</p>
+        <div class="fheader">
+          <h5>Finishing up</h5>
+          <p>Double-check everything looks OK before confirming.</p>
+        </div>
 
         <div class="dynamic-sub">
           <div class="getplan">
@@ -250,6 +261,11 @@
       </div>
       <!-- Step 5 end -->
     </section>
+
+    <div class="mobile-buttons">
+      <button class="transp-btn">Go Back</button>
+      <button class="colored-btn">Next step</button>
+    </div>
   </main>
 
   <footer>
