@@ -146,7 +146,7 @@ form,
 .select-plan,
 .add-ons,
 .thank-you {
-  margin: -4rem auto 2rem auto;
+  margin: -3rem auto 2rem auto;
   background-color: var(--White);
   border-radius: 0.625rem;
   padding: 2rem;
