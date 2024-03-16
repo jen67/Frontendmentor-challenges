@@ -7,6 +7,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="./index.js" defer></script>
 
   <title>Frontend Mentor | Multi-step form</title>
 
@@ -107,36 +108,44 @@
 
       <!-- Step 2 start -->
       <div class="select-plan">
-        <h2>Select your plan</h2>
-        <p>You have the option of monthly or yearly billing.</p>
+        <div class="plan2">
+          <h2>Select your plan</h2>
+          <p>You have the option of monthly or yearly billing.</p>
+        </div>
 
         <div class="plan-options">
           <div class="arcade">
-            <div><img src="./assets/images/icon-arcade.svg" alt="arcade icon"></div>
+            <img src="./assets/images/icon-arcade.svg" alt="arcade icon">
 
-            <p>Arcade</p>
-            <span>$9/mo</span>
+            <div>
+              <p>Arcade</p>
+              <span>$9/mo</span>
+            </div>
           </div>
 
           <div class="advanced">
-            <div><img src="./assets/images/icon-advanced.svg" alt="advanced icon"></div>
+           <img src="./assets/images/icon-advanced.svg" alt="advanced icon">
 
-            <p>Advanced</p>
-            <span>$12/mo</span>
+            <div>
+              <p>Advanced</p>
+              <span>$12/mo</span>
+            </div>
           </div>
 
           <div class="pro">
-            <div><img src="./assets/images/icon-pro.svg" alt="pro icon"></div>
+            <img src="./assets/images/icon-pro.svg" alt="pro icon">
 
-            <p>Pro</p>
-            <span>$15/mo</span>
+            <div>
+              <p>Pro</p>
+              <span>$15/mo</span>
+            </div>
           </div>
         </div>
 
         <div class="year-toggle">
-          <p>Monthly</p>
-          <p class="toggle-container"><span></span></p>
-          <p>Yearly</p>
+          <p class="month">Monthly</p>
+          <p class="toggle-container"><span class="toggler"></span></p>
+          <p class="year">Yearly</p>
         </div>
 
         <div class="buttons">

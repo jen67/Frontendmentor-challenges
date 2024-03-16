@@ -2,6 +2,7 @@
   /* primary */
   --Marine-blue: hsl(212, 96%, 18%);
   --Purpish-blue: hsl(243, 100%, 62%);
+  --purple: hsl(243, 33%, 45%);
 
   /* Neutral */
   --Cool-grey: hsl(231, 11%, 63%);
@@ -10,6 +11,7 @@
   --Alabaster: hsl(231, 100%, 99%);
   --White: hsl(0, 0%, 100%);
   --light-blue: hsl(205, 94%, 86%);
+  --hovclr: hsl(230, 75%, 98%);
 
   /* font-sizes */
   --fss: 0.5rem;
@@ -128,7 +130,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.circle:hover {
+.circle:hover, .circle:active, .circle:focus{
   background-color: var(--light-blue);
   border-color: var(--Purpish-blue);
   color: var(--Marine-blue);
@@ -164,7 +166,7 @@ form input {
   font-weight: 700;
 }
 
-form input:hover, form input:active, form input:active{
+form input:hover, form input:active{
     border-color: var(--Purpish-blue);
 }
 
@@ -178,14 +180,14 @@ form .form-inputs div {
 }
 
 .P-info,
-.select-plan,
+.plan2,
 .adds-header,
 .fheader {
   padding-bottom: 1rem;
 }
 
 .P-info p,
-.select-plan p,
+.plan2 p,
 .adds-header p,
 .fheader p {
   color: var(--Cool-grey);
@@ -224,9 +226,85 @@ form .form-inputs div {
     color: var(--Purpish-blue); 
 }
 
+form{
+    display: none;
+}
+
+.arcade , .advanced , .pro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--Light-gray);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.arcade div p, .advanced div p , .pro div p{
+    color: var(--Marine-blue);
+    font-weight: 700;
+    padding-bottom: 0.2rem;
+}
+
+.arcade div span, .advanced div span , .pro div span{
+    color: var(--Cool-grey);
+    font-size: 0.9rem;
+    
+}
+
+.arcade:hover, .advanced:hover, .pro:hover{
+    border-color: var(--purple);
+    background-color: var(--hovclr);
+}
+
+
+.year-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Alabaster);
+    padding: 0.9rem;
+    gap: 1rem; 
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.toggle-container{
+    padding: 0.7rem;
+    width: 50px;
+    background-color: var(--Marine-blue);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-container span{
+    background-color: var(--White);
+    padding: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left:7%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.toggle{
+    transform: translateX(26px);
+}
+
+.month{
+    color: var(--Marine-blue);
+}
+
+.year{
+    color: var(--Cool-grey);
+}
+
 .finishing-up,
 .online-service,
-.select-plan,
 .add-ons,
 .thank-you {
   display: none;
