@@ -1,0 +1,321 @@
+:root {
+  /* primary */
+  --Marine-blue: hsl(212, 96%, 18%);
+  --Purpish-blue: hsl(243, 100%, 62%);
+  --purple: hsl(243, 33%, 45%);
+
+  /* Neutral */
+  --Cool-grey: hsl(231, 11%, 63%);
+  --Light-gray: hsl(229, 24%, 87%);
+  --Magnolia: hsl(217, 100%, 97%);
+  --Alabaster: hsl(231, 100%, 99%);
+  --White: hsl(0, 0%, 100%);
+  --light-blue: hsl(205, 94%, 86%);
+  --hovclr: hsl(230, 75%, 98%);
+
+  /* font-sizes */
+  --fss: 0.5rem;
+  --fs1: 1rem;
+  --fs2: 2rem;
+  --fs3: 3rem;
+  --fs4: 4rem;
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url(./assets/fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(./assets/fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(./assets/fonts/Ubuntu-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Ubuntu-Regular;
+  font-size: var(--fs1);
+  background-color: var(--White);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--fs2);
+  font-family: Ubuntu-Bold;
+  color: var(--Marine-blue);
+  padding-bottom: 1rem;
+}
+
+.finishing-up button,
+.online-service button,
+.select-plan button,
+.add-ons button,
+form button {
+  display: none;
+}
+
+label {
+  display: block;
+  color: var(--Marine-blue);
+  margin-bottom: 0.5rem;
+}
+
+.label-error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-error, .email-error, .tel-error {
+    color: red;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+section {
+  background-color: var(--Magnolia);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--fs4);
+}
+
+.sidebar {
+  background: url(./assets/images/bg-sidebar-mobile.svg) no-repeat;
+  background-color: var(--Purpish-blue);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: var(--fs3);
+}
+
+.circle {
+  padding: var(--fs1);
+  border: 1px solid var(--White);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--Alabaster);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.circle:hover, .circle:active, .circle:focus{
+  background-color: var(--light-blue);
+  border-color: var(--Purpish-blue);
+  color: var(--Marine-blue);
+}
+.Info,
+.Plan,
+.Adds,
+.summary {
+  display: none;
+}
+
+form,
+.finishing-up,
+.online-service,
+.select-plan,
+.add-ons,
+.thank-you {
+  margin: -3rem auto 2rem auto;
+  background-color: var(--White);
+  border-radius: 0.625rem;
+  padding: 2rem;
+  width: 90vw;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+  background-color: var(--light-blue);
+  border-color: var(--Purpish-blue);
+  color: var(--Marine-blue);
+}
+
+form input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  outline: none;
+  border: 1px solid var(--Cool-grey);
+  border-radius: 5px;
+  color: var(--Marine-blue);
+  font-weight: 700;
+}
+
+form input:hover, form input:active{
+    border-color: var(--Purpish-blue);
+}
+
+form input::placeholder {
+  font-weight: 600;
+  color: var(--Cool-grey);
+}
+
+form .form-inputs div {
+  margin-top: 1rem;
+}
+
+.P-info,
+.plan2,
+.adds-header,
+.fheader {
+  padding-bottom: 1rem;
+}
+
+.P-info p,
+.plan2 p,
+.adds-header p,
+.fheader p {
+  color: var(--Cool-grey);
+}
+
+.mobile-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 1rem auto;
+    max-width: 90vw;
+}
+
+.transp-btn{
+    background-color: transparent;
+    outline: none; 
+    border: none;
+    color: var(--Cool-grey);
+    transition: all 0.3s ease-in-out;  
+}
+
+.colored-btn{
+    background-color: var(--Marine-blue);
+    color: var(--Alabaster); 
+    padding: 0.6rem 1.2rem;   
+    border-radius: 5px; 
+    transition: all 0.3s ease-in-out;
+}
+
+.colored-btn:hover{
+    opacity: 0.9;
+    
+}
+
+.transp-btn:hover{
+    color: var(--Purpish-blue); 
+}
+
+/* form{
+    display: none;
+} */
+
+.arcade , .advanced , .pro {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--Light-gray);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.arcade div p, .advanced div p , .pro div p{
+    color: var(--Marine-blue);
+    font-weight: 700;
+    padding-bottom: 0.2rem;
+}
+
+.arcade div span, .advanced div span , .pro div span{
+    color: var(--Cool-grey);
+    font-size: 0.9rem; 
+}
+
+.yupdate{
+    color: var(--Marine-blue);
+    font-size: 0.8rem ;
+    font-weight: 400;
+    padding-top: 0.5rem;
+}
+.arcade:hover, .advanced:hover, .pro:hover{
+    border-color: var(--purple);
+    background-color: var(--hovclr);
+}
+
+.year-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Alabaster);
+    padding: 0.9rem;
+    gap: 1rem; 
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.toggle-container{
+    padding: 0.7rem;
+    width: 50px;
+    background-color: var(--Marine-blue);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-container span{
+    background-color: var(--White);
+    padding: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left:7%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.toggle{
+    transform: translateX(26px);
+}
+
+.year, .month{
+    color: var(--Cool-grey);
+}
+
+
+.active-year, .active-month{
+    color: var(--Marine-blue);
+}
+.finishing-up,.select-plan,
+.online-service,
+.add-ons,
+.thank-you {
+  display: none;
+}
