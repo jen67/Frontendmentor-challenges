@@ -97,7 +97,7 @@
               <label for="phone">Phone Number</label>
               <p class="tel-error"></p>
             </div>
-            <input type="tel" name="phone" id="phone" class="phone" placeholder="e.g. +1 234 567 890" autocomplete="off" required>
+            <input type="tel" name="phone" id="phone" class="phone" placeholder="e.g. +1 234 567 890" autocomplete="off" pattern="[0-9+()-]*" required>
           </div>
         </div>
 
@@ -167,39 +167,42 @@
         </div>
 
         <div class="online-service">
-          <div>
-            <input type="checkbox" name="checkbox" class="checkbox">
-          </div>
-
-          <div>
-            <h4>Online service</h4>
-            <p>Access to multiplayer games</p>
+          <div class="flex-items">
+            <div>
+              <input type="checkbox" name="checkbox" class="checkbox">
+            </div>
+            <div>
+              <h4>Online service</h4>
+              <p>Access to multiplayer games</p>
+            </div>
           </div>
 
           <p>+$1/mo</p>
         </div>
 
         <div class="larger-storage">
-          <div>
-            <input type="checkbox" name="checkbox" class="checkbox">
-          </div>
-
-          <div>
-            <h4>Larger storage</h4>
-            <p>Extra 1TB of cloud save</p>
+          <div class="flex-items">
+            <div>
+              <input type="checkbox" name="checkbox" class="checkbox">
+            </div>
+            <div>
+              <h4>Larger storage</h4>
+              <p>Extra 1TB of cloud save</p>
+            </div>
           </div>
 
           <p>+$2/mo</p>
         </div>
 
         <div class="customizable-profile">
-          <div>
-            <input type="checkbox" name="checkbox" class="checkbox">
-          </div>
-
-          <div>
-            <h4>Customizable Profile</h4>
-            <p>Custom theme on your profile</p>
+          <div class="flex-items">
+            <div>
+              <input type="checkbox" name="checkbox" class="checkbox">
+            </div>
+            <div>
+              <h4>Customizable Profile</h4>
+              <p>Custom theme on your profile</p>
+            </div>
           </div>
 
           <p>+$2/mo</p>
