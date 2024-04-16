@@ -144,7 +144,6 @@ section {
 
 form,
 .finishing-up,
-.online-service,
 .select-plan,
 .add-ons,
 .thank-you {
@@ -236,7 +235,7 @@ form .form-inputs div {
     display: none;
 } */
 
-.arcade , .advanced , .pro {
+.arcade , .advanced , .pro, .online-service, .larger-storage, .customizable-profile {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -260,17 +259,45 @@ form .form-inputs div {
     font-size: 0.9rem; 
 }
 
+ .online-service div p, .larger-storage div p, .customizable-profile div p{
+    font-size: 0.8rem;
+    color: var(--Cool-grey);
+}
+
+.online-service div h4, .larger-storage div h4, .customizable-profile div h4{
+    font-size: 0.9rem;
+    padding-bottom: 0;
+}
+
+.add-ons{
+  padding: 2rem 1rem;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+
 .yupdate{
     color: var(--Marine-blue);
     font-size: 0.8rem ;
     font-weight: 400;
     padding-top: 0.5rem;
 }
-.arcade:hover, .advanced:hover, .pro:hover{
+.arcade:hover, .advanced:hover, .pro:hover, .online-service:hover, .larger-storage:hover, .customizable-profile:hover{
     border-color: var(--purple);
     background-color: var(--hovclr);
 }
 
+.online-service, .larger-storage, .customizable-profile{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-items{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
 .year-toggle{
     display: flex;
     align-items: center;
@@ -314,7 +341,6 @@ form .form-inputs div {
     color: var(--Marine-blue);
 }
 .finishing-up,.select-plan,
-.online-service,
 .add-ons,
 .thank-you {
   display: none;
