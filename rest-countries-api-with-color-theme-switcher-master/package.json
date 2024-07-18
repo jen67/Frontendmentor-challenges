@@ -1,0 +1,27 @@
+{
+  "name": "rest-countries-api-with-color-theme-switcher-master",
+  "version": "1.0.0",
+  "description": "Frontend mentor challenge for rest api countries",
+  "main": "update.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jen67/Frontendmentor-challenges.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "countries"
+  ],
+  "author": "Gift Amachree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jen67/Frontendmentor-challenges/issues"
+  },
+  "homepage": "https://github.com/jen67/Frontendmentor-challenges#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
